@@ -1,6 +1,7 @@
 package com.cesena.milanoBlu.Map;
 
 import android.util.Log;
+import android.view.View;
 
 import com.cesenaTeam.milanoBlu.R;
 import com.google.android.gms.maps.GoogleMap;
@@ -10,13 +11,17 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MarkerManager {
 	GoogleMap map;
+	View viewMappa;
 
-	public MarkerManager(	GoogleMap map) {
+	public final static int QUALITA_BASSA = 3;
+	public final static int QUALITA_MEDIA = 2;
+	public final static int QUALITA_ALTA = 1;
+	
+	public MarkerManager(View viewMappa, GoogleMap map) {
 		this.map = map;
+		this.viewMappa = viewMappa;
 		addRandomMarkers();
 	}
-	
-	
 
 	public void addRandomMarkers() {
 		// Milano
@@ -29,16 +34,34 @@ public class MarkerManager {
 			addMarker(45.535901f - Math.random() * (0.123022f),
 					9.082642f + Math.random() * (0.123022f));
 	}
-	
+
 	private void addMarker(double lat, double lng) {
+		addMarker( lat,  lng,  3);
+	}
+	
+	private void addMarker(double lat, double lng, Integer quality) {
 		Log.e("Msg", lat + " " + lng);
 
 		MarkerOptions markerOptions = new MarkerOptions();
 
 		markerOptions.position(new LatLng(lat, lng));
 		markerOptions.icon(BitmapDescriptorFactory.defaultMarker());
+		
+		int resource = 0;
+		switch (quality) {
+		case QUALITA_ALTA:
+			resource = R.drawable.goccia_blu;
+			break;
+		case QUALITA_MEDIA:
+			resource = R.drawable.goccia_gialla;
+			break;
+		case QUALITA_BASSA:
+			resource = R.drawable.goccia_verde;
+			break;
+		}
+		
 		markerOptions.icon(BitmapDescriptorFactory
-				.fromResource(R.drawable.goccia));
+				.fromResource(resource));
 		map.addMarker(markerOptions);
 	}
 }

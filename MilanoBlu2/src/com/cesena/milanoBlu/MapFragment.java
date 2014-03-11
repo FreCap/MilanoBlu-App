@@ -38,8 +38,8 @@ public class MapFragment extends Fragment {
 		
 		map = mapView.getMap();
 
-		new MarkerManager(map);
-		new LocationManager(map);
+		new MarkerManager(v, map);
+		new LocationManager(v, map);
 		
 		return v;
 	}
@@ -61,8 +61,5 @@ public class MapFragment extends Fragment {
 		super.onLowMemory();
 		mapView.onLowMemory();
 	}
-
-	
-	
 
 }
