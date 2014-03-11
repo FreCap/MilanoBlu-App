@@ -7,6 +7,7 @@ import com.cesenaTeam.milanoBlu.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.UiSettings;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -28,6 +29,7 @@ public class MapFragment extends SupportMapFragment {
 
 		// inizializzo la mappa
 		mapView = getMap();
+		
 //		addRandomMarkers();
 //		centerCity(COORD_MILANO);
 	}
@@ -35,6 +37,10 @@ public class MapFragment extends SupportMapFragment {
 	@Override
 	public void onViewStateRestored(Bundle savedInstanceState) {
 		super.onViewStateRestored(savedInstanceState);
+       //  mMap.setOnMyLocationButtonClickListener(this);
+		
+		mapView.setMyLocationEnabled(true);
+
 		addRandomMarkers();
 		centerCity(COORD_MILANO);
 

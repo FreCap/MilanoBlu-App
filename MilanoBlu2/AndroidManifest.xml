@@ -24,7 +24,7 @@
     
     <application
         android:hardwareAccelerated="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/goccia"
         android:label="MilanoBlu2" >
 
         <meta-data
