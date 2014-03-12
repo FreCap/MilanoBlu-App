@@ -9,6 +9,52 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/mapview"
+        android:clickable="false"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:minHeight="100dp"
+        android:topOffset="200dp" >
+
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handle" />
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:clickable="true"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/newVotoContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RatingBar
+                    android:id="@+id/ratingBar1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ListView
+                android:orientation="horizontal" 
+                android:id="@+id/listview"
+                android:layout_below="@id/newVotoContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </SlidingDrawer>
+
     <Button
         android:id="@+id/googlemaps_goTo_Milano"
         android:layout_width="wrap_content"
