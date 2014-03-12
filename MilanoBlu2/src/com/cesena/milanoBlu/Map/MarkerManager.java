@@ -2,7 +2,6 @@ package com.cesena.milanoBlu.Map;
 
 import java.util.ArrayList;
 
-import android.content.ClipData.Item;
 import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
@@ -10,13 +9,14 @@ import android.widget.SlidingDrawer;
 
 import com.cesenaTeam.milanoBlu.R;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.GoogleMap.OnMapClickListener;
 import com.google.android.gms.maps.GoogleMap.OnMarkerClickListener;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MarkerManager implements OnMarkerClickListener {
+public class MarkerManager implements OnMarkerClickListener, OnMapClickListener {
 	GoogleMap map;
 	View viewMappa;
 
@@ -36,6 +36,8 @@ public class MarkerManager implements OnMarkerClickListener {
 		ListView listView = (ListView) viewMappa.findViewById(R.id.listview);
 		listView.setAdapter(adapter);
 
+		map.setOnMapClickListener(this);
+		
 	}
 
 	private ArrayList<RowRating> generateData() {
@@ -47,15 +49,27 @@ public class MarkerManager implements OnMarkerClickListener {
 		return items;
 	}
 
+	@Override
+	public void onMapClick(LatLng arg0) {
+		SlidingDrawer slidingDrawer = getMarkerDetailsDrawer();
+
+		slidingDrawer.animateClose();
+
+	}
+
 	public boolean onMarkerClick(Marker marker) {
 
 		Log.w("Click", "test");
-		SlidingDrawer slidingDrawer = (SlidingDrawer) viewMappa
-				.findViewById(R.id.slidingDrawer);
-
-		slidingDrawer.setVisibility(View.GONE);
+		SlidingDrawer slidingDrawer = getMarkerDetailsDrawer();
+		slidingDrawer.animateOpen();
 
 		return true;
+	}
+
+	private SlidingDrawer getMarkerDetailsDrawer() {
+		SlidingDrawer slidingDrawer = (SlidingDrawer) viewMappa
+				.findViewById(R.id.slidingDrawer);
+		return slidingDrawer;
 	}
 
 	public void addRandomMarkers() {
@@ -98,4 +112,5 @@ public class MarkerManager implements OnMarkerClickListener {
 		markerOptions.icon(BitmapDescriptorFactory.fromResource(resource));
 		map.addMarker(markerOptions);
 	}
+
 }
