@@ -1,4 +1,4 @@
-package com.cesena.milanoBlu.Map;
+package com.cesena.milanoBlu.Map.MarkerDetail;
 
 public class RowRating {
 

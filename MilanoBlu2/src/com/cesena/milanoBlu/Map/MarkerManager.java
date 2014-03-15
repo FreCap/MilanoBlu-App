@@ -1,12 +1,21 @@
 package com.cesena.milanoBlu.Map;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
+import android.widget.RatingBar;
 import android.widget.SlidingDrawer;
 
+import com.cesena.milanoBlu.Fontanelle.Fontanella;
+import com.cesena.milanoBlu.Fontanelle.FontanellaVoto;
+import com.cesena.milanoBlu.Fontanelle.FontanelleManager;
+import com.cesena.milanoBlu.Fontanelle.FontanelleVotiManager;
+import com.cesena.milanoBlu.Map.MarkerDetail.AdapterRating;
+import com.cesena.milanoBlu.Map.MarkerDetail.RowRating;
 import com.cesenaTeam.milanoBlu.R;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnMapClickListener;
@@ -19,6 +28,9 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class MarkerManager implements OnMarkerClickListener, OnMapClickListener {
 	GoogleMap map;
 	View viewMappa;
+	
+	private FontanelleManager fontanelleManager;
+	private Map<Marker, Fontanella> markerToModelMappingMap;
 
 	public final static int QUALITA_BASSA = 3;
 	public final static int QUALITA_MEDIA = 2;
@@ -27,39 +39,68 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 	public MarkerManager(View viewMappa, GoogleMap map) {
 		this.map = map;
 		this.viewMappa = viewMappa;
+		markerToModelMappingMap = new HashMap<Marker, Fontanella>();
 
-		addRandomMarkers();
+		addMarkers();
+
 		map.setOnMarkerClickListener(this);
-
-		AdapterRating adapter = new AdapterRating(this.viewMappa.getContext(),
-				generateData());
-		ListView listView = (ListView) viewMappa.findViewById(R.id.listview);
-		listView.setAdapter(adapter);
-
 		map.setOnMapClickListener(this);
-		
+
 	}
 
-	private ArrayList<RowRating> generateData() {
+	private void refreshFontanellaDetailVoti(Fontanella fontanella) {
+
+		ArrayList<RowRating> rowsRating = null;
+		if (1 == 2) {// DEBUG
+			rowsRating = getMockRowRating();
+		} else {
+			FontanelleVotiManager fontanelleVotiManager = new FontanelleVotiManager();
+			ArrayList<FontanellaVoto> fontanellaVoti = fontanelleVotiManager
+					.getVoti(fontanella);
+			rowsRating = new ArrayList<RowRating>();
+
+			for (FontanellaVoto fontanellaVoto : fontanellaVoti) {
+				rowsRating.add(new RowRating(fontanellaVoto.getNomeVotante(),
+						fontanellaVoto.getVoto()));
+			}
+
+		}
+
+		AdapterRating adapter = new AdapterRating(this.viewMappa.getContext(),
+				rowsRating);
+		ListView listView = (ListView) viewMappa.findViewById(R.id.listview);
+		listView.setAdapter(adapter);
+	}
+
+	private ArrayList<RowRating> getMockRowRating() {
 		ArrayList<RowRating> items = new ArrayList<RowRating>();
-		items.add(new RowRating("Pinco Pallino", (float) 3));
-		items.add(new RowRating("Domenico Bochicchio", (float) 3));
-		items.add(new RowRating("Francesco Capponi", (float) 3));
+
+		for (int i = 0; i < 10; i++) {
+			items.add(new RowRating("Pinco Pallino", (float) 3));
+			items.add(new RowRating("Domenico Bochicchio", (float) 3));
+			items.add(new RowRating("Francesco Capponi", (float) 3));
+		}
 
 		return items;
 	}
 
 	@Override
 	public void onMapClick(LatLng arg0) {
-		SlidingDrawer slidingDrawer = getMarkerDetailsDrawer();
 
+		SlidingDrawer slidingDrawer = getMarkerDetailsDrawer();
 		slidingDrawer.animateClose();
 
 	}
 
 	public boolean onMarkerClick(Marker marker) {
 
-		Log.w("Click", "test");
+		Fontanella fontanella = markerToModelMappingMap.get(marker);
+
+		refreshFontanellaDetailVoti(fontanella);
+
+		RatingBar ratingBar = getOverallVotesRatingBar();
+		ratingBar.setRating(fontanella.getQualita());
+
 		SlidingDrawer slidingDrawer = getMarkerDetailsDrawer();
 		slidingDrawer.animateOpen();
 
@@ -70,6 +111,24 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 		SlidingDrawer slidingDrawer = (SlidingDrawer) viewMappa
 				.findViewById(R.id.slidingDrawer);
 		return slidingDrawer;
+	}
+
+	private RatingBar getOverallVotesRatingBar() {
+		RatingBar overallVotesRatingBar = (RatingBar) viewMappa
+				.findViewById(R.id.overallVotesRatingBar);
+		return overallVotesRatingBar;
+	}
+
+	public void addMarkers() {
+		// pulisco visto che adesso andrò ad inserire nuove informazioni
+		markerToModelMappingMap.clear();
+
+		fontanelleManager = new FontanelleManager();
+		ArrayList<Fontanella> fontanelle = fontanelleManager.getFontane();
+
+		for (Fontanella fontanella : fontanelle) {
+			addMarker(fontanella);
+		}
 	}
 
 	public void addRandomMarkers() {
@@ -84,11 +143,31 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 					9.082642f + Math.random() * (0.123022f));
 	}
 
-	private void addMarker(double lat, double lng) {
-		addMarker(lat, lng, 3);
+	private Marker addMarker(double lat, double lng) {
+		return addMarker(lat, lng, 3);
 	}
 
-	private void addMarker(double lat, double lng, Integer quality) {
+	private Marker addMarker(Fontanella fontanella) {
+		Integer qualita = null;
+		if (fontanella.getQualita() > 3.5)
+			qualita = QUALITA_ALTA;
+		else if (fontanella.getQualita() > 2.5)
+			qualita = QUALITA_MEDIA;
+		else
+			qualita = QUALITA_BASSA;
+
+		Marker marker = addMarker(fontanella.getCoordinate().latitude,
+				fontanella.getCoordinate().longitude, qualita);
+
+		marker.setTitle(fontanella.getNome());
+		marker.setSnippet(fontanella.getNomeStrada());
+		
+		// aggiungo per poi fare il retrieve delle informations dopo
+		markerToModelMappingMap.put(marker, fontanella);
+		return marker;
+	}
+
+	private Marker addMarker(double lat, double lng, Integer quality) {
 		Log.e("Msg", lat + " " + lng);
 
 		MarkerOptions markerOptions = new MarkerOptions();
@@ -110,7 +189,8 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 		}
 
 		markerOptions.icon(BitmapDescriptorFactory.fromResource(resource));
-		map.addMarker(markerOptions);
+		return map.addMarker(markerOptions);
+
 	}
 
 }

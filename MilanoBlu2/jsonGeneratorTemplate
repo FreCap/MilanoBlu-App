@@ -1,0 +1,43 @@
+http://www.json-generator.com/
+
+// Fontanelle
+{results:[
+    '{{repeat(30, 40)}}',
+    {
+        fontana_id: '{{index}}',
+        nome: '{{firstName}} {{surname}}',
+        nomeStrada: '{{numeric(100,999)}} {{street}}, {{city}}, {{state}}, {{numeric(100,10000)}}',
+        latitude: '{{numeric(45.412879, 45.535901)}}',
+        longitude: '{{numeric(9.082642, 9.266320)}}',
+        qualita:'{{numeric(1.5, 5.0)}}'
+    }
+]}
+
+
+// Fontanelle voto
+{results:[
+    '{{repeat(30, 40)}}',
+    {
+        fontanellaVoto_id: '{{index}}',
+        fontanella_id: '1',
+        voto:'{{numeric(1.5, 5.0)}}',
+        nomeVotante: '{{firstName}} {{surname}}',
+        timestamp:'{{numeric(1394755200,1363219200}}'
+    }
+]}
+
+
+
+
+// News
+{results:[
+    '{{repeat(5, 7)}}',
+    {
+        news_id: '{{index}}',
+        imageURL: 'http://www.milanoblu.com/wp-content/themes/milanoblu/images/top-notizie-ed-eventi.png',
+        title: '{{lorem(6,words)}}',
+        textPreview: '{{lorem(1,paragraphs)}}',
+        timestamp: '{{numeric(1394755200,1363219200)}}',
+        link: 'http://www.milanoblu.com/2014/03/10/crea-lapp-dellacqua-di-milano/'
+    }
+]}

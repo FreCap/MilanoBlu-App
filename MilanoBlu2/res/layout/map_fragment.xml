@@ -24,8 +24,8 @@
             android:id="@+id/handle"
             android:layout_width="fill_parent"
             android:layout_height="20dp"
-            android:visibility="invisible"
-            android:background="@android:color/transparent"/>
+            android:background="@android:color/transparent"
+            android:visibility="invisible" />
 
         <RelativeLayout
             android:id="@+id/content"
@@ -39,20 +39,21 @@
                 android:id="@+id/newVotoContainer"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:orientation="horizontal" >
 
                 <RatingBar
-                    android:id="@+id/ratingBar1"
+                    android:id="@+id/overallVotesRatingBar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
             </LinearLayout>
 
             <ListView
-                android:orientation="horizontal" 
                 android:id="@+id/listview"
-                android:layout_below="@id/newVotoContainer"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@id/newVotoContainer"
+                android:orientation="horizontal" />
         </RelativeLayout>
     </SlidingDrawer>
 
