@@ -40,12 +40,25 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:orientation="horizontal" >
+                android:orientation="horizontal"
+                android:paddingLeft="20dp" >
 
                 <RatingBar
                     android:id="@+id/overallVotesRatingBar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text="4/5 stelle"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <ListView
@@ -53,6 +66,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/newVotoContainer"
+                android:divider="@android:color/transparent"
                 android:orientation="horizontal" />
         </RelativeLayout>
     </SlidingDrawer>

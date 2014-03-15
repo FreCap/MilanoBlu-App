@@ -4,55 +4,57 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class News {
-	private Integer fontanellaVoto_id;
-	private Integer fontanella_id;
-	private Float voto;
-	private String nomeVotante;
+	private Integer news_id;
+	private String imageURL;
+	private String title;
+	private String textPreview;
 	private Integer timestamp;
+	private String link;
 
 	public News(JSONObject jsonObject) {
 		try {
-			fontanellaVoto_id = jsonObject.getInt("fontanellaVoto_id");
-			fontanella_id = jsonObject.getInt("fontanella_id");
-			voto = Float.valueOf(jsonObject.getString("voto"));
-			nomeVotante = jsonObject.getString("voto");
+			news_id = jsonObject.getInt("fontanellaVoto_id");
+			imageURL = jsonObject.getString("fontanella_id");
+			title = jsonObject.getString("title");
+			textPreview = jsonObject.getString("textPreview");
 			timestamp = jsonObject.getInt("timestamp");
+			link = jsonObject.getString("link");
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 
-	public Integer getFontanellaVoto_id() {
-		return fontanellaVoto_id;
+	public Integer getNews_id() {
+		return news_id;
 	}
 
-	public void setFontanellaVoto_id(Integer fontanellaVoto_id) {
-		this.fontanellaVoto_id = fontanellaVoto_id;
+	public void setNews_id(Integer news_id) {
+		this.news_id = news_id;
 	}
 
-	public Integer getFontanella_id() {
-		return fontanella_id;
+	public String getImageURL() {
+		return imageURL;
 	}
 
-	public void setFontanella_id(Integer fontanella_id) {
-		this.fontanella_id = fontanella_id;
+	public void setImageURL(String imageURL) {
+		this.imageURL = imageURL;
 	}
 
-	public String getNomeVotante() {
-		return nomeVotante;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setNomeVotante(String nomeVotante) {
-		this.nomeVotante = nomeVotante;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
-	public Float getVoto() {
-		return voto;
+	public String getTextPreview() {
+		return textPreview;
 	}
 
-	public void setVoto(Float voto) {
-		this.voto = voto;
+	public void setTextPreview(String textPreview) {
+		this.textPreview = textPreview;
 	}
 
 	public Integer getTimestamp() {
@@ -61,6 +63,14 @@ public class News {
 
 	public void setTimestamp(Integer timestamp) {
 		this.timestamp = timestamp;
+	}
+
+	public String getLink() {
+		return link;
+	}
+
+	public void setLink(String link) {
+		this.link = link;
 	}
 
 }

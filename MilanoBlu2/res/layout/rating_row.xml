@@ -1,56 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:baselineAligned="false"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content" >
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/shadow2x"
+    android:orientation="horizontal"
+    android:padding="5dp" >
 
-    <RelativeLayout
-        android:layout_width="20dp"
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="10"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:gravity="center"
+        android:paddingLeft="0dp"
+        android:src="@drawable/profile_avatar" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
         android:layout_weight="1"
-        android:orientation="vertical"
-        android:padding="10dp" >
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Item Name" />
 
-        <ImageView
-            android:id="@+id/image"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            android:src="@drawable/profile_avatar" />
-    </RelativeLayout>
-
-    <RelativeLayout
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:background="@android:color/darker_gray"
-        android:orientation="vertical"
-        android:padding="10dp" >
+        android:layout_marginRight="10dp"
+        android:focusable="true"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp" >
 
-        <TextView
-            android:id="@+id/nome"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Item Name" />
-    </RelativeLayout>
+        <!-- android:layout_weight="1" -->
 
-    <RelativeLayout
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:padding="10dp" >
 
-        <RatingBar
-            android:id="@+id/ratingBar"
-            style="?android:attr/ratingBarStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center_horizontal"
-            android:focusable="true" >
-        </RatingBar>
-    </RelativeLayout>
+        <!-- android:gravity="right" -->
+        <!-- android:layout_width="50dp" -->
+    </RatingBar>
 
 </LinearLayout>
