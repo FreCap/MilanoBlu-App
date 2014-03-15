@@ -1,14 +1,16 @@
 package com.cesena.milanoBlu;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBar.Tab;
 import android.support.v7.app.ActionBar.TabListener;
 import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -37,13 +39,12 @@ public class Main extends ActionBarActivity implements TabListener {
 		// to the use of a SurfaceView as the underlying view of the map.
 		mPager.requestTransparentRegion(mPager);
 
-		mPager
-				.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
-					@Override
-					public void onPageSelected(int position) {
-						actionBar.setSelectedNavigationItem(position);
-					}
-				});
+		mPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+			@Override
+			public void onPageSelected(int position) {
+				actionBar.setSelectedNavigationItem(position);
+			}
+		});
 
 		// For each of the sections in the app, add a tab to the action bar.
 		for (int i = 0; i < mAdapter.getCount(); i++) {
@@ -52,10 +53,30 @@ public class Main extends ActionBarActivity implements TabListener {
 			// the TabListener interface, as the callback (listener) for when
 			// this tab is selected.
 			actionBar.addTab(actionBar.newTab()
-					.setText(mAdapter.getPageTitle(i))
-					.setTabListener(this));
+					.setText(mAdapter.getPageTitle(i)).setTabListener(this));
 		}
 
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle item selection
+		switch (item.getItemId()) {
+		case R.id.home:
+			return true;
+		case R.id.contacts:
+			//Intent intent = new Intent(this, .class);
+			//startActivity(intent);
+			return true;
+		default:
+			return super.onOptionsItemSelected(item);
+		}
 	}
 
 	/** A simple fragment that displays a TextView. */
@@ -82,6 +103,5 @@ public class Main extends ActionBarActivity implements TabListener {
 	public void onTabReselected(ActionBar.Tab tab,
 			FragmentTransaction fragmentTransaction) {
 	}
-
 
 }
