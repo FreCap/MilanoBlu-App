@@ -1,4 +1,4 @@
-package com.cesena.milanoBlu;
+package com.cesena.milanoBlu.Map;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,8 +8,6 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.cesena.milanoBlu.Map.LocationManager;
-import com.cesena.milanoBlu.Map.MarkerManager;
 import com.cesenaTeam.milanoBlu.R;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.maps.CameraUpdate;
@@ -36,16 +34,15 @@ public class MapFragment extends Fragment {
 		mapView.onCreate(savedInstanceState);
 
 		MapsInitializer.initialize(this.getActivity());
-		
+
 		map = mapView.getMap();
 
 		new MarkerManager(v, map);
 		new LocationManager(v, map);
+
 		
 		return v;
 	}
-	
-
 
 	@Override
 	public void onResume() {

@@ -24,7 +24,7 @@ public class Main extends ActionBarActivity implements TabListener {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
+		setContentView(R.layout.main_activity);
 
 		final ActionBar actionBar = getSupportActionBar();
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
@@ -70,9 +70,9 @@ public class Main extends ActionBarActivity implements TabListener {
 		switch (item.getItemId()) {
 		case R.id.home:
 			return true;
-		case R.id.contacts:
-			//Intent intent = new Intent(this, .class);
-			//startActivity(intent);
+		case R.id.contatti:
+			Intent intent = new Intent(this, Contatti.class);
+			startActivity(intent);
 			return true;
 		default:
 			return super.onOptionsItemSelected(item);

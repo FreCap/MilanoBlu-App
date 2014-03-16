@@ -4,11 +4,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.RatingBar;
 import android.widget.SlidingDrawer;
+import android.widget.SlidingDrawer.OnDrawerScrollListener;
+import android.widget.TextView;
 
 import com.cesena.milanoBlu.Fontanelle.Fontanella;
 import com.cesena.milanoBlu.Fontanelle.FontanellaVoto;
@@ -28,7 +32,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class MarkerManager implements OnMarkerClickListener, OnMapClickListener {
 	GoogleMap map;
 	View viewMappa;
-	
+
 	private FontanelleManager fontanelleManager;
 	private Map<Marker, Fontanella> markerToModelMappingMap;
 
@@ -46,6 +50,7 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 		map.setOnMarkerClickListener(this);
 		map.setOnMapClickListener(this);
 
+		initializeMarkerDetailsDrawer();
 	}
 
 	private void refreshFontanellaDetailVoti(Fontanella fontanella) {
@@ -86,13 +91,16 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 
 	@Override
 	public void onMapClick(LatLng arg0) {
+		Log.e("MarkerManager", "Click sulla mappa");
 
 		SlidingDrawer slidingDrawer = getMarkerDetailsDrawer();
-		slidingDrawer.animateClose();
+		if (slidingDrawer.isOpened())
+			slidingDrawer.animateClose();
 
 	}
 
 	public boolean onMarkerClick(Marker marker) {
+		Log.e("MarkerManager", "Click sul Marker");
 
 		Fontanella fontanella = markerToModelMappingMap.get(marker);
 
@@ -100,6 +108,9 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 
 		RatingBar ratingBar = getOverallVotesRatingBar();
 		ratingBar.setRating(fontanella.getQualita());
+
+		TextView textView = getOverallVotesTextView();
+		textView.setText(fontanella.getQualita() + "/5 stelle");
 
 		SlidingDrawer slidingDrawer = getMarkerDetailsDrawer();
 		slidingDrawer.animateOpen();
@@ -117,6 +128,12 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 		RatingBar overallVotesRatingBar = (RatingBar) viewMappa
 				.findViewById(R.id.overallVotesRatingBar);
 		return overallVotesRatingBar;
+	}
+
+	private TextView getOverallVotesTextView() {
+		TextView overallVotesTextView = (TextView) viewMappa
+				.findViewById(R.id.overallVotesTextView);
+		return overallVotesTextView;
 	}
 
 	public void addMarkers() {
@@ -161,7 +178,7 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 
 		marker.setTitle(fontanella.getNome());
 		marker.setSnippet(fontanella.getNomeStrada());
-		
+
 		// aggiungo per poi fare il retrieve delle informations dopo
 		markerToModelMappingMap.put(marker, fontanella);
 		return marker;
@@ -191,6 +208,49 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 		markerOptions.icon(BitmapDescriptorFactory.fromResource(resource));
 		return map.addMarker(markerOptions);
 
+	}
+
+	private void initializeMarkerDetailsDrawer() {
+		final SlidingDrawer mSlidingDrawer = getMarkerDetailsDrawer();
+		mSlidingDrawer.setOnDrawerScrollListener(new OnDrawerScrollListener() {
+
+			private Runnable mRunnable = new Runnable() {
+
+				@Override
+				public void run() {
+					// finché si muove nn far nulla
+					while (mSlidingDrawer.isMoving()) {
+						Thread.yield();
+					}
+
+					// quando ha finito richiamo il mio handler
+					mHandler.sendEmptyMessage(0);
+				}
+			};
+
+			private Handler mHandler = new Handler() {
+				public void handleMessage(Message msg) {
+					if (mSlidingDrawer.isOpened()) {
+						// Quando si è aperto completamente
+					} else {
+						// Quando si è chiuso completamente
+						mSlidingDrawer.setVisibility(View.GONE);
+
+					}
+				}
+			};
+
+			@Override
+			public void onScrollEnded() {
+				new Thread(mRunnable).start();
+			}
+
+			@Override
+			public void onScrollStarted() {
+				// Inizio scroll
+				mSlidingDrawer.setVisibility(View.VISIBLE);
+			}
+		});
 	}
 
 }

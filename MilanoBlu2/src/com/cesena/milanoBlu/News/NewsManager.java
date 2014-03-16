@@ -1,4 +1,4 @@
-package com.cesena.milanoBlu.news;
+package com.cesena.milanoBlu.News;
 
 import java.util.ArrayList;
 

@@ -2,8 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/contacts"
-        android:showAsAction="never"
+        android:id="@+id/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/contatti"
         android:title="Contatti"/>
 
 </menu>

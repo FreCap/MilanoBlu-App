@@ -1,4 +1,8 @@
-package com.cesena.milanoBlu.news;
+package com.cesena.milanoBlu.News;
+
+import java.security.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -8,16 +12,16 @@ public class News {
 	private String imageURL;
 	private String title;
 	private String textPreview;
-	private Integer timestamp;
+	private Long timestamp;
 	private String link;
 
 	public News(JSONObject jsonObject) {
 		try {
-			news_id = jsonObject.getInt("fontanellaVoto_id");
-			imageURL = jsonObject.getString("fontanella_id");
+			news_id = jsonObject.getInt("news_id");
+			imageURL = jsonObject.getString("imageURL");
 			title = jsonObject.getString("title");
 			textPreview = jsonObject.getString("textPreview");
-			timestamp = jsonObject.getInt("timestamp");
+			timestamp = jsonObject.getLong("timestamp");
 			link = jsonObject.getString("link");
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
@@ -57,11 +61,21 @@ public class News {
 		this.textPreview = textPreview;
 	}
 
-	public Integer getTimestamp() {
+	public Long getTimestamp() {
 		return timestamp;
 	}
 
-	public void setTimestamp(Integer timestamp) {
+	public String getDateString() {
+		Date date = new Date(timestamp);
+		// S is the millisecond
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat(
+				"MM/dd/yyyy' 'HH:MM:ss:S");
+		
+		return simpleDateFormat.getDateInstance().format(date);
+
+	}
+
+	public void setTimestamp(Long timestamp) {
 		this.timestamp = timestamp;
 	}
 
