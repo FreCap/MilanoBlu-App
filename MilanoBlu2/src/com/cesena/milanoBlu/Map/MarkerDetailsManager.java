@@ -4,19 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import android.os.Handler;
-import android.os.Message;
-import android.util.Log;
-import android.view.View;
-import android.widget.ListView;
-import android.widget.RatingBar;
-import android.widget.SlidingDrawer;
-import android.widget.SlidingDrawer.OnDrawerScrollListener;
-import android.widget.TextView;
-
 import com.cesena.milanoBlu.Fontanelle.Fontanella;
 import com.cesena.milanoBlu.Fontanelle.FontanellaVoto;
-import com.cesena.milanoBlu.Fontanelle.FontanelleManager;
 import com.cesena.milanoBlu.Fontanelle.FontanelleVotiManager;
 import com.cesena.milanoBlu.Map.MarkerDetail.AdapterRating;
 import com.cesena.milanoBlu.Map.MarkerDetail.RowRating;
@@ -24,33 +13,32 @@ import com.cesenaTeam.milanoBlu.R;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnMapClickListener;
 import com.google.android.gms.maps.GoogleMap.OnMarkerClickListener;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.maps.android.clustering.ClusterManager;
 
-public class MarkerManager implements OnMarkerClickListener, OnMapClickListener {
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
+import android.view.View;
+import android.widget.ListView;
+import android.widget.RatingBar;
+import android.widget.SlidingDrawer;
+import android.widget.TextView;
+import android.widget.SlidingDrawer.OnDrawerScrollListener;
+
+public class MarkerDetailsManager implements OnMapClickListener,
+		ClusterManager.OnClusterItemClickListener<Fontanella> {
+
 	GoogleMap map;
 	View viewMappa;
 
-	private FontanelleManager fontanelleManager;
-	private Map<Marker, Fontanella> markerToModelMappingMap;
-
-	public final static int QUALITA_BASSA = 3;
-	public final static int QUALITA_MEDIA = 2;
-	public final static int QUALITA_ALTA = 1;
-
-	public MarkerManager(View viewMappa, GoogleMap map) {
+	public MarkerDetailsManager(View viewMappa, GoogleMap map,
+			ClusterManager<Fontanella> mClusterManager) {
 		this.map = map;
 		this.viewMappa = viewMappa;
-		markerToModelMappingMap = new HashMap<Marker, Fontanella>();
-
-		addMarkers();
-
-		map.setOnMarkerClickListener(this);
-		map.setOnMapClickListener(this);
-
-		initializeMarkerDetailsDrawer();
+		mClusterManager.setOnClusterItemClickListener(this);
+		this.map.setOnMapClickListener(this);
 	}
 
 	private void refreshFontanellaDetailVoti(Fontanella fontanella) {
@@ -99,10 +87,9 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 
 	}
 
-	public boolean onMarkerClick(Marker marker) {
+	@Override
+	public boolean onClusterItemClick(Fontanella fontanella) {
 		Log.e("MarkerManager", "Click sul Marker");
-
-		Fontanella fontanella = markerToModelMappingMap.get(marker);
 
 		refreshFontanellaDetailVoti(fontanella);
 
@@ -134,80 +121,6 @@ public class MarkerManager implements OnMarkerClickListener, OnMapClickListener 
 		TextView overallVotesTextView = (TextView) viewMappa
 				.findViewById(R.id.overallVotesTextView);
 		return overallVotesTextView;
-	}
-
-	public void addMarkers() {
-		// pulisco visto che adesso andrò ad inserire nuove informazioni
-		markerToModelMappingMap.clear();
-
-		fontanelleManager = new FontanelleManager();
-		ArrayList<Fontanella> fontanelle = fontanelleManager.getFontane();
-
-		for (Fontanella fontanella : fontanelle) {
-			addMarker(fontanella);
-		}
-	}
-
-	public void addRandomMarkers() {
-		// Milano
-		// NW 45.535901, 9.082642
-		// SE 45.412879, 9.266320
-
-		// LNG diff : 0.123022
-		// LAT diff : 0.183678
-		for (int i = 0; i < 30; i++)
-			addMarker(45.535901f - Math.random() * (0.123022f),
-					9.082642f + Math.random() * (0.123022f));
-	}
-
-	private Marker addMarker(double lat, double lng) {
-		return addMarker(lat, lng, 3);
-	}
-
-	private Marker addMarker(Fontanella fontanella) {
-		Integer qualita = null;
-		if (fontanella.getQualita() > 3.5)
-			qualita = QUALITA_ALTA;
-		else if (fontanella.getQualita() > 2.5)
-			qualita = QUALITA_MEDIA;
-		else
-			qualita = QUALITA_BASSA;
-
-		Marker marker = addMarker(fontanella.getCoordinate().latitude,
-				fontanella.getCoordinate().longitude, qualita);
-
-		marker.setTitle(fontanella.getNome());
-		marker.setSnippet(fontanella.getNomeStrada());
-
-		// aggiungo per poi fare il retrieve delle informations dopo
-		markerToModelMappingMap.put(marker, fontanella);
-		return marker;
-	}
-
-	private Marker addMarker(double lat, double lng, Integer quality) {
-		Log.e("Msg", lat + " " + lng);
-
-		MarkerOptions markerOptions = new MarkerOptions();
-
-		markerOptions.position(new LatLng(lat, lng));
-		markerOptions.icon(BitmapDescriptorFactory.defaultMarker());
-
-		int resource = 0;
-		switch (quality) {
-		case QUALITA_ALTA:
-			resource = R.drawable.goccia_blu;
-			break;
-		case QUALITA_MEDIA:
-			resource = R.drawable.goccia_gialla;
-			break;
-		case QUALITA_BASSA:
-			resource = R.drawable.goccia_verde;
-			break;
-		}
-
-		markerOptions.icon(BitmapDescriptorFactory.fromResource(resource));
-		return map.addMarker(markerOptions);
-
 	}
 
 	private void initializeMarkerDetailsDrawer() {

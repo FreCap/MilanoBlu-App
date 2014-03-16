@@ -5,10 +5,18 @@ import java.util.ArrayList;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.cesenaTeam.milanoBlu.R;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.maps.android.clustering.ClusterItem;
 
-public class Fontanella {
+public class Fontanella implements ClusterItem  {
 
+	public final static int QUALITA_BASSA = 3;
+	public final static int QUALITA_MEDIA = 2;
+	public final static int QUALITA_ALTA = 1;
+	
 	private Integer fontanella_id;
 	private String nome;
 	private LatLng coordinate;
@@ -73,6 +81,36 @@ public class Fontanella {
 
 	public void setFontanella_id(Integer fontanella_id) {
 		this.fontanella_id = fontanella_id;
+	}
+	
+	@Override
+	public LatLng getPosition() {
+		return getCoordinate();
+	}
+	
+	public BitmapDescriptor getIcon(){
+		Integer qualita = null;
+		if (getQualita() > 3.5)
+			qualita = QUALITA_ALTA;
+		else if (getQualita() > 2.5)
+			qualita = QUALITA_MEDIA;
+		else
+			qualita = QUALITA_BASSA;
+
+		int resource = 0;
+		switch (qualita) {
+		case QUALITA_ALTA:
+			resource = R.drawable.goccia_blu;
+			break;
+		case QUALITA_MEDIA:
+			resource = R.drawable.goccia_gialla;
+			break;
+		case QUALITA_BASSA:
+			resource = R.drawable.goccia_verde;
+			break;
+		}
+
+		return BitmapDescriptorFactory.fromResource(resource);
 	}
 
 }

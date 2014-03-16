@@ -37,7 +37,7 @@ public class MapFragment extends Fragment {
 
 		map = mapView.getMap();
 
-		new MarkerManager(v, map);
+		new CustomMarkerManager(v, map);
 		new LocationManager(v, map);
 
 		
