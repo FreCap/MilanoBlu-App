@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.cesena.milanoBlu.Contatti.ContattiActivity;
 import com.cesenaTeam.milanoBlu.R;
 
 public class Main extends ActionBarActivity implements TabListener {
@@ -71,7 +72,7 @@ public class Main extends ActionBarActivity implements TabListener {
 		case R.id.home:
 			return true;
 		case R.id.contatti:
-			Intent intent = new Intent(this, Contatti.class);
+			Intent intent = new Intent(this, ContattiActivity.class);
 			startActivity(intent);
 			return true;
 		default:

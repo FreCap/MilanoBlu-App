@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="contatto_1_titolo">Acquedotto e Acque reflue</string>
+  <string name="contatto_1_descrizione">Via Meda, 44\n20141 Milano\nNumero verde 800 02 18 00\nCentralino 02 84 77 1\nFax 02  78 00 33</string>
+  
+  <string name="contatto_2_titolo">Gestione clienti</string>
+  <string name="contatto_2_descrizione">Dal lunedì al giovedì: dalle ore 8.30 alle ore 15.00; venerdì: dalle ore 13.00 alle ore 17.00\nVia Meda, 44\n20141 Milano\nservizio.clienti@metropolitanamilanese.it\n\nNumero verde 800 02 18 00\nCentralino 02 84 77 1\nFax 02  78 00 33\m</string>
+  
+  <string name="contatto_3_titolo">Sede legale, Presidenza, Direzioni tecniche Ingegneria</string>
+  <string name="contatto_3_descrizione">Via del Vecchio Politecnico, 8\n20121 Milano\nTel +39 02 77 47 1\nFax +39 02 78 00 33\ne-mail: info@metropolitanamilanese.it\nPosta Elettronica Certificata: info@pec.metropolitanamilanese.it\nP.I. 01742310152</string>
+  
+  <string name="contatto_4_titolo">Pronto Intervento acquedotto</string>
+  <string name="contatto_4_descrizione">Attivo 24 ore su 24\n+39 02 84 77 20 00</string>
+  
+  <string name="contatto_5_titolo">Pronto Intervento acque reflue</string>
+  <string name="contatto_5_descrizione">Attivo 24 ore su 24\n+39 02 84 77 40 00</string>
+  
+</resources>

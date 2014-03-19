@@ -43,7 +43,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.cesena.milanoBlu.Contatti"
+            android:name="com.cesena.milanoBlu.Contatti.ContattiActivity"
             android:parentActivityName="com.cesena.milanoBlu.Main" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
