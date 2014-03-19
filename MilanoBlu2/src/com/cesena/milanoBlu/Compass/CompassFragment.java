@@ -9,10 +9,10 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.location.Location;
-import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,9 +24,11 @@ import android.widget.TextView;
 import com.cesena.milanoBlu.Fontanelle.Fontanella;
 import com.cesena.milanoBlu.Fontanelle.FontanelleManager;
 import com.cesenaTeam.milanoBlu.R;
+import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.maps.model.LatLng;
 
-public class CompassFragment extends Fragment implements SensorEventListener {
+public class CompassFragment extends Fragment implements SensorEventListener,
+		LocationListener {
 
 	// define the display assembly compass picture
 	private ImageView image;
@@ -37,16 +39,14 @@ public class CompassFragment extends Fragment implements SensorEventListener {
 	// device sensor manager
 	private SensorManager mSensorManager;
 
-	TextView tvHeading;
-
 	private Location LocationObj;
 	private Location destinationObj;
 
 	private Fontanella nearestFontanella;
 	private View view;
 
-	private Location myLocation;
-	
+	private FusedLocation fusedLocation;
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
@@ -54,16 +54,25 @@ public class CompassFragment extends Fragment implements SensorEventListener {
 
 		image = (ImageView) v.findViewById(R.id.imageViewCompass);
 
-		// TextView that will tell the user what degree is he heading
-		tvHeading = (TextView) v.findViewById(R.id.tvHeading);
-
 		destinationObj = new Location("Fontanella");
 		view = v;
+
+		LocationObj = new Location("Milano");
+		LocationObj.setLatitude(1);
+		LocationObj.setLongitude(1);
 
 		initCompass();
 		initGPS();
 		updateDestination();
 		return v;
+	}
+
+	public void onLocationChanged(Location location) {
+		if (location != null) {
+			Log.i("sd", "Location Request :" + location.getLatitude() + ","
+					+ location.getLongitude());
+			LocationObj = location;
+		}
 	}
 
 	private void initCompass() {
@@ -74,35 +83,9 @@ public class CompassFragment extends Fragment implements SensorEventListener {
 	}
 
 	private void initGPS() {
-		// Acquire a reference to the system Location Manager
-		LocationManager locationManager = (LocationManager) view.getContext()
-				.getSystemService(Context.LOCATION_SERVICE);
-
-		// Define a listener that responds to location updates
-		LocationListener locationListener = new LocationListener() {
-			public void onLocationChanged(Location location) {
-				// TODO
-				myLocation = location;
-				updateDestination();
-			}
-
-			public void onStatusChanged(String provider, int status,
-					Bundle extras) {
-			}
-
-			public void onProviderEnabled(String provider) {
-			}
-
-			public void onProviderDisabled(String provider) {
-			}
-		};
-
-		// Register the listener with the Location Manager to receive location
-		// updates
-		locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0,
-				0, locationListener);
-		LocationObj = locationManager
-				.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+		fusedLocation = new FusedLocation(view, this);
+		// fusedLocation.requestLocation((long) 4);
+		// LocationObj = fusedLocation.getLastLocation();
 	}
 
 	@Override
@@ -123,35 +106,11 @@ public class CompassFragment extends Fragment implements SensorEventListener {
 		mSensorManager.unregisterListener(this);
 	}
 
-	// @Override
-	// public void onSensorChanged(SensorEvent event) {
-	//
-	// // get the angle around the z-axis rotated
-	// float degree = Math.round(event.values[0]);
-	//
-	// tvHeading.setText("Heading: " + Float.toString(degree) + " degrees");
-	//
-	// // create a rotation animation (reverse turn degree degrees)
-	// RotateAnimation ra = new RotateAnimation(currentDegree, -degree,
-	// Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF,
-	// 0.5f);
-	//
-	// // how long the animation will take place
-	// ra.setDuration(210);
-	//
-	// // set the animation after the end of the reservation status
-	// ra.setFillAfter(true);
-	//
-	// // Start the animation
-	// image.startAnimation(ra);
-	// currentDegree = -degree;
-	// }
-
 	private void rotateArrow(float rotation) {
 		// get the angle around the z-axis rotated
 		float degree = Math.round(rotation);
 
-		tvHeading.setText("Heading: " + Float.toString(degree) + " degrees");
+		Log.i("Compass", "Heading: " + Float.toString(degree) + " degrees");
 
 		// create a rotation animation (reverse turn degree degrees)
 		RotateAnimation ra = new RotateAnimation(currentDegree, -degree,
@@ -187,23 +146,20 @@ public class CompassFragment extends Fragment implements SensorEventListener {
 		azimuth -= geoField.getDeclination(); // converts magnetic north into
 												// true north
 
-		TextView locationDestination = (TextView) view
-				.findViewById(R.id.locationDestination);
+		Log.i("Compass", "Local: Lat:" + LocationObj.getLatitude() + " Lng:"
+				+ LocationObj.getLongitude());
 
-		locationDestination.setText("Local: Lat:" + LocationObj.getLatitude()
-				+ " Lng:" + LocationObj.getLongitude());
-
-		TextView locationSource = (TextView) view
-				.findViewById(R.id.locationSource);
-
-		locationSource.setText("Local: Lat:" + destinationObj.getLatitude()
-				+ " Lng:" + destinationObj.getLongitude());
+		Log.i("Compass", "Local: Lat:" + destinationObj.getLatitude() + " Lng:"
+				+ destinationObj.getLongitude());
 
 		TextView locationDistance = (TextView) view
 				.findViewById(R.id.locationDistance);
 
-		locationDistance.setText("Dist: "
-				+ distFrom(getMyPosition(), nearestFontanella));
+		Float distanza = distFrom(getMyPosition(), nearestFontanella);
+
+		Log.i("Compass", "Dist: " + distanza);
+
+		locationDistance.setText("~" + distanza.intValue() / 10 * 10);
 
 		// Store the bearingTo in the bearTo variable
 		float bearTo = LocationObj.bearingTo(destinationObj);
@@ -223,65 +179,9 @@ public class CompassFragment extends Fragment implements SensorEventListener {
 			direction = direction + 360;
 		}
 
-		// rotateImageView(arrow, R.drawable.freccia, direction);
 		rotateArrow(direction);
 
-		// //Set the field
-		// String bearingText = "N";
-		//
-		// if ( (360 >= baseAzimuth && baseAzimuth >= 337.5) || (0 <=
-		// baseAzimuth && baseAzimuth <= 22.5) ) bearingText = "N";
-		// else if (baseAzimuth > 22.5 && baseAzimuth < 67.5) bearingText =
-		// "NE";
-		// else if (baseAzimuth >= 67.5 && baseAzimuth <= 112.5) bearingText =
-		// "E";
-		// else if (baseAzimuth > 112.5 && baseAzimuth < 157.5) bearingText =
-		// "SE";
-		// else if (baseAzimuth >= 157.5 && baseAzimuth <= 202.5) bearingText =
-		// "S";
-		// else if (baseAzimuth > 202.5 && baseAzimuth < 247.5) bearingText =
-		// "SW";
-		// else if (baseAzimuth >= 247.5 && baseAzimuth <= 292.5) bearingText =
-		// "W";
-		// else if (baseAzimuth > 292.5 && baseAzimuth < 337.5) bearingText =
-		// "NW";
-		// else bearingText = "?";
-		//
-		// fieldBearing.setText(bearingText);
-
 	}
-
-	// private void rotateImageView(ImageView imageView, int drawable, float
-	// rotate) {
-	//
-	// // Decode the drawable into a bitmap
-	// Bitmap bitmapOrg = BitmapFactory.decodeResource(getResources(),
-	// drawable);
-	//
-	// // Get the width/height of the drawable
-	// DisplayMetrics dm = new DisplayMetrics();
-	// getWindowManager().getDefaultDisplay().getMetrics(dm);
-	// int width = bitmapOrg.getWidth(), height = bitmapOrg.getHeight();
-	//
-	// // Initialize a new Matrix
-	// Matrix matrix = new Matrix();
-	//
-	// // Decide on how much to rotate
-	// rotate = rotate % 360;
-	//
-	// // Actually rotate the image
-	// matrix.postRotate(rotate, width, height);
-	//
-	// // recreate the new Bitmap via a couple conditions
-	// Bitmap rotatedBitmap = Bitmap.createBitmap(bitmapOrg, 0, 0, width,
-	// height, matrix, true);
-	// // BitmapDrawable bmd = new BitmapDrawable( rotatedBitmap );
-	//
-	// // imageView.setImageBitmap( rotatedBitmap );
-	// imageView.setImageDrawable(new BitmapDrawable(getResources(),
-	// rotatedBitmap));
-	// imageView.setScaleType(ScaleType.CENTER);
-	// }
 
 	@Override
 	public void onAccuracyChanged(Sensor sensor, int accuracy) {
@@ -319,7 +219,7 @@ public class CompassFragment extends Fragment implements SensorEventListener {
 	}
 
 	public LatLng getMyPosition() {
-		return new LatLng(LocationObj.getLatitude(),LocationObj.getLongitude());
+		return new LatLng(LocationObj.getLatitude(), LocationObj.getLongitude());
 	}
 
 	public static double calculateAngle(double x1, double y1, double x2,

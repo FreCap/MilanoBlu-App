@@ -15,14 +15,16 @@ import com.google.android.gms.location.LocationRequest;
 
 public class FusedLocation implements
 		GooglePlayServicesClient.ConnectionCallbacks,
-		GooglePlayServicesClient.OnConnectionFailedListener, LocationListener {
+		GooglePlayServicesClient.OnConnectionFailedListener {
 
 	private String TAG = this.getClass().getSimpleName();
 
 	private LocationClient locationclient;
 	private LocationRequest locationrequest;
+	private LocationListener locationListener;
 
-	public FusedLocation(View view) {
+	public FusedLocation(View view, LocationListener locationListener) {
+		this.locationListener = locationListener;
 		int resp = GooglePlayServicesUtil.isGooglePlayServicesAvailable(view
 				.getContext());
 		if (resp == ConnectionResult.SUCCESS) {
@@ -51,16 +53,18 @@ public class FusedLocation implements
 	public void requestLocation(Long interval) {
 		locationrequest = LocationRequest.create();
 		locationrequest.setInterval(interval);
-		locationclient.requestLocationUpdates(locationrequest, this);
+		locationclient
+				.requestLocationUpdates(locationrequest, locationListener);
 	}
 
 	public void requestLocationStop() {
-		locationclient.removeLocationUpdates(this);
+		locationclient.removeLocationUpdates(locationListener);
 	}
 
 	@Override
 	public void onConnected(Bundle connectionHint) {
 		Log.i(TAG, "onConnected");
+		requestLocation((long) 5000);
 
 	}
 
@@ -73,15 +77,6 @@ public class FusedLocation implements
 	@Override
 	public void onConnectionFailed(ConnectionResult result) {
 		Log.i(TAG, "onConnectionFailed");
-
-	}
-
-	@Override
-	public void onLocationChanged(Location location) {
-		if (location != null) {
-			Log.i(TAG, "Location Request :" + location.getLatitude() + ","
-					+ location.getLongitude());
-		}
 
 	}
 
