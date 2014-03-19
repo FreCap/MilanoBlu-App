@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.cesena.milanoBlu.Compass.CompassFragment;
 import com.cesena.milanoBlu.Main.TextFragment;
 import com.cesena.milanoBlu.Map.MapFragment;
 import com.cesena.milanoBlu.News.NewsFragment;
@@ -17,7 +18,7 @@ public class Pager extends FragmentPagerAdapter {
 
 	@Override
 	public int getCount() {
-		return 4;
+		return 5;
 	}
 
 	@Override
@@ -28,8 +29,10 @@ public class Pager extends FragmentPagerAdapter {
 		case 1:
 			return new MapFragment();
 		case 2:
-			return new TextFragment();
+			return new CompassFragment();
 		case 3:
+			return new TextFragment();
+		case 4:
 			return new TextFragment();
 		default:
 			return null;
@@ -45,8 +48,10 @@ public class Pager extends FragmentPagerAdapter {
 		case 1:
 			return "Mappa";
 		case 2:
-			return "Consigli";
+			return "Ho sete";
 		case 3:
+			return "Consigli";
+		case 4:
 			return "Video";
 		}
 		return null;
