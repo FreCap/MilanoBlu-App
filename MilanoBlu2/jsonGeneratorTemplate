@@ -41,3 +41,15 @@ http://www.json-generator.com/
         link: 'http://www.milanoblu.com/2014/03/10/crea-lapp-dellacqua-di-milano/'
     }
 ]}
+
+// Video
+{results:[
+    '{{repeat(5, 7)}}',
+    {
+        news_id: '{{index}}',
+        imageURL: 'http://www.milanoblu.com/wp-content/themes/milanoblu/images/top-notizie-ed-eventi.png',
+        title: '{{lorem(6,words)}}',
+        timestamp: '{{numeric(1394755200,1363219200)}}',
+        link: 'http://www.milanoblu.com/2014/03/10/crea-lapp-dellacqua-di-milano/'
+    }
+]}

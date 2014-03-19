@@ -40,7 +40,6 @@ public class Fontanella implements ClusterItem  {
 
 	}
 
-
 	public String getNome() {
 		return nome;
 	}
