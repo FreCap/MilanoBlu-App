@@ -39,7 +39,6 @@ public class MapFragment extends Fragment {
 
 		new CustomMarkerManager(v, map);
 		new LocationManager(v, map);
-
 		
 		return v;
 	}
