@@ -1,0 +1,3263 @@
+[{
+    "fontana_id": 0,
+    "nome": "Vargas Matthews",
+    "nomeStrada": "Viale Malta, 20121 Milano, Italia",
+    "latitude": "45.47445315773020",
+    "longitude": "9.178006947040550",
+    "qualita": 4.7
+}, {
+    "fontana_id": 1,
+    "nome": "Curtis Olson",
+    "nomeStrada": "Via Fratelli Ruffini, 4, 20123 Milano, Italia",
+    "latitude": "45.466167",
+    "longitude": "9.17042200000003",
+    "qualita": 4.7
+}, {
+    "fontana_id": 2,
+    "nome": "Cynthia Becker",
+    "nomeStrada": "Piazzale Antonio Cantore, 3, 20123 Milano, Italia",
+    "latitude": "45.455657",
+    "longitude": "9.173874999999950",
+    "qualita": 4.4
+}, {
+    "fontana_id": 3,
+    "nome": "Bonnie Bright",
+    "nomeStrada": "Piazza Gaetano Filangieri, 1, 20123 Milano, Italia",
+    "latitude": "45.46087",
+    "longitude": "9.168243",
+    "qualita": 3.7
+}, {
+    "fontana_id": 4,
+    "nome": "Delores Wheeler",
+    "nomeStrada": "Via Calatafimi / Via Sambuco, 20122 Milano, Italia",
+    "latitude": "45.453568",
+    "longitude": "9.183775999999960",
+    "qualita": 3.1
+}, {
+    "fontana_id": 5,
+    "nome": "Georgia Rivas",
+    "nomeStrada": "Parco Papa Giovanni Paolo II (Parco delle due Basiliche) 20123 Milano, Italia",
+    "latitude": "45.456036745870600",
+    "longitude": "9.18208122253418",
+    "qualita": 5
+}, {
+    "fontana_id": 6,
+    "nome": "Alexandria Snyder",
+    "nomeStrada": "Piazza della Vetra, 15, 20123 Milano, Italia",
+    "latitude": "45.4579691",
+    "longitude": "9.1831518",
+    "qualita": 3
+}, {
+    "fontana_id": 7,
+    "nome": "Meredith Sargent",
+    "nomeStrada": "Via 20 Settembre, 13, 20123 Milano, Italia",
+    "latitude": "45.469022",
+    "longitude": "9.168975000000040",
+    "qualita": 3.1
+}, {
+    "fontana_id": 8,
+    "nome": "Joanne Marks",
+    "nomeStrada": "Piazza Cardinale Guglielmo Massaia, 3, 20123 Milano, Italia",
+    "latitude": "45.461617",
+    "longitude": "9.181637000000020",
+    "qualita": 4.9
+}, {
+    "fontana_id": 9,
+    "nome": "Mitchell Dyer",
+    "nomeStrada": "Via Mario Pagano, 2, 20145 Milano, Italia",
+    "latitude": "45.4747917075463",
+    "longitude": "9.172044396400450",
+    "qualita": 2.2
+}, {
+    "fontana_id": 10,
+    "nome": "Kay Kidd",
+    "nomeStrada": "Viale Federico Schiller, 20121 Milano, Italia",
+    "latitude": "45.47249329049660",
+    "longitude": "9.176990389823910",
+    "qualita": 1.6
+}, {
+    "fontana_id": 11,
+    "nome": "Frost Shields",
+    "nomeStrada": "Foro Buonaparte, 71, 20121 Milano, Italia",
+    "latitude": "45.468031",
+    "longitude": "9.181849000000050",
+    "qualita": 1.9
+}, {
+    "fontana_id": 12,
+    "nome": "Fran Duncan",
+    "nomeStrada": "Via Giuseppe Sacchi - Via Ponte Vetero, 20121 Milano, Italia",
+    "latitude": "45.469266",
+    "longitude": "9.185005000000040",
+    "qualita": 3.5
+}, {
+    "fontana_id": 13,
+    "nome": "Queen Nicholson",
+    "nomeStrada": "Foro Buonaparte, 54, 20121 Milano, Italia",
+    "latitude": "45.471265",
+    "longitude": "9.182859000000000",
+    "qualita": 2.2
+}, {
+    "fontana_id": 14,
+    "nome": "Barton Oneal",
+    "nomeStrada": "Piazza San Pietro in Gessate, 20122 Milano, Italia",
+    "latitude": "45.46244",
+    "longitude": "9.201622000000040",
+    "qualita": 3.4
+}, {
+    "fontana_id": 15,
+    "nome": "Kathleen Tyler",
+    "nomeStrada": "Piazza Sant'Ambrogio, 21, 20123 Milano, Italia",
+    "latitude": "45.46340403258940",
+    "longitude": "9.17557418346405",
+    "qualita": 4.5
+}, {
+    "fontana_id": 16,
+    "nome": "Dianne Knowles",
+    "nomeStrada": "Via Francesco Sforza - Giardini Guastalla, 20122 Milano, Italia",
+    "latitude": "45.460067",
+    "longitude": "9.19582",
+    "qualita": 3.1
+}, {
+    "fontana_id": 17,
+    "nome": "Poole Contreras",
+    "nomeStrada": "Viale Giorgio Byron, 20154 Milano, Italia",
+    "latitude": "45.476479",
+    "longitude": "9.176032999999960",
+    "qualita": 3.6
+}, {
+    "fontana_id": 18,
+    "nome": "Hooper Woodard",
+    "nomeStrada": "Via Marina, 5, 20121 Milano, Italia",
+    "latitude": "45.470975",
+    "longitude": "9.198634999999960",
+    "qualita": 2.8
+}, {
+    "fontana_id": 19,
+    "nome": "Patterson Perry",
+    "nomeStrada": "Bastioni di Porta Venezia (Giardini al centro) 20121 Milano",
+    "latitude": "45.47313279401430",
+    "longitude": "9.201661348342890",
+    "qualita": 2.6
+}, {
+    "fontana_id": 20,
+    "nome": "Reilly Kane",
+    "nomeStrada": "Porta Venezia (Lato Via Daniele Manin) 20121 Milano, Italia",
+    "latitude": "45.47420864826490",
+    "longitude": "9.19778287410736",
+    "qualita": 4.4
+}, {
+    "fontana_id": 21,
+    "nome": "Stewart Bonner",
+    "nomeStrada": "Parco Sempione (Bar Bianco), 20121 Milano, Italia",
+    "latitude": "45.47378921801900",
+    "longitude": "9.177280068397520",
+    "qualita": 1.9
+}, {
+    "fontana_id": 22,
+    "nome": "Petra Nielsen",
+    "nomeStrada": "Piazza Carlo Mirabello, 4, 20121 Milano, Italia",
+    "latitude": "45.475162",
+    "longitude": "9.189753999999990",
+    "qualita": 3
+}, {
+    "fontana_id": 23,
+    "nome": "Henson Vega",
+    "nomeStrada": "Via dei Giardini, 10, 20121 Milano, Italia",
+    "latitude": "45.471981",
+    "longitude": "9.192762",
+    "qualita": 3
+}, {
+    "fontana_id": 24,
+    "nome": "Madeline Douglas",
+    "nomeStrada": "Piazza della Scala, 4-6, 20121 Milano, Italia",
+    "latitude": "45.467017",
+    "longitude": "9.190658999999980",
+    "qualita": 4.8
+}, {
+    "fontana_id": 25,
+    "nome": "Lang Lynn",
+    "nomeStrada": "Piazza Cesare Beccaria, 20122 Milano, Italia",
+    "latitude": "45.4641824657535",
+    "longitude": "9.195089575393690",
+    "qualita": 3.8
+}, {
+    "fontana_id": 26,
+    "nome": "Imelda Kelly",
+    "nomeStrada": "Piazza Fontana, 6, 20122 Milano, Italia",
+    "latitude": "45.4634358",
+    "longitude": "9.1942852",
+    "qualita": 4.2
+}, {
+    "fontana_id": 27,
+    "nome": "Alford Jefferson",
+    "nomeStrada": "Largo Francesco Richini, 14, 20122 Milano, Italia",
+    "latitude": "45.459424",
+    "longitude": "9.192696999999950",
+    "qualita": 2.7
+}, {
+    "fontana_id": 28,
+    "nome": "Maxine Valenzuela",
+    "nomeStrada": "Corso Italia, 22/4, 20122 Milano, Italia",
+    "latitude": "45.457476",
+    "longitude": "9.18756099999996",
+    "qualita": 4
+}, {
+    "fontana_id": 29,
+    "nome": "Alvarado Logan",
+    "nomeStrada": "Via Edmondo De Amicis, 25, 20123 Milano, Italia",
+    "latitude": "45.458551",
+    "longitude": "9.17820299999994",
+    "qualita": 1.8
+}, {
+    "fontana_id": 30,
+    "nome": "Winters Wiggins",
+    "nomeStrada": "Parco Sempione - Viale W. Goethe - Viale G. Racine, 20121 Milano, Italia",
+    "latitude": "45.4739641377387",
+    "longitude": "9.175960421562190",
+    "qualita": 3.4
+}, {
+    "fontana_id": 31,
+    "nome": "Thelma Koch",
+    "nomeStrada": "Via Quadronno nei Giardini Oriana Fallaci, 20122 Milano, Italia",
+    "latitude": "45.45360209376480",
+    "longitude": "9.194338917732230",
+    "qualita": 3.1
+}, {
+    "fontana_id": 32,
+    "nome": "Downs Bullock",
+    "nomeStrada": "Via Nirone / Via Ansperto, 20123 Milano, Italia",
+    "latitude": "45.464635",
+    "longitude": "9.178232999999970",
+    "qualita": 2
+}, {
+    "fontana_id": 33,
+    "nome": "Combs Richards",
+    "nomeStrada": "Largo Marinai d'Italia, 20135 Milano, Italia",
+    "latitude": "45.46022094101260",
+    "longitude": "9.215941429138180",
+    "qualita": 4.3
+}, {
+    "fontana_id": 34,
+    "nome": "Shelly Green",
+    "nomeStrada": "Viale Lazio, 27, 20135 Milano, Italia",
+    "latitude": "45.454987",
+    "longitude": "9.2091",
+    "qualita": 4
+}, {
+    "fontana_id": 35,
+    "nome": "Harriet Hutchinson",
+    "nomeStrada": "Corso 22 Marzo, 25, 20129 Milano, Italia",
+    "latitude": "45.462283",
+    "longitude": "9.21239",
+    "qualita": 4.3
+}, {
+    "fontana_id": 36,
+    "nome": "Hilary Campos",
+    "nomeStrada": "Via Monte Velino - Via Varsavia, 20137 Milano, Italia",
+    "latitude": "45.4534",
+    "longitude": "9.229234",
+    "qualita": 3.7
+}, {
+    "fontana_id": 37,
+    "nome": "Beulah Foley",
+    "nomeStrada": "Via Monluè, 20138 Milano, Italia",
+    "latitude": "45.45581854721680",
+    "longitude": "9.25405840740973",
+    "qualita": 3.2
+}, {
+    "fontana_id": 38,
+    "nome": "Flynn Horn",
+    "nomeStrada": "Via Privata Taverna, 20134 Milano, Italia",
+    "latitude": "45.46345670635210",
+    "longitude": "9.25849199295044",
+    "qualita": 1.7
+}, {
+    "fontana_id": 39,
+    "nome": "Autumn Briggs",
+    "nomeStrada": "Via Alessandro Mazzucotelli, 18, / Via Alfonso Cossa, 20138 Milano, Italia",
+    "latitude": "45.460412",
+    "longitude": "9.245048999999990",
+    "qualita": 3.9
+}, {
+    "fontana_id": 40,
+    "nome": "Stacey Small",
+    "nomeStrada": "Viale Ungheria, 15 / Largo Anselmo Gonzaga Guerrieri, 20138 Milano, Italia",
+    "latitude": "45.445981",
+    "longitude": "9.25116300000002",
+    "qualita": 4.5
+}, {
+    "fontana_id": 41,
+    "nome": "Agnes Best",
+    "nomeStrada": "Via Romualdo Bonfadini, 93 / Via Luigi Sordello, 20138 Milano, Italia",
+    "latitude": "45.444645",
+    "longitude": "9.245617000000030",
+    "qualita": 2.1
+}, {
+    "fontana_id": 42,
+    "nome": "Huber Glenn",
+    "nomeStrada": "Via Elio Vittorini / Via Privata degli Umiliati, 20138 Milano, Italia",
+    "latitude": "45.444401",
+    "longitude": "9.26554299999998",
+    "qualita": 2.2
+}, {
+    "fontana_id": 43,
+    "nome": "Selma Kim",
+    "nomeStrada": "Viale Enrico Forlanini, 65 (Centro CONI), 20134 Milano, Italia",
+    "latitude": "45.461988",
+    "longitude": "9.25453600000003",
+    "qualita": 2.6
+}, {
+    "fontana_id": 44,
+    "nome": "Leticia Bennett",
+    "nomeStrada": "Parco Forlanini (A sud del laghetto chiosco) 20134 Milano, Italia",
+    "latitude": "45.465089568586600",
+    "longitude": "9.266088008880610",
+    "qualita": 3.4
+}, {
+    "fontana_id": 45,
+    "nome": "Catherine William",
+    "nomeStrada": "Via Privata Marco Fabio Quintiliano, 41-47, 20138 Milano, Italia",
+    "latitude": "45.447724",
+    "longitude": "9.250294",
+    "qualita": 1.6
+}, {
+    "fontana_id": 46,
+    "nome": "Arline Mercado",
+    "nomeStrada": "Via Oreste Salomone, 7, 20138 Milano, Italia",
+    "latitude": "45.45651",
+    "longitude": "9.241530000000010",
+    "qualita": 4.3
+}, {
+    "fontana_id": 47,
+    "nome": "Carissa Roach",
+    "nomeStrada": "Viale Ungheria, 29, 20138 Milano, Italia",
+    "latitude": "45.446955",
+    "longitude": "9.254925",
+    "qualita": 2.4
+}, {
+    "fontana_id": 48,
+    "nome": "Janine Mcdowell",
+    "nomeStrada": "Piazza Caserta, 20159 Milano, Italia",
+    "latitude": "45.501377",
+    "longitude": "9.195871000000010",
+    "qualita": 4.5
+}, {
+    "fontana_id": 49,
+    "nome": "Bullock Patton",
+    "nomeStrada": "Piazzale Giuseppe Massari, 22, 20125 Milano, Italia",
+    "latitude": "45.495948",
+    "longitude": "9.198046999999970",
+    "qualita": 3.7
+}, {
+    "fontana_id": 50,
+    "nome": "Enid Brewer",
+    "nomeStrada": "Via Valtellina - Via A. Da Brescia, 20159 Milano, Italia",
+    "latitude": "45.490999",
+    "longitude": "9.1814",
+    "qualita": 1.8
+}, {
+    "fontana_id": 51,
+    "nome": "Douglas Patrick",
+    "nomeStrada": "Piazzale Salvatore Farina, 20125 Milano, Italia",
+    "latitude": "45.49828",
+    "longitude": "9.19963",
+    "qualita": 3.7
+}, {
+    "fontana_id": 52,
+    "nome": "Guzman Dennis",
+    "nomeStrada": "Giardini Gregor Mendel - Via F. Restelli, 20124 Milano, Italia",
+    "latitude": "45.48962853587140",
+    "longitude": "9.196850806474680",
+    "qualita": 4
+}, {
+    "fontana_id": 53,
+    "nome": "Meredith Parker",
+    "nomeStrada": "Viale della Liberazione, 20124 Milano, Italia",
+    "latitude": "45.482515",
+    "longitude": "9.194081",
+    "qualita": 4.7
+}, {
+    "fontana_id": 54,
+    "nome": "Fletcher Ashley",
+    "nomeStrada": "Via Giuseppe Candiani, 16, 20158 Milano, Italia",
+    "latitude": "45.505652",
+    "longitude": "9.173174",
+    "qualita": 3.9
+}, {
+    "fontana_id": 55,
+    "nome": "Joseph Mcdaniel",
+    "nomeStrada": "Piazza Giovanni Bausan / Via Angelo Brofferio, 20158 Milano, Italia",
+    "latitude": "45.502368",
+    "longitude": "9.165054999999930",
+    "qualita": 3.6
+}, {
+    "fontana_id": 56,
+    "nome": "Fannie Johnston",
+    "nomeStrada": "Piazzale Lugano / Via Benedetto Varchi, 20158 Milano, Italia",
+    "latitude": "45.499042",
+    "longitude": "9.16545300000007",
+    "qualita": 4.2
+}, {
+    "fontana_id": 57,
+    "nome": "Jordan Pratt",
+    "nomeStrada": "Via Populonia, 2, 20159 Milano, Italia",
+    "latitude": "45.500919",
+    "longitude": "9.189622999999980",
+    "qualita": 1.6
+}, {
+    "fontana_id": 58,
+    "nome": "Lucia Rose",
+    "nomeStrada": "Via Livigno, 11, 20158 Milano, Italia",
+    "latitude": "45.499436",
+    "longitude": "9.178409",
+    "qualita": 2.2
+}, {
+    "fontana_id": 59,
+    "nome": "Ola Harding",
+    "nomeStrada": "Via Vincenzo Lancetti - Via Torelli, 20158 Milano, Italia",
+    "latitude": "45.494957",
+    "longitude": "9.173668",
+    "qualita": 2.5
+}, {
+    "fontana_id": 60,
+    "nome": "Johnson Greene",
+    "nomeStrada": "Piazzale Carlo Maciachini, 20159 Milano, Italia",
+    "latitude": "45.497355",
+    "longitude": "9.185663",
+    "qualita": 4.1
+}, {
+    "fontana_id": 61,
+    "nome": "Noel Wolfe",
+    "nomeStrada": "Via Privata Angiolo Maffucci / Via Filippo Baldinucci, 20158 Milano, Italia",
+    "latitude": "45.503594",
+    "longitude": "9.169730999999950",
+    "qualita": 4
+}, {
+    "fontana_id": 62,
+    "nome": "Kathie Cunningham",
+    "nomeStrada": "Via Carlotta Marchionni, 3 / Viale Rapisardi, 20161 Milano, Italia",
+    "latitude": "45.526521",
+    "longitude": "9.174245000000040",
+    "qualita": 4
+}, {
+    "fontana_id": 63,
+    "nome": "Dorothea Owen",
+    "nomeStrada": "Via Gaeta, 1, 20161 Milano, Italia",
+    "latitude": "45.519067",
+    "longitude": "9.172972999999950",
+    "qualita": 3.2
+}, {
+    "fontana_id": 64,
+    "nome": "Zamora Robles",
+    "nomeStrada": "Via del Tago, 10, 20161 Milano, Italia",
+    "latitude": "45.52499",
+    "longitude": "9.170462000000040",
+    "qualita": 3.9
+}, {
+    "fontana_id": 65,
+    "nome": "Latonya Wallace",
+    "nomeStrada": "Piazza Santa Giustina, 17, 20161 Milano, Italia",
+    "latitude": "45.517115",
+    "longitude": "9.170074999999990",
+    "qualita": 2.9
+}, {
+    "fontana_id": 66,
+    "nome": "Silva Hamilton",
+    "nomeStrada": "Via Alessandro Astesani, 8, 20161 Milano, Italia",
+    "latitude": "45.516553",
+    "longitude": "9.171815",
+    "qualita": 2.1
+}, {
+    "fontana_id": 67,
+    "nome": "Sheri Pena",
+    "nomeStrada": "Via Ippocrate (Giardini) 20161 Milano, Italia",
+    "latitude": "45.521985",
+    "longitude": "9.16423",
+    "qualita": 4.9
+}, {
+    "fontana_id": 68,
+    "nome": "Aguirre Shannon",
+    "nomeStrada": "Via Bovisasca, 141 / Via Umberto Ceva, 20157 Milano, Italia",
+    "latitude": "45.51472",
+    "longitude": "9.157046000000030",
+    "qualita": 3.9
+}, {
+    "fontana_id": 69,
+    "nome": "Singleton Bishop",
+    "nomeStrada": "Via Gerolamo Forni, 72, 20161 Milano, Italia",
+    "latitude": "45.526672",
+    "longitude": "9.165229",
+    "qualita": 2.7
+}, {
+    "fontana_id": 70,
+    "nome": "Terri Chapman",
+    "nomeStrada": "Via Pellegrino Rossi, 26, 20161 Milano, Italia",
+    "latitude": "45.508681",
+    "longitude": "9.177337999999960",
+    "qualita": 3.8
+}, {
+    "fontana_id": 71,
+    "nome": "Hooper Sparks",
+    "nomeStrada": "Via Bovisasca, 205, 20157 Milano, Italia",
+    "latitude": "45.519939",
+    "longitude": "9.152273000000030",
+    "qualita": 3
+}, {
+    "fontana_id": 72,
+    "nome": "Camille Chavez",
+    "nomeStrada": "Via Chianciano  ang. Via Cavalletto, 20161 Milano, Italia",
+    "latitude": "45.51399",
+    "longitude": "9.17649",
+    "qualita": 4
+}, {
+    "fontana_id": 73,
+    "nome": "Morris Griffin",
+    "nomeStrada": "Via Trevi, campo giochi,  20161 Milano, Italia",
+    "latitude": "45.507302",
+    "longitude": "9.180428",
+    "qualita": 4.9
+}, {
+    "fontana_id": 74,
+    "nome": "Peggy Bray",
+    "nomeStrada": "Via Alessandro Astesani / Via Giuseppe Molteni, 20161 Milano, Italia",
+    "latitude": "45.518184",
+    "longitude": "9.170771",
+    "qualita": 2.4
+}, {
+    "fontana_id": 75,
+    "nome": "Ford Carpenter",
+    "nomeStrada": "Via Asturie, 6, 20162 Milano, Italia - Campo giochi BALDACCI",
+    "latitude": "45.516817",
+    "longitude": "9.204826",
+    "qualita": 3.7
+}, {
+    "fontana_id": 76,
+    "nome": "Mindy Rowland",
+    "nomeStrada": "Via Val Maira / Via Giovanni Battista Palletta, 20162 Milano, Italia",
+    "latitude": "45.510021",
+    "longitude": "9.191372000000000",
+    "qualita": 3.2
+}, {
+    "fontana_id": 77,
+    "nome": "Lynch Ballard",
+    "nomeStrada": "Via Luigi Beccali, 7, 20162 Milano, Italia",
+    "latitude": "45.519207",
+    "longitude": "9.20673499999998",
+    "qualita": 1.6
+}, {
+    "fontana_id": 78,
+    "nome": "Sharron Good",
+    "nomeStrada": "Viale Sarca, 145-147- Via A. Smith - 20126 Milano, Italia",
+    "latitude": "45.51194",
+    "longitude": "9.206577",
+    "qualita": 4.9
+}, {
+    "fontana_id": 79,
+    "nome": "Jeanette Palmer",
+    "nomeStrada": "Via Angelo Zanardini, 2-18, 20127 Milano, Italia",
+    "latitude": "45.503037",
+    "longitude": "9.234838999999960",
+    "qualita": 2.3
+}, {
+    "fontana_id": 80,
+    "nome": "Holloway Powers",
+    "nomeStrada": "Piazzale Francesco Durante, 8, 20131 Milano, Italia",
+    "latitude": "45.488751",
+    "longitude": "9.223708999999980",
+    "qualita": 1.5
+}, {
+    "fontana_id": 81,
+    "nome": "Sonja Juarez",
+    "nomeStrada": "Piazza Cincinnato, 4, 20124 Milano, Italia",
+    "latitude": "45.480037",
+    "longitude": "9.203706000000010",
+    "qualita": 3.2
+}, {
+    "fontana_id": 82,
+    "nome": "Christy Miranda",
+    "nomeStrada": "Via Benedetto Marcello / Via Vitruvio, 20124 Milano, Italia",
+    "latitude": "45.48127",
+    "longitude": "9.208753000000000",
+    "qualita": 4
+}, {
+    "fontana_id": 83,
+    "nome": "Marci Bryant",
+    "nomeStrada": "Via B. Marcello - Via Domenico Scarlatti, 20124 Milano, Italia",
+    "latitude": "45.48250633039150",
+    "longitude": "9.210147857666010",
+    "qualita": 2.2
+}, {
+    "fontana_id": 84,
+    "nome": "Paul Mcgowan",
+    "nomeStrada": "Piazzale Francesco Bacone / Via Claudio Monteverdi / Via Gaspare Spontini, 20129 Milano, Italia",
+    "latitude": "45.481084",
+    "longitude": "9.214656999999980",
+    "qualita": 3
+}, {
+    "fontana_id": 85,
+    "nome": "Barker Livingston",
+    "nomeStrada": "Via Giuseppe Broggi / Via Giovanni Battista Morgagni, 20129 Milano, Italia",
+    "latitude": "45.477435",
+    "longitude": "9.211730999999980",
+    "qualita": 3.6
+}, {
+    "fontana_id": 86,
+    "nome": "Kristen Coleman",
+    "nomeStrada": "Piazzale Lavater, 5, 20129 Milano, Italia",
+    "latitude": "45.476865",
+    "longitude": "9.210574",
+    "qualita": 4
+}, {
+    "fontana_id": 87,
+    "nome": "Carney Torres",
+    "nomeStrada": "Via Castel Morrone, 2, 20129 Milano, Italia",
+    "latitude": "45.467852",
+    "longitude": "9.214735000000010",
+    "qualita": 2.1
+}, {
+    "fontana_id": 88,
+    "nome": "Cohen Peterson",
+    "nomeStrada": "Via Ciro Menotti, 1, 20129 Milano, Italia",
+    "latitude": "45.467917",
+    "longitude": "9.213350999999980",
+    "qualita": 2.4
+}, {
+    "fontana_id": 89,
+    "nome": "Harrison Morris",
+    "nomeStrada": "Piazza del Tricolore, 2, 20129 Milano, Italia",
+    "latitude": "45.467774",
+    "longitude": "9.206152",
+    "qualita": 3.2
+}, {
+    "fontana_id": 90,
+    "nome": "Williamson Fischer",
+    "nomeStrada": "Piazza Caiazzo / Via Gaffurio, 20124 Milano, Italia",
+    "latitude": "45.485036",
+    "longitude": "9.210012000000000",
+    "qualita": 2.5
+}, {
+    "fontana_id": 91,
+    "nome": "Brenda Rodgers",
+    "nomeStrada": "Piazzale Governo Provvisorio, 4, 20127 Milano, Italia",
+    "latitude": "45.497578",
+    "longitude": "9.225409000000010",
+    "qualita": 4.7
+}, {
+    "fontana_id": 92,
+    "nome": "Susan Montoya",
+    "nomeStrada": "Via Padova, 292, 20132 Milano, Italia",
+    "latitude": "45.509114",
+    "longitude": "9.247163999999990",
+    "qualita": 2.2
+}, {
+    "fontana_id": 93,
+    "nome": "Solomon Steele",
+    "nomeStrada": "Via Ponte Nuovo, 20128 Milano, Italia",
+    "latitude": "45.509814",
+    "longitude": "9.235685",
+    "qualita": 2.9
+}, {
+    "fontana_id": 94,
+    "nome": "Edwina Long",
+    "nomeStrada": "Viale Monza, 280, 20128 Milano, Italia",
+    "latitude": "45.518691",
+    "longitude": "9.226579000000010",
+    "qualita": 2.1
+}, {
+    "fontana_id": 95,
+    "nome": "Beryl Durham",
+    "nomeStrada": "Via dei Valtorta (Parco dei Martiri della Libert�  Iracheni Vittime del Terrorismo), 20127 Milano, Italia",
+    "latitude": "45.500806",
+    "longitude": "9.231968999999930",
+    "qualita": 1.6
+}, {
+    "fontana_id": 96,
+    "nome": "Raquel Petty",
+    "nomeStrada": "Via Bernardo Rucellai, 46 ang. Via VIMERCATI - 20126 Milano, Italia",
+    "latitude": "45.511437",
+    "longitude": "9.217694",
+    "qualita": 3
+}, {
+    "fontana_id": 97,
+    "nome": "Cornelia Buchanan",
+    "nomeStrada": "Via Policarpo Petrocchi, 48, 20127 Milano, Italia",
+    "latitude": "45.503073",
+    "longitude": "9.227217999999990",
+    "qualita": 4.1
+}, {
+    "fontana_id": 98,
+    "nome": "Kenya Mendez",
+    "nomeStrada": "Via Palmanova - Via Siusi, 28, 20132 Milano, Italia",
+    "latitude": "45.493933",
+    "longitude": "9.233593",
+    "qualita": 1.9
+}, {
+    "fontana_id": 99,
+    "nome": "Lynch Zamora",
+    "nomeStrada": "Piazza Aspromonte, 26, 20131 Milano, Italia",
+    "latitude": "45.484334",
+    "longitude": "9.220324000000000",
+    "qualita": 4.8
+}, {
+    "fontana_id": 100,
+    "nome": "Mccarthy Carr",
+    "nomeStrada": "Piazza Pietro Gobetti, 2, 20131 Milano, Italia",
+    "latitude": "45.485788",
+    "longitude": "9.23330199999998",
+    "qualita": 2.2
+}, {
+    "fontana_id": 101,
+    "nome": "Dyer Sloan",
+    "nomeStrada": "Piazza Enrico Bottini, 3, 20133 Milano, Italia",
+    "latitude": "45.484846",
+    "longitude": "9.236468999999940",
+    "qualita": 2
+}, {
+    "fontana_id": 102,
+    "nome": "Socorro Kirk",
+    "nomeStrada": "Via Andrea Maria Ampère / Via Vallazze, 20131 Milano, Italia",
+    "latitude": "45.484496",
+    "longitude": "9.22646199999997",
+    "qualita": 1.7
+}, {
+    "fontana_id": 103,
+    "nome": "Smith Richard",
+    "nomeStrada": "Piazza Leonardo da Vinci / Via Giovanni Pascoli, 20133 Milano, Italia",
+    "latitude": "45.476866",
+    "longitude": "9.22584900000004",
+    "qualita": 3.4
+}, {
+    "fontana_id": 104,
+    "nome": "Turner Ferrell",
+    "nomeStrada": "Piazzale Paolo Gorini / Via Sandro Botticelli, 20133 Milano, Italia",
+    "latitude": "45.473701",
+    "longitude": "9.22977000000003",
+    "qualita": 2.7
+}, {
+    "fontana_id": 105,
+    "nome": "Minerva Nixon",
+    "nomeStrada": "Piazza Francesco Guardi, 1-16, 20133 Milano, Italia",
+    "latitude": "45.47015",
+    "longitude": "9.227369",
+    "qualita": 4.2
+}, {
+    "fontana_id": 106,
+    "nome": "Jeanine Wilkinson",
+    "nomeStrada": "Piazza Ermete Novelli, 20129 Milano, Italia",
+    "latitude": "45.471129",
+    "longitude": "9.219577999999950",
+    "qualita": 4.3
+}, {
+    "fontana_id": 107,
+    "nome": "Wendi Clarke",
+    "nomeStrada": "Viale Corsica, 33-37, 20133 Milano, Italia",
+    "latitude": "45.462396",
+    "longitude": "9.22809099999995",
+    "qualita": 2.2
+}, {
+    "fontana_id": 108,
+    "nome": "Park Griffith",
+    "nomeStrada": "Via Francesco Dall'Ongaro / Viale Argonne / Piazzale Susa, 20133 Milano, Italia",
+    "latitude": "45.468416",
+    "longitude": "9.22499300000004",
+    "qualita": 2.5
+}, {
+    "fontana_id": 109,
+    "nome": "Roy Parsons",
+    "nomeStrada": "Viale Argonne / Via Illirico, 20133 Milano, Italia",
+    "latitude": "45.468444",
+    "longitude": "9.232058999999930",
+    "qualita": 2.4
+}, {
+    "fontana_id": 110,
+    "nome": "Ella Dominguez",
+    "nomeStrada": "Viale Argonne, 20-32, 20133 Milano, Italia",
+    "latitude": "45.467767",
+    "longitude": "9.227573",
+    "qualita": 3.7
+}, {
+    "fontana_id": 111,
+    "nome": "Mccall Sargent",
+    "nomeStrada": "Piazza Giuseppe Grandi, 13, 20129 Milano, Italia",
+    "latitude": "45.462818",
+    "longitude": "9.22153",
+    "qualita": 1.7
+}, {
+    "fontana_id": 112,
+    "nome": "Caroline Townsend",
+    "nomeStrada": "Piazza Sire Raúl / Via Palmanova, 20132 Milano, Italia",
+    "latitude": "45.492422",
+    "longitude": "9.230234999999990",
+    "qualita": 2.4
+}, {
+    "fontana_id": 113,
+    "nome": "Holden Merritt",
+    "nomeStrada": "Via Camillo Golgi, 60, 20133 Milano, Italia",
+    "latitude": "45.480242",
+    "longitude": "9.234315000000030",
+    "qualita": 3.7
+}, {
+    "fontana_id": 114,
+    "nome": "Mari Velasquez",
+    "nomeStrada": "Via Pannonia, 10, 20133 Milano, Italia",
+    "latitude": "45.467711",
+    "longitude": "9.233347999999970",
+    "qualita": 2.8
+}, {
+    "fontana_id": 115,
+    "nome": "Reeves Meyers",
+    "nomeStrada": "Largo Rio de Janeiro, 5-7, 20133 Milano, Italia",
+    "latitude": "45.473955",
+    "longitude": "9.223212",
+    "qualita": 2.7
+}, {
+    "fontana_id": 116,
+    "nome": "Lacy Mathis",
+    "nomeStrada": "Piazza Edoardo Ferravilla, 2, 20129 Milano, Italia",
+    "latitude": "45.47087",
+    "longitude": "9.223030999999990",
+    "qualita": 1.6
+}, {
+    "fontana_id": 117,
+    "nome": "Donovan Craft",
+    "nomeStrada": "Viale delle Rimembranze di Lambrate, 9, 20134 Milano, Italia",
+    "latitude": "45.48248673272080",
+    "longitude": "9.24042854232789",
+    "qualita": 4.4
+}, {
+    "fontana_id": 118,
+    "nome": "Hattie Clark",
+    "nomeStrada": "Via Passo Rolle, 23, 20134 Milano, Italia",
+    "latitude": "45.487769",
+    "longitude": "9.24815799999999",
+    "qualita": 4.7
+}, {
+    "fontana_id": 119,
+    "nome": "Newton Washington",
+    "nomeStrada": "Via Privata Varallo / Via Palmanova 20132 Milano, Italia",
+    "latitude": "45.498135",
+    "longitude": "9.23929499999997",
+    "qualita": 1.7
+}, {
+    "fontana_id": 120,
+    "nome": "Best Puckett",
+    "nomeStrada": "Via Giovanni Antonio Amadeo, 78-90, 20134 Milano, Italia",
+    "latitude": "45.470848",
+    "longitude": "9.241422000000050",
+    "qualita": 4.9
+}, {
+    "fontana_id": 121,
+    "nome": "Palmer Lyons",
+    "nomeStrada": "Piazza Monte Titano / Via Nicola Antonio Porpora / Via Plezzo, 20132 Milano, Italia",
+    "latitude": "45.486289",
+    "longitude": "9.237181",
+    "qualita": 4.5
+}, {
+    "fontana_id": 122,
+    "nome": "Kimberley Tyson",
+    "nomeStrada": "Via Conte Rosso, 9, 20134 Milano, Italia",
+    "latitude": "45.482206",
+    "longitude": "9.242583999999960",
+    "qualita": 3.6
+}, {
+    "fontana_id": 123,
+    "nome": "Dixie Mayo",
+    "nomeStrada": "Via Rombon, 34, 20134 Milano, Italia",
+    "latitude": "45.486186",
+    "longitude": "9.241073000000020",
+    "qualita": 3.9
+}, {
+    "fontana_id": 124,
+    "nome": "Beryl Marshall",
+    "nomeStrada": "Via Console Flaminio, 5, 20134 Milano, Italia",
+    "latitude": "45.480715",
+    "longitude": "9.24184600000001",
+    "qualita": 1.8
+}, {
+    "fontana_id": 125,
+    "nome": "Kristie Beck",
+    "nomeStrada": "Piazza 24 Maggio, 12, 20136 Milano, Italia",
+    "latitude": "45.452146",
+    "longitude": "9.17935399999999",
+    "qualita": 2.6
+}, {
+    "fontana_id": 126,
+    "nome": "Holcomb Jarvis",
+    "nomeStrada": "Via Vincenzo Brunacci / Via Evangelista Torricelli, 20136 Milano, Italia",
+    "latitude": "45.444871",
+    "longitude": "9.177363000000010",
+    "qualita": 3
+}, {
+    "fontana_id": 127,
+    "nome": "Jacobson Ray",
+    "nomeStrada": "Piazza Tito Lucrezio Caro / Via Gentilino, 20136 Milano, Italia",
+    "latitude": "45.449235",
+    "longitude": "9.182803000000030",
+    "qualita": 2.3
+}, {
+    "fontana_id": 128,
+    "nome": "Bright Mcbride",
+    "nomeStrada": "Via Odoardo Tabacchi, 19, 20136 Milano, Italia",
+    "latitude": "45.447661",
+    "longitude": "9.182890000000040",
+    "qualita": 2.6
+}, {
+    "fontana_id": 129,
+    "nome": "Melody Castro",
+    "nomeStrada": "Viale Toscana, 28 (Pane quotidiano), 20136 Milano, Italia",
+    "latitude": "45.446235",
+    "longitude": "9.189807",
+    "qualita": 4.7
+}, {
+    "fontana_id": 130,
+    "nome": "Hamilton Lane",
+    "nomeStrada": "Via Ferdinando Bocconi - Viale Toscana (Parco Ravizza) 20136 Milano, Italia",
+    "latitude": "45.446482",
+    "longitude": "9.19100800000001",
+    "qualita": 4.2
+}, {
+    "fontana_id": 131,
+    "nome": "Bray Mcmillan",
+    "nomeStrada": "Parco Ravizza, 20136 Milano, Italia",
+    "latitude": "45.447712585660400",
+    "longitude": "9.192616939544670",
+    "qualita": 1.6
+}, {
+    "fontana_id": 132,
+    "nome": "Alston Armstrong",
+    "nomeStrada": "Via Carlo Vittadini / Viale G.S. Bach (Parco Ravizza) 20136 Milano, Italia",
+    "latitude": "45.448509",
+    "longitude": "9.194243000000020",
+    "qualita": 1.9
+}, {
+    "fontana_id": 133,
+    "nome": "Valdez Mccoy",
+    "nomeStrada": "Via Giulio Romano - Via Andrea Palladio, 22, 20136 Milano, Italia",
+    "latitude": "45.44863",
+    "longitude": "9.197442",
+    "qualita": 2.4
+}, {
+    "fontana_id": 134,
+    "nome": "Hardy Burton",
+    "nomeStrada": "Via Montevideo ang. Via Valparaiso - 20144 Milano, Italia",
+    "latitude": "45.457746",
+    "longitude": "9.165091999999950",
+    "qualita": 2.8
+}, {
+    "fontana_id": 135,
+    "nome": "Mary Riley",
+    "nomeStrada": "Via Vincenzo Foppa, 4, 20144 Milano, Italia",
+    "latitude": "45.459284",
+    "longitude": "9.165345000000000",
+    "qualita": 2.1
+}, {
+    "fontana_id": 136,
+    "nome": "Sharpe Bowen",
+    "nomeStrada": "Via Ferdinando Bocconi, 22, 20136 Milano, Italia",
+    "latitude": "45.449179",
+    "longitude": "9.190538999999940",
+    "qualita": 3.5
+}, {
+    "fontana_id": 137,
+    "nome": "Garner Larson",
+    "nomeStrada": "Viale Gorizia, 7, 20144 Milano, Italia",
+    "latitude": "45.453974",
+    "longitude": "9.174200000000040",
+    "qualita": 1.8
+}, {
+    "fontana_id": 138,
+    "nome": "Johanna Porter",
+    "nomeStrada": "Piazzale delle Milizie, 20144 Milano, Italia",
+    "latitude": "45.450094",
+    "longitude": "9.156198000000010",
+    "qualita": 3.7
+}, {
+    "fontana_id": 139,
+    "nome": "Wolf Morris",
+    "nomeStrada": "Via Ripamonti / via Noto, 20141 Milano, Italia",
+    "latitude": "45.431514",
+    "longitude": "9.20145500000001",
+    "qualita": 3.5
+}, {
+    "fontana_id": 140,
+    "nome": "Tate Rivers",
+    "nomeStrada": "Via Gallura / Piazza Enrico Chiaradia, 20141 Milano, Italia",
+    "latitude": "45.437396",
+    "longitude": "9.198458999999950",
+    "qualita": 3.3
+}, {
+    "fontana_id": 141,
+    "nome": "Meredith Sheppard",
+    "nomeStrada": "Piazza Federico Mistral, 9, 20139 Milano, Italia",
+    "latitude": "45.434832",
+    "longitude": "9.235791000000060",
+    "qualita": 4.2
+}, {
+    "fontana_id": 142,
+    "nome": "Brandi Rosales",
+    "nomeStrada": "Via Sant'Arialdo / Via San Bernardo (Chiaravalle) 20139 Milano, Italia",
+    "latitude": "45.418261",
+    "longitude": "9.237207000000010",
+    "qualita": 3.5
+}, {
+    "fontana_id": 143,
+    "nome": "Darla Lamb",
+    "nomeStrada": "Piazzale Gabriele Rosa / Via dei Cinquecento, 20139 Milano, Italia",
+    "latitude": "45.437175",
+    "longitude": "9.223577999999970",
+    "qualita": 4.4
+}, {
+    "fontana_id": 144,
+    "nome": "Richards Stevenson",
+    "nomeStrada": "Piazzale Ferrara, 20139 Milano, Italia",
+    "latitude": "45.437655",
+    "longitude": "9.220276000000010",
+    "qualita": 4.9
+}, {
+    "fontana_id": 145,
+    "nome": "Mara Roy",
+    "nomeStrada": "Via Enrico Caviglia, 3, 20139 Milano, Italia",
+    "latitude": "45.442769",
+    "longitude": "9.229966999999980",
+    "qualita": 3.3
+}, {
+    "fontana_id": 146,
+    "nome": "Alexander Steele",
+    "nomeStrada": "Via Privata Sebastiano Serlio, 8/2, 20139 Milano, Italia",
+    "latitude": "45.442851",
+    "longitude": "9.222169000000000",
+    "qualita": 4.3
+}, {
+    "fontana_id": 147,
+    "nome": "Jo Franco",
+    "nomeStrada": "Viale Ortles - Via Arcivescovo Calabiana, 20139 Milano, Italia",
+    "latitude": "45.440514",
+    "longitude": "9.21025",
+    "qualita": 2.3
+}, {
+    "fontana_id": 148,
+    "nome": "Booker Livingston",
+    "nomeStrada": "Via Nervesa / Via Ponte della Priula, 20139 Milano, Italia",
+    "latitude": "45.443537",
+    "longitude": "9.218082999999970",
+    "qualita": 2.5
+}, {
+    "fontana_id": 149,
+    "nome": "Flynn Waters",
+    "nomeStrada": "Via Ravenna, 13, 20139 Milano, Italia",
+    "latitude": "45.434226",
+    "longitude": "9.220820000000000",
+    "qualita": 3.8
+}, {
+    "fontana_id": 150,
+    "nome": "Bonita Walker",
+    "nomeStrada": "Via Giuseppe Ripamonti, 292, 20141 Milano, Italia",
+    "latitude": "45.424773",
+    "longitude": "9.203531999999990",
+    "qualita": 4.6
+}, {
+    "fontana_id": 151,
+    "nome": "Bentley Thomas",
+    "nomeStrada": "Via San Paolino, 20142 Milano, Italia",
+    "latitude": "45.430286",
+    "longitude": "9.163045000000010",
+    "qualita": 2.7
+}, {
+    "fontana_id": 152,
+    "nome": "Young Hudson",
+    "nomeStrada": "Piazza Caduti del Lavoro, 5, 20141 Milano, Italia",
+    "latitude": "45.443261",
+    "longitude": "9.184754999999990",
+    "qualita": 4.2
+}, {
+    "fontana_id": 153,
+    "nome": "Louisa James",
+    "nomeStrada": "Viale Giovanni da Cermenate, 9 / Via Meda, 20141 Milano, Italia",
+    "latitude": "45.437929",
+    "longitude": "9.17799100000002",
+    "qualita": 3.4
+}, {
+    "fontana_id": 154,
+    "nome": "Lynn Castillo",
+    "nomeStrada": "Viale Giovanni da Cermenate / Via Francesco Brioschi, 100, 20141 Milano, Italia",
+    "latitude": "45.437979",
+    "longitude": "9.182010999999980",
+    "qualita": 4.5
+}, {
+    "fontana_id": 155,
+    "nome": "Mann Frederick",
+    "nomeStrada": "Via Lodovico Montegani, 22, 20141 Milano, Italia",
+    "latitude": "45.434395",
+    "longitude": "9.17788900000005",
+    "qualita": 3.3
+}, {
+    "fontana_id": 156,
+    "nome": "Felicia Hardy",
+    "nomeStrada": "Via Pescara, 41 - Ronchetto delle Rane, 20142 Milano, Italia",
+    "latitude": "45.401154",
+    "longitude": "9.182277999999990",
+    "qualita": 4
+}, {
+    "fontana_id": 157,
+    "nome": "Wilda Walton",
+    "nomeStrada": "Via Costantino Baroni, 106, 20142 Milano, Italia",
+    "latitude": "45.409328",
+    "longitude": "9.171011",
+    "qualita": 1.7
+}, {
+    "fontana_id": 158,
+    "nome": "Jo Grimes",
+    "nomeStrada": "Via Michele Saponaro, 20142 Milano, Italia",
+    "latitude": "45.4054",
+    "longitude": "9.173554",
+    "qualita": 4.8
+}, {
+    "fontana_id": 159,
+    "nome": "Marquita Rodriguez",
+    "nomeStrada": "Via Attilio Cassoni, 6, 20141 Milano, Italia",
+    "latitude": "45.431731",
+    "longitude": "9.176103000000010",
+    "qualita": 4.6
+}, {
+    "fontana_id": 160,
+    "nome": "Cooke Crosby",
+    "nomeStrada": "Via Giulio Carcano / Via Aicardo, 20141 Milano, Italia",
+    "latitude": "45.439355",
+    "longitude": "9.185273",
+    "qualita": 3.4
+}, {
+    "fontana_id": 161,
+    "nome": "Ines Welch",
+    "nomeStrada": "Piazza Marco Agrippa, 1, 20141 Milano, Italia",
+    "latitude": "45.4336",
+    "longitude": "9.183905999999970",
+    "qualita": 2.9
+}, {
+    "fontana_id": 162,
+    "nome": "Carly Wilkerson",
+    "nomeStrada": "Via Lorenzo Valla, 13, 20141 Milano, Italia",
+    "latitude": "45.434736",
+    "longitude": "9.186730000000010",
+    "qualita": 2.2
+}, {
+    "fontana_id": 163,
+    "nome": "Ella Everett",
+    "nomeStrada": "Via San Domenico Savio / Via San Giacomo, 20142 Milano, Italia",
+    "latitude": "45.430064",
+    "longitude": "9.173146999999970",
+    "qualita": 4.8
+}, {
+    "fontana_id": 164,
+    "nome": "Trina Gomez",
+    "nomeStrada": "Via dell'Arcadia, 13, 20142 Milano, Italia",
+    "latitude": "45.416484",
+    "longitude": "9.172166000000060",
+    "qualita": 3.6
+}, {
+    "fontana_id": 165,
+    "nome": "Joanne Walsh",
+    "nomeStrada": "Piazzale Luigi Negrelli / Via Lodovico il Moro, 20143 Milano, Italia",
+    "latitude": "45.444235",
+    "longitude": "9.139750999999930",
+    "qualita": 3.6
+}, {
+    "fontana_id": 166,
+    "nome": "Francine Booker",
+    "nomeStrada": "Piazza Guglielmo Miani / Viale Famagosta, 20143 Milano, Italia",
+    "latitude": "45.436994",
+    "longitude": "9.155032000000000",
+    "qualita": 1.6
+}, {
+    "fontana_id": 167,
+    "nome": "Witt Murray",
+    "nomeStrada": "Via Campari  (Torre fari 5 nel parco Teramo) 20142 Milano, Italia",
+    "latitude": "45.43630061941810",
+    "longitude": "9.141400158405300",
+    "qualita": 2.7
+}, {
+    "fontana_id": 168,
+    "nome": "Olsen Glass",
+    "nomeStrada": "Via Campari  (Torre fari 1 nel parco Teramo) 20142 Milano, Italia",
+    "latitude": "45.43462175153430",
+    "longitude": "9.14162278175354",
+    "qualita": 3.7
+}, {
+    "fontana_id": 169,
+    "nome": "Mccullough Carney",
+    "nomeStrada": "Via San Vigilio (Campo basket) 20142 Milano, Italia",
+    "latitude": "45.43050342013790",
+    "longitude": "9.161235094070430",
+    "qualita": 3.7
+}, {
+    "fontana_id": 170,
+    "nome": "Golden Franklin",
+    "nomeStrada": "Via Don Rodrigo, 20142 Milano, Italia",
+    "latitude": "45.434127",
+    "longitude": "9.170353999999970",
+    "qualita": 2.5
+}, {
+    "fontana_id": 171,
+    "nome": "Suzette Chavez",
+    "nomeStrada": "Via Spezia, 35, 20142 Milano, Italia",
+    "latitude": "45.439906",
+    "longitude": "9.172372999999990",
+    "qualita": 3.9
+}, {
+    "fontana_id": 172,
+    "nome": "Lenora Hunter",
+    "nomeStrada": "Via Spezia - P.zza Maggi, 20142 Milano, Italia",
+    "latitude": "45.439906",
+    "longitude": "9.172372999999990",
+    "qualita": 3.5
+}, {
+    "fontana_id": 173,
+    "nome": "Kelley Mercado",
+    "nomeStrada": "Via Enrico De Nicola / Via Voltri, 20142 Milano, Italia",
+    "latitude": "45.431903",
+    "longitude": "9.154398000000010",
+    "qualita": 1.7
+}, {
+    "fontana_id": 174,
+    "nome": "Gretchen Best",
+    "nomeStrada": "Via degli Anemoni, 4 (Campo giochi) 20147 Milano, Italia",
+    "latitude": "45.455397048388200",
+    "longitude": "9.130545258522030",
+    "qualita": 4.2
+}, {
+    "fontana_id": 175,
+    "nome": "Karen Dodson",
+    "nomeStrada": "Piazzale Giovanni dalle Bande Nere, 20146 Milano, Italia",
+    "latitude": "45.461422",
+    "longitude": "9.137236",
+    "qualita": 2.7
+}, {
+    "fontana_id": 176,
+    "nome": "Regina Hyde",
+    "nomeStrada": "Piazza Napoli, 34, 20146 Milano, Italia",
+    "latitude": "45.452668",
+    "longitude": "9.152886999999960",
+    "qualita": 2.9
+}, {
+    "fontana_id": 177,
+    "nome": "Nichole Blankenship",
+    "nomeStrada": "Piazza Pietro Frattini, 20146 Milano, Italia",
+    "latitude": "45.451707",
+    "longitude": "9.141659",
+    "qualita": 1.9
+}, {
+    "fontana_id": 178,
+    "nome": "Alissa Mclean",
+    "nomeStrada": "Via Luigi Soderini, 41, 20146 Milano, Italia",
+    "latitude": "45.45524",
+    "longitude": "9.137976999999970",
+    "qualita": 2
+}, {
+    "fontana_id": 179,
+    "nome": "Hendrix Farrell",
+    "nomeStrada": "Viale Caterina da Forlì, 8 / Via Massaua, 20146 Milano, Italia",
+    "latitude": "45.459948",
+    "longitude": "9.14674500000001",
+    "qualita": 4.4
+}, {
+    "fontana_id": 180,
+    "nome": "Brenda Taylor",
+    "nomeStrada": "Piazza Tirana / Via Giambellino, 20147 Milano, Italia",
+    "latitude": "45.44423",
+    "longitude": "9.12990000000002",
+    "qualita": 2.7
+}, {
+    "fontana_id": 181,
+    "nome": "Sheree Ward",
+    "nomeStrada": "Via Lorenteggio (ex Dazio) 20152 Milano, Italia",
+    "latitude": "45.443627",
+    "longitude": "9.11610799999994",
+    "qualita": 1.6
+}, {
+    "fontana_id": 182,
+    "nome": "Wolfe Guerra",
+    "nomeStrada": "Via Berna, 11/4, 20147 Milano, Italia",
+    "latitude": "45.45690973307880",
+    "longitude": "9.125089645385740",
+    "qualita": 1.6
+}, {
+    "fontana_id": 183,
+    "nome": "Mavis Cruz",
+    "nomeStrada": "Via dei Gigli / Via delle Camelie - 20147 Milano, Italia",
+    "latitude": "45.453197",
+    "longitude": "9.13248699999997",
+    "qualita": 4.7
+}, {
+    "fontana_id": 184,
+    "nome": "Betsy Roberts",
+    "nomeStrada": "Via Francesco Primaticcio, 20147 Milano, Italia",
+    "latitude": "45.460365",
+    "longitude": "9.129136",
+    "qualita": 3.1
+}, {
+    "fontana_id": 185,
+    "nome": "Sims Barnett",
+    "nomeStrada": "Via Bartolomeo d'Alviano / Via Francesco Carlini - 20146 Milano, Italia",
+    "latitude": "45.453112",
+    "longitude": "9.141801999999980",
+    "qualita": 4.3
+}, {
+    "fontana_id": 186,
+    "nome": "Burch Oneill",
+    "nomeStrada": "Piazza Giosia Monti, 6, (Quinto Romano) 20153 Milano, Italia",
+    "latitude": "45.47576",
+    "longitude": "9.088611000000010",
+    "qualita": 4.5
+}, {
+    "fontana_id": 187,
+    "nome": "Casey Curry",
+    "nomeStrada": "Piazzale Giuseppe Perrucchetti, 1, 20147 Milano, Italia",
+    "latitude": "45.465085",
+    "longitude": "9.127723999999940",
+    "qualita": 1.8
+}, {
+    "fontana_id": 188,
+    "nome": "Patrica Holloway",
+    "nomeStrada": "Piazzale Siena, 20146 Milano, Italia",
+    "latitude": "45.465584",
+    "longitude": "9.13701",
+    "qualita": 3.7
+}, {
+    "fontana_id": 189,
+    "nome": "Richard Norton",
+    "nomeStrada": "Via Anselmo da Baggio, 4-16, 20153 Milano, Italia",
+    "latitude": "45.464587",
+    "longitude": "9.090172",
+    "qualita": 2.6
+}, {
+    "fontana_id": 190,
+    "nome": "Flowers Hewitt",
+    "nomeStrada": "Via Bartolomeo Cabella / Via Beato Michele Da Carcano, 20152 Milano, Italia",
+    "latitude": "45.45906",
+    "longitude": "9.092914999999940",
+    "qualita": 4
+}, {
+    "fontana_id": 191,
+    "nome": "Navarro Mullins",
+    "nomeStrada": "Via delle Betulle, 32, 20152 Milano, Italia",
+    "latitude": "45.452939",
+    "longitude": "9.080653999999980",
+    "qualita": 3.2
+}, {
+    "fontana_id": 192,
+    "nome": "Estela Keith",
+    "nomeStrada": "Via degli Abeti, 3-11, 20152 Milano, Italia",
+    "latitude": "45.452547",
+    "longitude": "9.08302900000001",
+    "qualita": 3
+}, {
+    "fontana_id": 193,
+    "nome": "Bernard Waller",
+    "nomeStrada": "Via Alessandro Fleming, 13, 20147 Milano, Italia",
+    "latitude": "45.468976",
+    "longitude": "9.118918000000000",
+    "qualita": 1.8
+}, {
+    "fontana_id": 194,
+    "nome": "Mcintosh Newman",
+    "nomeStrada": "Via Alessandro Milesi, 5, 20133 Milano, Italia",
+    "latitude": "45.471775",
+    "longitude": "9.237696",
+    "qualita": 3.5
+}, {
+    "fontana_id": 195,
+    "nome": "Isabelle Glover",
+    "nomeStrada": "Via Cusago / Via Assiano, 20153 Milano, Italia",
+    "latitude": "45.454125",
+    "longitude": "9.055004999999930",
+    "qualita": 3.4
+}, {
+    "fontana_id": 196,
+    "nome": "Katelyn Maldonado",
+    "nomeStrada": "Via Pio II, 20153 Milano, Italia",
+    "latitude": "45.470032",
+    "longitude": "9.112472000000020",
+    "qualita": 2.8
+}, {
+    "fontana_id": 197,
+    "nome": "Hampton Mccarthy",
+    "nomeStrada": "Via delle Forze Armate, 260, 20152 Milano, Italia",
+    "latitude": "45.45947",
+    "longitude": "9.103933999999980",
+    "qualita": 3.9
+}, {
+    "fontana_id": 198,
+    "nome": "Mcdonald Downs",
+    "nomeStrada": "Via Viterbo, 27-31, 20152 Milano, Italia",
+    "latitude": "45.456153",
+    "longitude": "9.107502000000060",
+    "qualita": 3.5
+}, {
+    "fontana_id": 199,
+    "nome": "Tammie Hardy",
+    "nomeStrada": "Via Lucca, 18, 20152 Milano, Italia",
+    "latitude": "45.455851",
+    "longitude": "9.113313000000060",
+    "qualita": 1.5
+}, {
+    "fontana_id": 200,
+    "nome": "York Stafford",
+    "nomeStrada": "Via Pompeo Bettini, 8, 20128 Milano, Italia",
+    "latitude": "45.5124714887011",
+    "longitude": "9.233526737434430",
+    "qualita": 2
+}, {
+    "fontana_id": 201,
+    "nome": "Gabrielle Sargent",
+    "nomeStrada": "Piazza Carlo Caneva, 4, 20154 Milano, Italia",
+    "latitude": "45.488051",
+    "longitude": "9.161605000000000",
+    "qualita": 2.4
+}, {
+    "fontana_id": 202,
+    "nome": "Holder Puckett",
+    "nomeStrada": "Via Giorgio Pallavicino (Giardini) 20145 Milano, Italia",
+    "latitude": "45.46987501218840",
+    "longitude": "9.160945415496820",
+    "qualita": 1.6
+}, {
+    "fontana_id": 203,
+    "nome": "Mitchell Frazier",
+    "nomeStrada": "Piazzale Cimitero Monumentale, 20154 Milano, Italia",
+    "latitude": "45.484414",
+    "longitude": "9.179653",
+    "qualita": 3.5
+}, {
+    "fontana_id": 204,
+    "nome": "Elena Castaneda",
+    "nomeStrada": "Piazzale Cimitero Monumentale, 9, 20154 Milano, Italia",
+    "latitude": "45.484148",
+    "longitude": "9.177499000000010",
+    "qualita": 3.9
+}, {
+    "fontana_id": 205,
+    "nome": "Mann James",
+    "nomeStrada": "Via Angelo Poliziano / Via Piero della Francesca, 19-23, 20154 Milano, Italia",
+    "latitude": "45.483247",
+    "longitude": "9.164986999999990",
+    "qualita": 3
+}, {
+    "fontana_id": 206,
+    "nome": "Daugherty Haynes",
+    "nomeStrada": "Piazza 6 Febbraio / Via Francesco Ferrucci, 20145 Milano, Italia",
+    "latitude": "45.477819",
+    "longitude": "9.161049000000040",
+    "qualita": 4.5
+}, {
+    "fontana_id": 207,
+    "nome": "Melisa Weiss",
+    "nomeStrada": "Piazzale Arduino, 4-6, 20149 Milano, Italia",
+    "latitude": "45.477889",
+    "longitude": "9.150486",
+    "qualita": 3.3
+}, {
+    "fontana_id": 208,
+    "nome": "Hull Peters",
+    "nomeStrada": "Viale Berengario, 7, 20149 Milano, Italia",
+    "latitude": "45.475063",
+    "longitude": "9.151474000000000",
+    "qualita": 4.5
+}, {
+    "fontana_id": 209,
+    "nome": "Callahan Logan",
+    "nomeStrada": "Piazzale Giulio Cesare, 14 / Via Pompeo 20145 Milano, Italia",
+    "latitude": "45.473885",
+    "longitude": "9.15646300000003",
+    "qualita": 2.5
+}, {
+    "fontana_id": 210,
+    "nome": "Gail Shepard",
+    "nomeStrada": "Via Domenichino / Via Mosè Bianchi, 20149 Milano, Italia",
+    "latitude": "45.472837",
+    "longitude": "9.148742999999960",
+    "qualita": 2.2
+}, {
+    "fontana_id": 211,
+    "nome": "Arnold Whitfield",
+    "nomeStrada": "Via Michelangelo Buonarroti - P.zza Wagner, 20149 Milano, Italia",
+    "latitude": "45.468501",
+    "longitude": "9.155294000000020",
+    "qualita": 3.7
+}, {
+    "fontana_id": 212,
+    "nome": "Irma Gilmore",
+    "nomeStrada": "Piazza Sicilia ang. Via dei Gracchi - 20146 Milano, Italia",
+    "latitude": "45.46443",
+    "longitude": "9.152694",
+    "qualita": 2.5
+}, {
+    "fontana_id": 213,
+    "nome": "Glass Bridges",
+    "nomeStrada": "Via Andrea Verga ang Via G. Dezza - 20144 Milano, Italia",
+    "latitude": "45.462053",
+    "longitude": "9.159373",
+    "qualita": 3.3
+}, {
+    "fontana_id": 214,
+    "nome": "Tamra Reid",
+    "nomeStrada": "Via Lipari / Via Giuseppe Dezza - 20144 Milano, Italia",
+    "latitude": "45.460664",
+    "longitude": "9.160450999999960",
+    "qualita": 2.8
+}, {
+    "fontana_id": 215,
+    "nome": "Mckinney Bullock",
+    "nomeStrada": "Piazza Vesuvio, 20144 Milano, Italia",
+    "latitude": "45.45935",
+    "longitude": "9.159978",
+    "qualita": 1.7
+}, {
+    "fontana_id": 216,
+    "nome": "French Barber",
+    "nomeStrada": "Piazzale Aquileia - via Lipari, 20144 Milano, Italia",
+    "latitude": "45.461345",
+    "longitude": "9.162867000000000",
+    "qualita": 4.9
+}, {
+    "fontana_id": 217,
+    "nome": "Chapman Blevins",
+    "nomeStrada": "Via dei Grimani / Via Giorgio Washington, 20146 Milano, Italia",
+    "latitude": "45.456433",
+    "longitude": "9.154698999999930",
+    "qualita": 2.6
+}, {
+    "fontana_id": 218,
+    "nome": "Phelps Torres",
+    "nomeStrada": "Via Luca Comerio, 20145 Milano, Italia",
+    "latitude": "45.47752",
+    "longitude": "9.16405199999997",
+    "qualita": 2.6
+}, {
+    "fontana_id": 219,
+    "nome": "Helena Hurst",
+    "nomeStrada": "Via Romolo Gessi, 35-47, 20146 Milano, Italia",
+    "latitude": "45.457463",
+    "longitude": "9.15306899999996",
+    "qualita": 2.4
+}, {
+    "fontana_id": 220,
+    "nome": "Jami Walker",
+    "nomeStrada": "Via Messina, 54 / Via G. Calvino 20154 Milano, Italia",
+    "latitude": "45.489285",
+    "longitude": "9.170455",
+    "qualita": 2.5
+}, {
+    "fontana_id": 221,
+    "nome": "Myra Snow",
+    "nomeStrada": "Via Fra' Gerolamo Savonarola, 23, 20149 Milano, Italia",
+    "latitude": "45.481152",
+    "longitude": "9.158851000000020",
+    "qualita": 4.7
+}, {
+    "fontana_id": 222,
+    "nome": "Reynolds Soto",
+    "nomeStrada": "Piazza Carlo Irnerio, 2, 20146 Milano, Italia",
+    "latitude": "45.461637",
+    "longitude": "9.153185",
+    "qualita": 4.7
+}, {
+    "fontana_id": 223,
+    "nome": "Benjamin Conway",
+    "nomeStrada": "Piazza Diocleziano / Via Cenisio, 20154 Milano, Italia",
+    "latitude": "45.487451",
+    "longitude": "9.16664000000003",
+    "qualita": 4.8
+}, {
+    "fontana_id": 224,
+    "nome": "Mcdowell Simpson",
+    "nomeStrada": "Piazzale Brescia, 12, 20149 Milano, Italia",
+    "latitude": "45.470817",
+    "longitude": "9.14552500000002",
+    "qualita": 2.3
+}, {
+    "fontana_id": 225,
+    "nome": "Hess Thornton",
+    "nomeStrada": "Via Daniele Ricciarelli, 3 / Via Carlo Dolci, 20148 Milano, Italia",
+    "latitude": "45.472459",
+    "longitude": "9.14293900000007",
+    "qualita": 3.8
+}, {
+    "fontana_id": 226,
+    "nome": "Beth Tyson",
+    "nomeStrada": "Piazzale Segesta, 8, 20148 Milano, Italia",
+    "latitude": "45.475418",
+    "longitude": "9.138226000000030",
+    "qualita": 3.9
+}, {
+    "fontana_id": 227,
+    "nome": "Price Ward",
+    "nomeStrada": "Piazza Axum, 20151 Milano, Italia",
+    "latitude": "45.47463747954890",
+    "longitude": "9.122343063354490",
+    "qualita": 3.2
+}, {
+    "fontana_id": 228,
+    "nome": "Deena Rowe",
+    "nomeStrada": "Piazzale Lorenzo Lotto - Via Veniero - 20148 Milano, Italia",
+    "latitude": "45.480192",
+    "longitude": "9.144103",
+    "qualita": 2.4
+}, {
+    "fontana_id": 229,
+    "nome": "Glenna Bird",
+    "nomeStrada": "Piazza San Giovanni, 2-7, 20151 Milano, Italia",
+    "latitude": "45.490599718675",
+    "longitude": "9.099791049957270",
+    "qualita": 2.2
+}, {
+    "fontana_id": 230,
+    "nome": "Meagan Walters",
+    "nomeStrada": "Via Monte Baldo, 15, 20153 Milano, Italia",
+    "latitude": "45.47491578237870",
+    "longitude": "9.118538816207770",
+    "qualita": 3.6
+}, {
+    "fontana_id": 231,
+    "nome": "Marguerite Lambert",
+    "nomeStrada": "Via Bernardo Zamagna / Via Paravia, 20148 Milano, Italia",
+    "latitude": "45.47408",
+    "longitude": "9.135036000000010",
+    "qualita": 3.2
+}, {
+    "fontana_id": 232,
+    "nome": "Savage Potter",
+    "nomeStrada": "Via Collecchio, 20148 Milano, Italia",
+    "latitude": "45.486022",
+    "longitude": "9.138879999999970",
+    "qualita": 3.8
+}, {
+    "fontana_id": 233,
+    "nome": "Hancock Perkins",
+    "nomeStrada": "Via Pinerolo, 16 / Via Harar, 20151 Milano, Italia",
+    "latitude": "45.476933",
+    "longitude": "9.115304000000030",
+    "qualita": 2.3
+}, {
+    "fontana_id": 234,
+    "nome": "Stephanie Randolph",
+    "nomeStrada": "Via Giuseppe Pogatschnig, 32-34, 20148 Milano, Italia",
+    "latitude": "45.484873",
+    "longitude": "9.135430000000040",
+    "qualita": 1.6
+}, {
+    "fontana_id": 235,
+    "nome": "Gray Ayers",
+    "nomeStrada": "Via Antonio Sant'Elia, 20148 Milano, Italia",
+    "latitude": "45.489828",
+    "longitude": "9.130097",
+    "qualita": 3.5
+}, {
+    "fontana_id": 236,
+    "nome": "Leonor Clemons",
+    "nomeStrada": "Piazzale dello Sport, 14, 20151 Milano, Italia",
+    "latitude": "45.480652",
+    "longitude": "9.128584000000040",
+    "qualita": 2.6
+}, {
+    "fontana_id": 237,
+    "nome": "Petra Christensen",
+    "nomeStrada": "Piazza Carlo Stuparich / Via Alessandro Algardi, 20148 Milano, Italia",
+    "latitude": "45.483",
+    "longitude": "9.144201000000060",
+    "qualita": 2.1
+}, {
+    "fontana_id": 238,
+    "nome": "Jolene Griffith",
+    "nomeStrada": "Via Marco Cremosano, 4, 20148 Milano, Italia",
+    "latitude": "45.483062",
+    "longitude": "9.140979000000010",
+    "qualita": 1.6
+}, {
+    "fontana_id": 239,
+    "nome": "Wolfe Valenzuela",
+    "nomeStrada": "Piazzale Crivellone, 10, 20149 Milano, Italia",
+    "latitude": "45.47246",
+    "longitude": "9.14652000000001",
+    "qualita": 1.8
+}, {
+    "fontana_id": 240,
+    "nome": "Joann Medina",
+    "nomeStrada": "Piazza Esquilino, 20148 Milano, Italia",
+    "latitude": "45.475339",
+    "longitude": "9.133195",
+    "qualita": 2.4
+}, {
+    "fontana_id": 241,
+    "nome": "Copeland Rutledge",
+    "nomeStrada": "Piazzale Lorenzo Lotto / Viale Caprilli - 20148 Milano, Italia",
+    "latitude": "45.479548",
+    "longitude": "9.14165700000001",
+    "qualita": 1.8
+}, {
+    "fontana_id": 242,
+    "nome": "Madden Clements",
+    "nomeStrada": "Piazzale Selinunte, 3, 20148 Milano, Italia",
+    "latitude": "45.472059",
+    "longitude": "9.136819999999940",
+    "qualita": 3.5
+}, {
+    "fontana_id": 243,
+    "nome": "Hooper Crane",
+    "nomeStrada": "Via Pietro Paolo Rubens, 21, 20146 Milano, Italia",
+    "latitude": "45.467368",
+    "longitude": "9.142027999999980",
+    "qualita": 2.7
+}, {
+    "fontana_id": 244,
+    "nome": "Vinson Sampson",
+    "nomeStrada": "Via Appennini, 169, 20151 Milano, Italia",
+    "latitude": "45.505798",
+    "longitude": "9.09862099999998",
+    "qualita": 2.7
+}, {
+    "fontana_id": 245,
+    "nome": "Morse Velez",
+    "nomeStrada": "Piazza Firenze, 20154 Milano, Italia",
+    "latitude": "45.487397",
+    "longitude": "9.156978999999970",
+    "qualita": 1.6
+}, {
+    "fontana_id": 246,
+    "nome": "Lamb Hopper",
+    "nomeStrada": "Via Angelo Brunetti / Piazzale Cacciatori Delle Alpi, 20156 Milano, Italia",
+    "latitude": "45.504905",
+    "longitude": "9.136537999999970",
+    "qualita": 4.8
+}, {
+    "fontana_id": 247,
+    "nome": "Howell Alexander",
+    "nomeStrada": "Via Vilfredo Pareto - Via Garegnano, 20156 Milano, Italia",
+    "latitude": "45.50244435662290",
+    "longitude": "9.128560423851010",
+    "qualita": 2.4
+}, {
+    "fontana_id": 248,
+    "nome": "Wood Sears",
+    "nomeStrada": "Piazzale Santorre di Santarosa, 4, 20156 Milano, Italia",
+    "latitude": "45.50069",
+    "longitude": "9.140136999999980",
+    "qualita": 3.1
+}, {
+    "fontana_id": 249,
+    "nome": "Rocha Bird",
+    "nomeStrada": "Piazza Prealpi, 3, 20155 Milano, Italia",
+    "latitude": "45.494649",
+    "longitude": "9.153477000000060",
+    "qualita": 3.6
+}, {
+    "fontana_id": 250,
+    "nome": "Georgina Barker",
+    "nomeStrada": "Via Bramantino / Via Giovanni Ambrogio De Predis, 20155 Milano, Italia",
+    "latitude": "45.496658",
+    "longitude": "9.152154999999990",
+    "qualita": 2.8
+}, {
+    "fontana_id": 251,
+    "nome": "Allie Robbins",
+    "nomeStrada": "Piazza Pompeo Castelli, 16, 20156 Milano, Italia",
+    "latitude": "45.499343",
+    "longitude": "9.15088400000002",
+    "qualita": 4.9
+}, {
+    "fontana_id": 252,
+    "nome": "Bowman Whitaker",
+    "nomeStrada": "Via Console Marcello - Via Grugnola, 20156 Milano, Italia",
+    "latitude": "45.499787",
+    "longitude": "9.14821",
+    "qualita": 3.5
+}, {
+    "fontana_id": 253,
+    "nome": "Maxine Sherman",
+    "nomeStrada": "Via Giovanni Battista Grassi, 69, Roserio, 20157 Milano, Italia",
+    "latitude": "45.517327",
+    "longitude": "9.119660000000060",
+    "qualita": 2.5
+}, {
+    "fontana_id": 254,
+    "nome": "Toni Whitney",
+    "nomeStrada": "Via Renato Simoni, 3, 20157 Milano, Italia",
+    "latitude": "45.515557",
+    "longitude": "9.144998",
+    "qualita": 4.1
+}, {
+    "fontana_id": 255,
+    "nome": "Angelina Bauer",
+    "nomeStrada": "Via Cogne, 11, 20157 Milano, Italia",
+    "latitude": "45.516424",
+    "longitude": "9.128934999999950",
+    "qualita": 3
+}, {
+    "fontana_id": 256,
+    "nome": "Bartlett Hampton",
+    "nomeStrada": "Via Carlo Amoretti, 12 - 20157 Milano, Italia",
+    "latitude": "45.519198",
+    "longitude": "9.140312",
+    "qualita": 1.7
+}, {
+    "fontana_id": 257,
+    "nome": "Wise Mccray",
+    "nomeStrada": "Via Giorgio Castelli - Via Degli Ailanti 20156 Milano, Italia",
+    "latitude": "45.499954",
+    "longitude": "9.152477",
+    "qualita": 4.6
+}, {
+    "fontana_id": 258,
+    "nome": "Shelly Sparks",
+    "nomeStrada": "Via Ercolano, 20155 Milano, Italia",
+    "latitude": "45.49816553360490",
+    "longitude": "9.157297611236570",
+    "qualita": 2.4
+}, {
+    "fontana_id": 259,
+    "nome": "Meagan Clay",
+    "nomeStrada": "Via Concilio Vaticano II, 1, 20157 Milano, Italia",
+    "latitude": "45.513434",
+    "longitude": "9.148776999999990",
+    "qualita": 2.7
+}, {
+    "fontana_id": 260,
+    "nome": "Wanda Villarreal",
+    "nomeStrada": "Viale Teodorico, 26 / Via Giovanni Gattamelata, 20149 Milano, Italia",
+    "latitude": "45.484459",
+    "longitude": "9.150922000000030",
+    "qualita": 3.5
+}, {
+    "fontana_id": 261,
+    "nome": "Lancaster Goff",
+    "nomeStrada": "Via Mahatma Gandhi, 11 / Via Giorgio Perlasca, 20156 Milano, Italia",
+    "latitude": "45.506779",
+    "longitude": "9.126207000000020",
+    "qualita": 2.9
+}, {
+    "fontana_id": 262,
+    "nome": "Rhoda Guthrie",
+    "nomeStrada": "Piazzale Francesco Accursio ang. Via Traiano, 20151 Milano, Italia",
+    "latitude": "45.491831",
+    "longitude": "9.146609",
+    "qualita": 3.8
+}, {
+    "fontana_id": 263,
+    "nome": "Enid Austin",
+    "nomeStrada": "Via Nicola Fabrizi (giardini) 20157 Milano, Italia",
+    "latitude": "45.510487",
+    "longitude": "9.132714999999960",
+    "qualita": 3.3
+}, {
+    "fontana_id": 264,
+    "nome": "Noble Vargas",
+    "nomeStrada": "Via Val Trompia, 31, 20157 Milano, Italia",
+    "latitude": "45.519178",
+    "longitude": "9.132900000000060",
+    "qualita": 4.3
+}, {
+    "fontana_id": 265,
+    "nome": "Oneal Randall",
+    "nomeStrada": "Piazzale Damiano Chiesa, 7, 20149 Milano, Italia",
+    "latitude": "45.484091",
+    "longitude": "9.155545999999950",
+    "qualita": 3.2
+}, {
+    "fontana_id": 266,
+    "nome": "Acosta Bean",
+    "nomeStrada": "Piazza Duca d'Aosta, 10, 20124 Milano, Italia",
+    "latitude": "45.484445",
+    "longitude": "9.204606000000010",
+    "qualita": 3.1
+}, {
+    "fontana_id": 267,
+    "nome": "Elizabeth Farrell",
+    "nomeStrada": "Via dei Carafa - Via Magellano, 20158 Milano, Italia",
+    "latitude": "45.50441",
+    "longitude": "9.178059",
+    "qualita": 3.9
+}, {
+    "fontana_id": 268,
+    "nome": "Ayala Bradley",
+    "nomeStrada": "Via Assietta, 38 / Via Bovisasca, 20161 Milano, Italia",
+    "latitude": "45.516788",
+    "longitude": "9.156753999999970",
+    "qualita": 1.6
+}, {
+    "fontana_id": 269,
+    "nome": "Noelle Mercado",
+    "nomeStrada": "Via Italo Montemezzi, 20141 Milano, Italia",
+    "latitude": "45.430366",
+    "longitude": "9.204402999999950",
+    "qualita": 4.9
+}, {
+    "fontana_id": 270,
+    "nome": "Brennan Norris",
+    "nomeStrada": "Via Mecenate, 107, 20138 Milano, Italia",
+    "latitude": "45.448675",
+    "longitude": "9.253641000000010",
+    "qualita": 1.9
+}, {
+    "fontana_id": 271,
+    "nome": "Hayden Buck",
+    "nomeStrada": "Via Luisa Sanfelice, 3-7, 20137 Milano, Italia",
+    "latitude": "45.45687210459850",
+    "longitude": "9.222571849822990",
+    "qualita": 4.5
+}, {
+    "fontana_id": 272,
+    "nome": "Velasquez Parsons",
+    "nomeStrada": "Piazza Belloveso, 2, 20162 Milano, Italia",
+    "latitude": "45.515367",
+    "longitude": "9.19400399999995",
+    "qualita": 4.7
+}, {
+    "fontana_id": 273,
+    "nome": "Christian Park",
+    "nomeStrada": "Via Filippo Palizzi / Via Mambretti, 20157 Milano, Italia",
+    "latitude": "45.508659",
+    "longitude": "9.13334599999996",
+    "qualita": 4.2
+}, {
+    "fontana_id": 274,
+    "nome": "Espinoza Horne",
+    "nomeStrada": "Via Daniele Comboni, 20161 Milano, Italia",
+    "latitude": "45.5252241769946",
+    "longitude": "9.18307900428772",
+    "qualita": 5
+}, {
+    "fontana_id": 275,
+    "nome": "Patrica Fuentes",
+    "nomeStrada": "Piazza Gerusalemme, 6, 20154 Milano, Italia",
+    "latitude": "45.483983",
+    "longitude": "9.167263000000040",
+    "qualita": 2.8
+}, {
+    "fontana_id": 276,
+    "nome": "Washington Blackburn",
+    "nomeStrada": "Via Monte Rotondo (Giardini Gregorovius), 20162 Milano, Italia",
+    "latitude": "45.514476",
+    "longitude": "9.196410000000010",
+    "qualita": 2.6
+}, {
+    "fontana_id": 277,
+    "nome": "Sims Decker",
+    "nomeStrada": "Via Privata Angiolo Maffucci / Via Giuseppe Candiani, 20158 Milano, Italia",
+    "latitude": "45.504142",
+    "longitude": "9.169263999999990",
+    "qualita": 2.9
+}, {
+    "fontana_id": 278,
+    "nome": "Bernice Harrington",
+    "nomeStrada": "Via Filippo Baldinucci, 21-45, 20158 Milano, Italia",
+    "latitude": "45.504077",
+    "longitude": "9.171422",
+    "qualita": 5
+}, {
+    "fontana_id": 279,
+    "nome": "Collins Burks",
+    "nomeStrada": "Piazza Caserta, 20159 Milano, Italia",
+    "latitude": "45.501286",
+    "longitude": "9.195975999999970",
+    "qualita": 2.4
+}, {
+    "fontana_id": 280,
+    "nome": "Autumn Morin",
+    "nomeStrada": "Via Giuseppe Guerzoni (Giardini) 20158 Milano, Italia",
+    "latitude": "45.498466340225200",
+    "longitude": "9.17656660079956",
+    "qualita": 4.2
+}, {
+    "fontana_id": 281,
+    "nome": "Lena Elliott",
+    "nomeStrada": "Via Giuseppe Saragat, 10, 20128 Milano, Italia",
+    "latitude": "45.517244",
+    "longitude": "9.247404",
+    "qualita": 3.2
+}, {
+    "fontana_id": 282,
+    "nome": "Myrna Sykes",
+    "nomeStrada": "Via Giovanni Battista Morgagni, 24, 20129 Milano, Italia",
+    "latitude": "45.47877",
+    "longitude": "9.213166999999990",
+    "qualita": 4.4
+}, {
+    "fontana_id": 283,
+    "nome": "Potts Doyle",
+    "nomeStrada": "Via Giovanni Pier Luigi da Palestrina fronte civ. 33, 20124 Milano, Italia",
+    "latitude": "45.487045841461000",
+    "longitude": "9.210686981678000",
+    "qualita": 3.3
+}, {
+    "fontana_id": 284,
+    "nome": "Tiffany Noel",
+    "nomeStrada": "Piazza Greco, 7, 20125 Milano, Italia",
+    "latitude": "45.502183",
+    "longitude": "9.211538000000010",
+    "qualita": 3.7
+}, {
+    "fontana_id": 285,
+    "nome": "Poole Jenkins",
+    "nomeStrada": "Via Boves / Via Monfalcone, 20132 Milano, Italia",
+    "latitude": "45.495164",
+    "longitude": "9.237387",
+    "qualita": 2.9
+}, {
+    "fontana_id": 286,
+    "nome": "Hansen Chaney",
+    "nomeStrada": "Via Paolo Giacometti - Via Martino Lutero 20126 Milano, Italia",
+    "latitude": "45.51357604461710",
+    "longitude": "9.219809174537650",
+    "qualita": 4.5
+}, {
+    "fontana_id": 287,
+    "nome": "Madeline Emerson",
+    "nomeStrada": "Piazza Po, 10, 20144 Milano, Italia",
+    "latitude": "45.46219252246330",
+    "longitude": "9.157876968383780",
+    "qualita": 2.2
+}, {
+    "fontana_id": 288,
+    "nome": "Wilkins Savage",
+    "nomeStrada": "Via Boffalora, 111, 20142 Milano, Italia",
+    "latitude": "45.432237",
+    "longitude": "9.15059199999996",
+    "qualita": 2.1
+}, {
+    "fontana_id": 289,
+    "nome": "Myers Ellison",
+    "nomeStrada": "Via Pompeo Marchesi -Via M. Mignone 20153 Milano, Italia",
+    "latitude": "45.471308",
+    "longitude": "9.106506",
+    "qualita": 1.6
+}, {
+    "fontana_id": 290,
+    "nome": "Debra Manning",
+    "nomeStrada": "Via Valsesia, 66, 20152 Milano, Italia",
+    "latitude": "45.453732",
+    "longitude": "9.095618999999940",
+    "qualita": 3.4
+}, {
+    "fontana_id": 291,
+    "nome": "Waller Nash",
+    "nomeStrada": "Bastioni di Porta Venezia (Giardini al centro) 20121 Milano",
+    "latitude": "45.473960376030000",
+    "longitude": "9.20153260231018",
+    "qualita": 3.8
+}, {
+    "fontana_id": 292,
+    "nome": "Glover Gilbert",
+    "nomeStrada": "Via Norico, 2-4, 20138 Milano, Italia",
+    "latitude": "45.453167",
+    "longitude": "9.239179",
+    "qualita": 2
+}, {
+    "fontana_id": 293,
+    "nome": "Doreen Franco",
+    "nomeStrada": "Via Marco Bruto, 20138 Milano, Italia",
+    "latitude": "45.458132",
+    "longitude": "9.241096",
+    "qualita": 3.2
+}, {
+    "fontana_id": 294,
+    "nome": "Barry Mcbride",
+    "nomeStrada": "Via Monte Cimone, 1, 20137 Milano, Italia",
+    "latitude": "45.450601",
+    "longitude": "9.224778000000010",
+    "qualita": 2.2
+}, {
+    "fontana_id": 295,
+    "nome": "Mildred Norton",
+    "nomeStrada": "Via Monte Cimone (Parco Alessandrini), 20137 Milano, Italia",
+    "latitude": "45.45015125531180",
+    "longitude": "9.225618839263910",
+    "qualita": 3.2
+}, {
+    "fontana_id": 296,
+    "nome": "Helene Peterson",
+    "nomeStrada": "Via Monte Cimone, 13, 20137 Milano, Italia",
+    "latitude": "45.450198296513900",
+    "longitude": "9.226573705673210",
+    "qualita": 1.7
+}, {
+    "fontana_id": 297,
+    "nome": "Rosa Acevedo",
+    "nomeStrada": "Via Monte Cimone (Parco Alessandrini), 20137 Milano, Italia",
+    "latitude": "45.450015776430600",
+    "longitude": "9.228343963623040",
+    "qualita": 1.8
+}, {
+    "fontana_id": 298,
+    "nome": "Nichols Carpenter",
+    "nomeStrada": "Via Ignazio Ciaia / Via Guerzoni, 20158 Milano, Italia",
+    "latitude": "45.50203",
+    "longitude": "9.175588999999940",
+    "qualita": 2.1
+}, {
+    "fontana_id": 299,
+    "nome": "Parsons Harper",
+    "nomeStrada": "Viale Edoardo Jenner - Via Porro, 20159 Milano, Italia",
+    "latitude": "45.496979",
+    "longitude": "9.179663",
+    "qualita": 3.6
+}, {
+    "fontana_id": 300,
+    "nome": "Bernice Lancaster",
+    "nomeStrada": "Via Roberto Tremelloni, 20, 20128 Milano, Italia",
+    "latitude": "45.514611",
+    "longitude": "9.232927000000010",
+    "qualita": 3
+}, {
+    "fontana_id": 301,
+    "nome": "Heather Evans",
+    "nomeStrada": "Viale Fulvio Testi, 282 / Via Thomas Mann, 20126 Milano, Italia",
+    "latitude": "45.524574",
+    "longitude": "9.210604999999980",
+    "qualita": 4.9
+}, {
+    "fontana_id": 302,
+    "nome": "Mccall Griffith",
+    "nomeStrada": "Viale Fulvio Testi, 110, 20126 Milano, Italia",
+    "latitude": "45.513345",
+    "longitude": "9.204897999999950",
+    "qualita": 3.8
+}, {
+    "fontana_id": 303,
+    "nome": "Christian Burks",
+    "nomeStrada": "Via Chianciano / Via Fabriano, 20161 Milano, Italia",
+    "latitude": "45.515332",
+    "longitude": "9.175993000000060",
+    "qualita": 4.2
+}, {
+    "fontana_id": 304,
+    "nome": "Pearson Walls",
+    "nomeStrada": "Viale Giovanni Suzzani / Viale Esperia, 20162 Milano, Italia",
+    "latitude": "45.515704",
+    "longitude": "9.203049999999960",
+    "qualita": 4.3
+}, {
+    "fontana_id": 305,
+    "nome": "Gay Battle",
+    "nomeStrada": "Piazza Leonardo da Vinci, 20133 Milano, Italia",
+    "latitude": "45.478125",
+    "longitude": "9.225685",
+    "qualita": 3.7
+}, {
+    "fontana_id": 306,
+    "nome": "Mary Kerr",
+    "nomeStrada": "Piazza Leonardo da Vinci / Viale Romagna, 20133 Milano, Italia",
+    "latitude": "45.477764",
+    "longitude": "9.223918000000020",
+    "qualita": 4.9
+}, {
+    "fontana_id": 307,
+    "nome": "Dunlap Melton",
+    "nomeStrada": "Via Tomaso Albinoni / Via Federico Chopin, 20141 Milano, Italia",
+    "latitude": "45.428089",
+    "longitude": "9.206090000000010",
+    "qualita": 2.1
+}, {
+    "fontana_id": 308,
+    "nome": "Sears May",
+    "nomeStrada": "Via Nervesa / Via Longanesi, 20139 Milano, Italia",
+    "latitude": "45.44525536369420",
+    "longitude": "9.216829407409700",
+    "qualita": 1.9
+}, {
+    "fontana_id": 309,
+    "nome": "Kelley Hayden",
+    "nomeStrada": "Via Don Primo Mazzolari, 31, 20142 Milano, Italia",
+    "latitude": "45.432671",
+    "longitude": "9.14675699999998",
+    "qualita": 3.2
+}, {
+    "fontana_id": 310,
+    "nome": "Laura Mitchell",
+    "nomeStrada": "Viale Coni Zugna - Parco Solari, 20144 Milano, Italia",
+    "latitude": "45.45848",
+    "longitude": "9.167343",
+    "qualita": 4.7
+}, {
+    "fontana_id": 311,
+    "nome": "Charlene Delgado",
+    "nomeStrada": "Via Antonio Banfi, 12, 20122 Milano, Italia",
+    "latitude": "45.45581473403720",
+    "longitude": "9.182859063148490",
+    "qualita": 4.8
+}, {
+    "fontana_id": 312,
+    "nome": "Gordon David",
+    "nomeStrada": "Via Gratosoglio, 79, 20142 Milano, Italia",
+    "latitude": "45.413959",
+    "longitude": "9.169057000000060",
+    "qualita": 4.5
+}, {
+    "fontana_id": 313,
+    "nome": "Erma Calhoun",
+    "nomeStrada": "Via Innocenzo Isimbardi, 61, 20141 Milano, Italia",
+    "latitude": "45.432233",
+    "longitude": "9.180656999999990",
+    "qualita": 3.6
+}, {
+    "fontana_id": 314,
+    "nome": "Pam Lester",
+    "nomeStrada": "Via Fra' Riccardo Pampuri, 16, 20141 Milano, Italia",
+    "latitude": "45.425182",
+    "longitude": "9.20186000000001",
+    "qualita": 3.2
+}, {
+    "fontana_id": 315,
+    "nome": "Cardenas Skinner",
+    "nomeStrada": "Via del Cardellino / Via della Rondine, 20147 Milano, Italia",
+    "latitude": "45.45235",
+    "longitude": "9.121748000000020",
+    "qualita": 2.7
+}, {
+    "fontana_id": 316,
+    "nome": "Carver Morin",
+    "nomeStrada": "Largo Porto di Classe, 6, 20133 Milano, Italia",
+    "latitude": "45.467399",
+    "longitude": "9.230043000000020",
+    "qualita": 4.2
+}, {
+    "fontana_id": 317,
+    "nome": "Berta Ayers",
+    "nomeStrada": "Via Maffeo Bagarotti, 14-16, 20152 Milano, Italia",
+    "latitude": "45.457465",
+    "longitude": "9.095299",
+    "qualita": 2.8
+}, {
+    "fontana_id": 318,
+    "nome": "Nieves Obrien",
+    "nomeStrada": "Via Privata Cancano, 20152 Milano, Italia",
+    "latitude": "45.460995",
+    "longitude": "9.101646999999950",
+    "qualita": 4.6
+}, {
+    "fontana_id": 319,
+    "nome": "Kelli Hall",
+    "nomeStrada": "Via Isernia, 20148 Milano, Italia",
+    "latitude": "45.488322",
+    "longitude": "9.137917000000010",
+    "qualita": 3.6
+}, {
+    "fontana_id": 320,
+    "nome": "Frank English",
+    "nomeStrada": "Piazzale Angelo Moratti, 20151 Milano, Italia",
+    "latitude": "45.480168",
+    "longitude": "9.123496",
+    "qualita": 2.4
+}, {
+    "fontana_id": 321,
+    "nome": "Elise Hunt",
+    "nomeStrada": "Via Novara, 235, 20153 Milano, Italia",
+    "latitude": "45.478367",
+    "longitude": "9.10572400000001",
+    "qualita": 1.9
+}, {
+    "fontana_id": 322,
+    "nome": "Peggy Sellers",
+    "nomeStrada": "Piazza Santa Maria Nascente, 20148 Milano, Italia",
+    "latitude": "45.486215",
+    "longitude": "9.136087999999970",
+    "qualita": 4.6
+}, {
+    "fontana_id": 323,
+    "nome": "Cheryl Coffey",
+    "nomeStrada": "Via Luigi Ornato, 84-88, 20162 Milano, Italia",
+    "latitude": "45.520886",
+    "longitude": "9.192233999999980",
+    "qualita": 4.2
+}, {
+    "fontana_id": 324,
+    "nome": "Alba Ortega",
+    "nomeStrada": "Via San Dionigi, 20139 Milano, Italia",
+    "latitude": "45.428466",
+    "longitude": "9.227859999999960",
+    "qualita": 3.3
+}, {
+    "fontana_id": 325,
+    "nome": "Rosalind Noble",
+    "nomeStrada": "Via Oreste Salomone, 13, 20138 Milano, Italia",
+    "latitude": "45.455297",
+    "longitude": "9.241516000000040",
+    "qualita": 1.7
+}, {
+    "fontana_id": 326,
+    "nome": "Alexandra Rosario",
+    "nomeStrada": "Via Bovisasca, 139, 20157 Milano, Italia",
+    "latitude": "45.513487",
+    "longitude": "9.157840999999960",
+    "qualita": 4.6
+}, {
+    "fontana_id": 327,
+    "nome": "Margery Lamb",
+    "nomeStrada": "Via Livigno / Via Prampolini, 20158 Milano, Italia",
+    "latitude": "45.499052",
+    "longitude": "9.178451999999990",
+    "qualita": 2.6
+}, {
+    "fontana_id": 328,
+    "nome": "Joann Atkinson",
+    "nomeStrada": "Via Pesaro / Via Antonio Oroboni, 20161 Milano, Italia",
+    "latitude": "45.528751",
+    "longitude": "9.171164999999970",
+    "qualita": 4.8
+}, {
+    "fontana_id": 329,
+    "nome": "Charlotte Hoover",
+    "nomeStrada": "Via Pusiano, 30, 20132 Milano, Italia",
+    "latitude": "45.4999215",
+    "longitude": "9.244594099999970",
+    "qualita": 1.7
+}, {
+    "fontana_id": 330,
+    "nome": "Candice Craig",
+    "nomeStrada": "Via Giuseppe Saragat (Giardini campo Basket) 20128 Milano, Italia",
+    "latitude": "45.51904897506110",
+    "longitude": "9.248444437980650",
+    "qualita": 3.9
+}, {
+    "fontana_id": 331,
+    "nome": "Flowers Black",
+    "nomeStrada": "Via Privata Trasimeno (Giochi) 20128 Milano, Italia",
+    "latitude": "45.517791676530000",
+    "longitude": "9.24875020980835",
+    "qualita": 2.6
+}, {
+    "fontana_id": 332,
+    "nome": "Alford Baldwin",
+    "nomeStrada": "Via Carlotta Marchionni, 20-22, 20161 Milano, Italia",
+    "latitude": "45.526753",
+    "longitude": "9.177772000000000",
+    "qualita": 2.3
+}, {
+    "fontana_id": 333,
+    "nome": "Gayle Sandoval",
+    "nomeStrada": "Via Privata Tobruk, 10, 20146 Milano, Italia",
+    "latitude": "45.455630350663700",
+    "longitude": "9.150903224945060",
+    "qualita": 1.6
+}, {
+    "fontana_id": 334,
+    "nome": "Vaughn Guy",
+    "nomeStrada": "Viale Caterina da Forlì, 42, 20146 Milano, Italia",
+    "latitude": "45.460966",
+    "longitude": "9.141135",
+    "qualita": 3.5
+}, {
+    "fontana_id": 335,
+    "nome": "Brooke Gibson",
+    "nomeStrada": "Viale Caterina da Forlì, 48, 20146 Milano, Italia",
+    "latitude": "45.461126",
+    "longitude": "9.140217000000000",
+    "qualita": 3.9
+}, {
+    "fontana_id": 336,
+    "nome": "Tamra Baxter",
+    "nomeStrada": "Via dei Gracchi, 5, 20146 Milano, Italia",
+    "latitude": "45.464364",
+    "longitude": "9.152458",
+    "qualita": 4.4
+}, {
+    "fontana_id": 337,
+    "nome": "Gardner Buckner",
+    "nomeStrada": "Via Ernesto Breda, 83, 20126 Milano, Italia",
+    "latitude": "45.521737",
+    "longitude": "9.222270999999970",
+    "qualita": 3
+}, {
+    "fontana_id": 338,
+    "nome": "Hendrix Horn",
+    "nomeStrada": "Viale Affori (Villa Litta), 20161 Milano, Italia",
+    "latitude": "45.51656565558860",
+    "longitude": "9.166087232788070",
+    "qualita": 2.6
+}, {
+    "fontana_id": 339,
+    "nome": "Rosie Preston",
+    "nomeStrada": "Via Cascina Bellaria (Parco Trenno), 20153 Milano, Italia",
+    "latitude": "45.483994",
+    "longitude": "9.104287999999990",
+    "qualita": 4.9
+}, {
+    "fontana_id": 340,
+    "nome": "Tameka Ramos",
+    "nomeStrada": "Via Lucerna, 41, 20152 Milano, Italia",
+    "latitude": "45.457967",
+    "longitude": "9.117676999999950",
+    "qualita": 3.5
+}, {
+    "fontana_id": 341,
+    "nome": "Jenkins Shepard",
+    "nomeStrada": "Via Sant'Abbondio, 12, 20142 Milano, Italia",
+    "latitude": "45.425196",
+    "longitude": "9.174170000000000",
+    "qualita": 1.6
+}, {
+    "fontana_id": 342,
+    "nome": "Williams Walter",
+    "nomeStrada": "Via Camporgnago, 4-12, 20141 Milano, Italia",
+    "latitude": "45.401341",
+    "longitude": "9.205497",
+    "qualita": 4.3
+}, {
+    "fontana_id": 343,
+    "nome": "Nguyen Osborn",
+    "nomeStrada": "Via Carlo Bazzi - Via B. Biondelli,  20141 Milano, Italia",
+    "latitude": "45.439895",
+    "longitude": "9.187857000000000",
+    "qualita": 3.4
+}, {
+    "fontana_id": 344,
+    "nome": "Colette Mckinney",
+    "nomeStrada": "Via Melchiorre Gioia, 168, 20125 Milano, Italia",
+    "latitude": "45.496811",
+    "longitude": "9.20809",
+    "qualita": 3.2
+}, {
+    "fontana_id": 345,
+    "nome": "Marsha Hartman",
+    "nomeStrada": "Piazzale Loreto / Via Andrea Costa, 20131 Milano, Italia",
+    "latitude": "45.486271",
+    "longitude": "9.217918999999930",
+    "qualita": 2.7
+}, {
+    "fontana_id": 346,
+    "nome": "Avis Yates",
+    "nomeStrada": "Giardino Aldo Protti, 20124 Milano, Italia",
+    "latitude": "45.49164620058830",
+    "longitude": "9.198337542327860",
+    "qualita": 4.7
+}, {
+    "fontana_id": 347,
+    "nome": "Russo Lindsay",
+    "nomeStrada": "Piazzale Francesco Baracca, 10, 20123 Milano, Italia",
+    "latitude": "45.466234",
+    "longitude": "9.16510500000004",
+    "qualita": 2.3
+}, {
+    "fontana_id": 348,
+    "nome": "Nadine Patterson",
+    "nomeStrada": "Piazza del Duomo, 31, 20121 Milano, Italia",
+    "latitude": "45.46462586309460",
+    "longitude": "9.192427843809120",
+    "qualita": 2.4
+}, {
+    "fontana_id": 349,
+    "nome": "Simpson Fleming",
+    "nomeStrada": "Piazza Castello, 20121 Milano, Italia",
+    "latitude": "45.47034149596410",
+    "longitude": "9.180369973182670",
+    "qualita": 4.9
+}, {
+    "fontana_id": 350,
+    "nome": "Virgie Puckett",
+    "nomeStrada": "Piazza Castello, 2, 20121 Milano, Italia",
+    "latitude": "45.469587",
+    "longitude": "9.181738999999990",
+    "qualita": 2.3
+}, {
+    "fontana_id": 351,
+    "nome": "Rosa Peterson",
+    "nomeStrada": "Via Giacinto Menotti Serrati, 40, 20138 Milano, Italia",
+    "latitude": "45.440132467072800",
+    "longitude": "9.263051748275750",
+    "qualita": 4.2
+}, {
+    "fontana_id": 352,
+    "nome": "Cindy Ochoa",
+    "nomeStrada": "Via della Chiesa Rossa, 20142 Milano, Italia",
+    "latitude": "45.436396",
+    "longitude": "9.174518000000030",
+    "qualita": 4.5
+}, {
+    "fontana_id": 353,
+    "nome": "Ruth Miles",
+    "nomeStrada": "Piazza Argentina, 4, 20124 Milano, Italia",
+    "latitude": "45.484417",
+    "longitude": "9.214997",
+    "qualita": 3.8
+}, {
+    "fontana_id": 354,
+    "nome": "Frederick Reynolds",
+    "nomeStrada": "Via del Cardellino, 20147 Milano, Italia",
+    "latitude": "45.453432755473900",
+    "longitude": "9.121956825256340",
+    "qualita": 3.7
+}, {
+    "fontana_id": 355,
+    "nome": "Roth Watts",
+    "nomeStrada": "Via Melchiorre Gioia / Parco di Viale Monte Grappa, 20124 Milano, Italia",
+    "latitude": "45.480383",
+    "longitude": "9.190072999999980",
+    "qualita": 1.9
+}, {
+    "fontana_id": 356,
+    "nome": "Margaret Hobbs",
+    "nomeStrada": "Via Bianca Milesi, 4-14, 20152 Milano, Italia",
+    "latitude": "45.460199",
+    "longitude": "9.102959000000050",
+    "qualita": 3.9
+}, {
+    "fontana_id": 357,
+    "nome": "Maxine Kline",
+    "nomeStrada": "Via Cascina Bellaria, 90, 20153 Milano, Italia",
+    "latitude": "45.48145213452260",
+    "longitude": "9.106760154769850",
+    "qualita": 2.7
+}, {
+    "fontana_id": 358,
+    "nome": "Opal Solis",
+    "nomeStrada": "Via Fratelli Rizzardi, 3, 20151 Milano, Italia",
+    "latitude": "45.491801",
+    "longitude": "9.10109",
+    "qualita": 3.4
+}, {
+    "fontana_id": 359,
+    "nome": "Milagros Cameron",
+    "nomeStrada": "Piazza Leonardo da Vinci, 9, 20133 Milano, Italia",
+    "latitude": "45.47932",
+    "longitude": "9.226099999999970",
+    "qualita": 2.4
+}, {
+    "fontana_id": 360,
+    "nome": "Vargas Rojas",
+    "nomeStrada": "Piazzale Vincenzo Cuoco, 8, 20137 Milano, Italia",
+    "latitude": "45.451282",
+    "longitude": "9.22446500000001",
+    "qualita": 1.8
+}, {
+    "fontana_id": 361,
+    "nome": "Lena Dyer",
+    "nomeStrada": "Via Adolfo Omodeo, 25, 20151 Milano, Italia",
+    "latitude": "45.490729",
+    "longitude": "9.115696999999950",
+    "qualita": 2.3
+}, {
+    "fontana_id": 362,
+    "nome": "Corinne Holman",
+    "nomeStrada": "Corso Venezia, 57, 20121 Milano, Italia",
+    "latitude": "45.473625582951000",
+    "longitude": "9.203345775604240",
+    "qualita": 2.1
+}, {
+    "fontana_id": 363,
+    "nome": "Aurelia West",
+    "nomeStrada": "Via Laura Ciceri Visconti, 4, 20137 Milano, Italia",
+    "latitude": "45.454763",
+    "longitude": "9.220869",
+    "qualita": 1.8
+}, {
+    "fontana_id": 364,
+    "nome": "Marguerite Baird",
+    "nomeStrada": "Corso Giuseppe Garibaldi, 83, 20121 Milano, Italia",
+    "latitude": "45.476499",
+    "longitude": "9.184110000000030",
+    "qualita": 3.7
+}, {
+    "fontana_id": 365,
+    "nome": "Avery Welch",
+    "nomeStrada": "Via Gian Antonio Boltraffio, 16, 20159 Milano, Italia",
+    "latitude": "45.491927",
+    "longitude": "9.18715199999997",
+    "qualita": 4.9
+}, {
+    "fontana_id": 366,
+    "nome": "Victoria Fischer",
+    "nomeStrada": "Via Toce, 7-9, 20159 Milano, Italia",
+    "latitude": "45.492728",
+    "longitude": "9.18558",
+    "qualita": 1.7
+}, {
+    "fontana_id": 367,
+    "nome": "Campbell Roy",
+    "nomeStrada": "Giardino Robert Baden-Powell, 20143 Milano, Italia",
+    "latitude": "45.448450219084900",
+    "longitude": "9.168004989624020",
+    "qualita": 2.1
+}, {
+    "fontana_id": 368,
+    "nome": "Selena Holcomb",
+    "nomeStrada": "Via Gianluigi Banfi, 10, 20142 Milano, Italia",
+    "latitude": "45.414431",
+    "longitude": "9.165377",
+    "qualita": 3.4
+}, {
+    "fontana_id": 369,
+    "nome": "Dianne Barber",
+    "nomeStrada": "Piazza Risorgimento, 20129 Milano, Italia",
+    "latitude": "45.468121",
+    "longitude": "9.211275",
+    "qualita": 1.7
+}, {
+    "fontana_id": 370,
+    "nome": "Stanley Pollard",
+    "nomeStrada": "Via Agnello, 15, 20121 Milano, Italia",
+    "latitude": "45.46594157346870",
+    "longitude": "9.191950860118820",
+    "qualita": 2.4
+}, {
+    "fontana_id": 371,
+    "nome": "Ivy Hernandez",
+    "nomeStrada": "Via Donna Prassede, 3-9, 20142 Milano, Italia",
+    "latitude": "45.43299",
+    "longitude": "9.169963",
+    "qualita": 3.3
+}, {
+    "fontana_id": 372,
+    "nome": "Adrian Holder",
+    "nomeStrada": "Piazza Santa Maria alla Fontana, 8, 20159 Milano, Italia",
+    "latitude": "45.492764",
+    "longitude": "9.188426",
+    "qualita": 1.6
+}, {
+    "fontana_id": 373,
+    "nome": "Joni Wood",
+    "nomeStrada": "Via Cipriano Facchinetti, 10, 20138 Milano, Italia",
+    "latitude": "45.461295",
+    "longitude": "9.241995999999970",
+    "qualita": 2.3
+}, {
+    "fontana_id": 374,
+    "nome": "Tina Dickson",
+    "nomeStrada": "Via Dino Villani, 3, 20159 Milano, Italia",
+    "latitude": "45.49796264874350",
+    "longitude": "9.188385542327860",
+    "qualita": 3.9
+}, {
+    "fontana_id": 375,
+    "nome": "Farley Moon",
+    "nomeStrada": "Via Vincenzo Monti, 52-56, 20123 Milano, Italia",
+    "latitude": "45.472049",
+    "longitude": "9.167693",
+    "qualita": 1.8
+}, {
+    "fontana_id": 376,
+    "nome": "Wilda Paul",
+    "nomeStrada": "Giardini Guido Vergani, 20145 Milano, Italia",
+    "latitude": "45.47085311889180",
+    "longitude": "9.16161060333252",
+    "qualita": 1.7
+}, {
+    "fontana_id": 377,
+    "nome": "Nelson Guy",
+    "nomeStrada": "Via Adolfo Omodeo, 20, 20151 Milano, Italia",
+    "latitude": "45.493111044286100",
+    "longitude": "9.117548439147980",
+    "qualita": 2.4
+}, {
+    "fontana_id": 378,
+    "nome": "Wright Rodgers",
+    "nomeStrada": "Via Licata, 41, 20134 Milano, Italia",
+    "latitude": "45.49824073541070",
+    "longitude": "9.250617027282710",
+    "qualita": 4
+}, {
+    "fontana_id": 379,
+    "nome": "Lorene Manning",
+    "nomeStrada": "Via San Giovanni sul Muro, 3-9, 20121 Milano, Italia",
+    "latitude": "45.46688039536510",
+    "longitude": "9.181866645812980",
+    "qualita": 2
+}, {
+    "fontana_id": 380,
+    "nome": "Barber Russell",
+    "nomeStrada": "Giardino Marisa Bellisario, 20134 Milano, Italia",
+    "latitude": "45.49055459148100",
+    "longitude": "9.237699508666990",
+    "qualita": 3.8
+}, {
+    "fontana_id": 381,
+    "nome": "Tracey Vaughan",
+    "nomeStrada": "Via San Barnaba, 49, 20122 Milano, Italia",
+    "latitude": "45.460414",
+    "longitude": "9.205063",
+    "qualita": 3.7
+}, {
+    "fontana_id": 382,
+    "nome": "Mary Sharpe",
+    "nomeStrada": "Via Luca Comerio, 5, 20145 Milano, Italia",
+    "latitude": "45.477824",
+    "longitude": "9.164184",
+    "qualita": 1.7
+}, {
+    "fontana_id": 383,
+    "nome": "Kathrine Herrera",
+    "nomeStrada": "Via Piero Capponi, 19, 20145 Milano, Italia",
+    "latitude": "45.469945",
+    "longitude": "9.15904999999998",
+    "qualita": 4.1
+}, {
+    "fontana_id": 384,
+    "nome": "Soto Greene",
+    "nomeStrada": "Giardino Antonio Cederna, 20155 Milano, Italia",
+    "latitude": "45.492058811794500",
+    "longitude": "9.166953563690180",
+    "qualita": 1.9
+}, {
+    "fontana_id": 385,
+    "nome": "Cervantes Wilkerson",
+    "nomeStrada": "Cimitero Monumentale, 20154 Milano, Italia",
+    "latitude": "45.48619212538590",
+    "longitude": "9.17833685874939",
+    "qualita": 3.8
+}, {
+    "fontana_id": 386,
+    "nome": "Nina Nieves",
+    "nomeStrada": "Cimitero Monumentale, 20154 Milano, Italia",
+    "latitude": "45.48655316988640",
+    "longitude": "9.177145957946770",
+    "qualita": 2.4
+}, {
+    "fontana_id": 387,
+    "nome": "Coleman Kennedy",
+    "nomeStrada": "Cimitero Monumentale, 20154 Milano, Italia",
+    "latitude": "45.48595142776660",
+    "longitude": "9.177038669586180",
+    "qualita": 3
+}, {
+    "fontana_id": 388,
+    "nome": "Hull Fernandez",
+    "nomeStrada": "Cimitero Monumentale, 20154 Milano, Italia",
+    "latitude": "45.48744072778010",
+    "longitude": "9.176459312438960",
+    "qualita": 4.8
+}, {
+    "fontana_id": 389,
+    "nome": "Angela Norton",
+    "nomeStrada": "Piazzale Cimitero Monumentale, 20154 Milano, Italia",
+    "latitude": "45.48735046829410",
+    "longitude": "9.17982816696167",
+    "qualita": 5
+}, {
+    "fontana_id": 390,
+    "nome": "Stafford Morse",
+    "nomeStrada": "Cimitero Monumentale, 20154 Milano, Italia",
+    "latitude": "45.488253056645900",
+    "longitude": "9.17832612991333",
+    "qualita": 4.1
+}, {
+    "fontana_id": 391,
+    "nome": "Garcia Howard",
+    "nomeStrada": "Cimitero Monumentale, 20154 Milano, Italia",
+    "latitude": "45.488568959152200",
+    "longitude": "9.176201820373530",
+    "qualita": 1.9
+}, {
+    "fontana_id": 392,
+    "nome": "Orr Compton",
+    "nomeStrada": "Cimitero Monumentale, 20154 Milano, Italia",
+    "latitude": "45.488328271689100",
+    "longitude": "9.175493717193600",
+    "qualita": 1.7
+}, {
+    "fontana_id": 393,
+    "nome": "Stafford Walker",
+    "nomeStrada": "Piazza Castello, 20121 Milano, Italia",
+    "latitude": "45.470175969905000",
+    "longitude": "9.179216623306270",
+    "qualita": 4.2
+}, {
+    "fontana_id": 394,
+    "nome": "Janna Hernandez",
+    "nomeStrada": "Cimitero Monumentale, 20154 Milano, Italia",
+    "latitude": "45.48762124631820",
+    "longitude": "9.17834758758545",
+    "qualita": 2.8
+}, {
+    "fontana_id": 395,
+    "nome": "Butler Lamb",
+    "nomeStrada": "Piazzale Lagosta, 7, 20124 Milano, Italia",
+    "latitude": "45.489229",
+    "longitude": "9.190973999999980",
+    "qualita": 1.6
+}, {
+    "fontana_id": 396,
+    "nome": "Mccormick Molina",
+    "nomeStrada": "Viale Cassiodoro, 14, 20145 Milano, Italia",
+    "latitude": "45.474718",
+    "longitude": "9.160043",
+    "qualita": 4.4
+}, {
+    "fontana_id": 397,
+    "nome": "Dana Oliver",
+    "nomeStrada": "Piazza Sant'Eustorgio, 8, 20122 Milano, Italia",
+    "latitude": "45.45351554314630",
+    "longitude": "9.180981516838070",
+    "qualita": 3.5
+}, {
+    "fontana_id": 398,
+    "nome": "Huffman Roberts",
+    "nomeStrada": "Via Giovanni Celoria, 2-12, 20133 Milano, Italia",
+    "latitude": "45.476899",
+    "longitude": "9.227220999999980",
+    "qualita": 4.4
+}, {
+    "fontana_id": 399,
+    "nome": "Charmaine Holt",
+    "nomeStrada": "Via Giuseppe Giacosa, 51, 20127 Milano, Italia",
+    "latitude": "45.494764289056000",
+    "longitude": "9.222305645507840",
+    "qualita": 2
+}, {
+    "fontana_id": 400,
+    "nome": "Chen Lyons",
+    "nomeStrada": "Piazza Piemonte, 20145 Milano, Italia",
+    "latitude": "45.466729",
+    "longitude": "9.155071",
+    "qualita": 2.2
+}, {
+    "fontana_id": 401,
+    "nome": "Burks Mayer",
+    "nomeStrada": "Via Dessié, 20153 Milano, Italia",
+    "latitude": "45.476256",
+    "longitude": "9.121023",
+    "qualita": 3.6
+}, {
+    "fontana_id": 402,
+    "nome": "Robin Richard",
+    "nomeStrada": "Viale Caterina da Forlì, 32, 20146 Milano, Italia",
+    "latitude": "45.460088",
+    "longitude": "9.142885",
+    "qualita": 4.3
+}, {
+    "fontana_id": 403,
+    "nome": "Camille Woodward",
+    "nomeStrada": "Via Ruvenzori, 20162 Milano, Italia",
+    "latitude": "45.5205037",
+    "longitude": "9.200567500000030",
+    "qualita": 2.5
+}, {
+    "fontana_id": 404,
+    "nome": "Freda Ross",
+    "nomeStrada": "Corso 22 Marzo, 33, 20129 Milano, Italia",
+    "latitude": "45.462268",
+    "longitude": "9.216615000000040",
+    "qualita": 4.3
+}, {
+    "fontana_id": 405,
+    "nome": "Geneva Davis",
+    "nomeStrada": "Via delle Forze Armate, 36, 20147 Milano, Italia",
+    "latitude": "45.463055",
+    "longitude": "9.133449000000040",
+    "qualita": 3
+}, {
+    "fontana_id": 406,
+    "nome": "Kelli Jefferson",
+    "nomeStrada": "Via Enrico De Nicola, 20142 Milano, Italia",
+    "latitude": "45.431819",
+    "longitude": "9.154616000000030",
+    "qualita": 1.8
+}, {
+    "fontana_id": 407,
+    "nome": "Morris Harmon",
+    "nomeStrada": "Via Giovanni Spadolini, 20141 Milano, Italia",
+    "latitude": "45.444189876690000",
+    "longitude": "9.190685749053950",
+    "qualita": 3.7
+}, {
+    "fontana_id": 408,
+    "nome": "Stein Campbell",
+    "nomeStrada": "Largo Oreste Murani, 2, 20133 Milano, Italia",
+    "latitude": "45.473154",
+    "longitude": "9.235126",
+    "qualita": 1.6
+}, {
+    "fontana_id": 409,
+    "nome": "Beatriz Peterson",
+    "nomeStrada": "Via Giuseppe Pelitti, 20126 Milano, Italia",
+    "latitude": "45.513927",
+    "longitude": "9.224432999999970",
+    "qualita": 4.4
+}, {
+    "fontana_id": 410,
+    "nome": "Parsons Duran",
+    "nomeStrada": "Via San Bernardo, 21, 20139 Milano, Italia",
+    "latitude": "45.417292",
+    "longitude": "9.239557999999980",
+    "qualita": 4
+}, {
+    "fontana_id": 411,
+    "nome": "Daphne Waller",
+    "nomeStrada": "Viale Piceno, 17, 20129 Milano, Italia",
+    "latitude": "45.464737",
+    "longitude": "9.217179999999980",
+    "qualita": 4.2
+}, {
+    "fontana_id": 412,
+    "nome": "Katrina Wilkins",
+    "nomeStrada": "Largo Vittorio Sereni, 20133 Milano, Italia",
+    "latitude": "45.46671",
+    "longitude": "9.235067999999950",
+    "qualita": 5
+}, {
+    "fontana_id": 413,
+    "nome": "James Mejia",
+    "nomeStrada": "Piazza Insubria, 11, 20137 Milano, Italia",
+    "latitude": "45.45289839575530",
+    "longitude": "9.22075867652893",
+    "qualita": 2.4
+}, {
+    "fontana_id": 414,
+    "nome": "Duran Conner",
+    "nomeStrada": "Piazzale Ferdinando Martini, 15, 20137 Milano, Italia",
+    "latitude": "45.455874",
+    "longitude": "9.221040000000010",
+    "qualita": 3.4
+}, {
+    "fontana_id": 415,
+    "nome": "Casey Gilmore",
+    "nomeStrada": "Viale Campania, 20, 20133 Milano, Italia",
+    "latitude": "45.464149",
+    "longitude": "9.224105000000000",
+    "qualita": 1.7
+}, {
+    "fontana_id": 416,
+    "nome": "Rae Peck",
+    "nomeStrada": "Viale Regina Margherita, 4, 20122 Milano, Italia",
+    "latitude": "45.459788237384500",
+    "longitude": "9.205652475357050",
+    "qualita": 2
+}, {
+    "fontana_id": 417,
+    "nome": "Goodwin Wall",
+    "nomeStrada": "Via Enrico Stendhal, 36, 20144 Milano, Italia",
+    "latitude": "45.45331",
+    "longitude": "9.159362",
+    "qualita": 4.3
+}, {
+    "fontana_id": 418,
+    "nome": "Juliana Lloyd",
+    "nomeStrada": "Via Fratelli Morelli / Via Fratelli Zanzottera, 20153 Milano, Italia",
+    "latitude": "45.493206",
+    "longitude": "9.074024000000000",
+    "qualita": 3.7
+}, {
+    "fontana_id": 419,
+    "nome": "Lang Berger",
+    "nomeStrada": "Piazza Morbegno / Via Nicola d'Apulia, 20127 Milano, Italia",
+    "latitude": "45.493231",
+    "longitude": "9.216325999999980",
+    "qualita": 2
+}, {
+    "fontana_id": 420,
+    "nome": "Valerie Ashley",
+    "nomeStrada": "Via Cascina Bellaria, 20153 Milano, Italia",
+    "latitude": "45.47964027008310",
+    "longitude": "9.108524322509760",
+    "qualita": 3.5
+}, {
+    "fontana_id": 421,
+    "nome": "Whitney Rosa",
+    "nomeStrada": "Via Matilde Viscontini, 20151 Milano, Italia",
+    "latitude": "45.48784313289550",
+    "longitude": "9.107328057289120",
+    "qualita": 3.7
+}, {
+    "fontana_id": 422,
+    "nome": "Jeri Robles",
+    "nomeStrada": "Via Ippodromo, 165, 20151 Milano, Italia",
+    "latitude": "45.486675397969000",
+    "longitude": "9.107880592346190",
+    "qualita": 3.6
+}, {
+    "fontana_id": 423,
+    "nome": "Marietta Wright",
+    "nomeStrada": "Via Cascina Bellaria, 90, 20153 Milano, Italia",
+    "latitude": "45.482681223052600",
+    "longitude": "9.107258319854730",
+    "qualita": 2.7
+}, {
+    "fontana_id": 424,
+    "nome": "Woodward Hendrix",
+    "nomeStrada": "Via Cascina Bellaria, 20153 Milano, Italia",
+    "latitude": "45.487564834337200",
+    "longitude": "9.103530049324030",
+    "qualita": 4
+}, {
+    "fontana_id": 425,
+    "nome": "Shepherd Gomez",
+    "nomeStrada": "Via Ferdinando Giorgi, 31, 20151 Milano, Italia",
+    "latitude": "45.48971221055730",
+    "longitude": "9.104742407798760",
+    "qualita": 4.3
+}, {
+    "fontana_id": 426,
+    "nome": "Eileen Mckenzie",
+    "nomeStrada": "Via Cascina Bellaria, 20153 Milano, Italia",
+    "latitude": "45.48716806847460",
+    "longitude": "9.105868935585020",
+    "qualita": 2.8
+}, {
+    "fontana_id": 427,
+    "nome": "Hubbard David",
+    "nomeStrada": "Via Tremiti, 29-31, 20162 Milano, Italia",
+    "latitude": "45.520222",
+    "longitude": "9.196958",
+    "qualita": 3.4
+}, {
+    "fontana_id": 428,
+    "nome": "Hammond Lester",
+    "nomeStrada": "Piazza della Repubblica, 9, 20121 Milano, Italia",
+    "latitude": "45.478753",
+    "longitude": "9.196542000000020",
+    "qualita": 3.6
+}, {
+    "fontana_id": 429,
+    "nome": "Morton Benjamin",
+    "nomeStrada": "Viale Affori, 21, 20161 Milano, Italia",
+    "latitude": "45.517054950435700",
+    "longitude": "9.166929423809050",
+    "qualita": 3.2
+}, {
+    "fontana_id": 430,
+    "nome": "Talley Morgan",
+    "nomeStrada": "Via Ernesto Teodoro Moneta, 40, 20161 Milano, Italia",
+    "latitude": "45.515718670074400",
+    "longitude": "9.166202545166010",
+    "qualita": 3.5
+}, {
+    "fontana_id": 431,
+    "nome": "Carmen Juarez",
+    "nomeStrada": "Piazza Castello, 19, 20121 Milano, Italia",
+    "latitude": "45.46973205671010",
+    "longitude": "9.179372191429130",
+    "qualita": 4.8
+}, {
+    "fontana_id": 432,
+    "nome": "Saunders Davidson",
+    "nomeStrada": "Via Cadore, 26, 20135 Milano, Italia",
+    "latitude": "45.457814",
+    "longitude": "9.212960000000060",
+    "qualita": 4.1
+}, {
+    "fontana_id": 433,
+    "nome": "Ursula Collier",
+    "nomeStrada": "Via Manduria, 108/2, 20142 Milano, Italia",
+    "latitude": "45.402589478327900",
+    "longitude": "9.180922508239740",
+    "qualita": 3.1
+}, {
+    "fontana_id": 434,
+    "nome": "Eliza Atkins",
+    "nomeStrada": "Via Padova, 91, 20127 Milano, Italia",
+    "latitude": "45.4953058",
+    "longitude": "9.2284605",
+    "qualita": 2.7
+}, {
+    "fontana_id": 435,
+    "nome": "Hodges Dixon",
+    "nomeStrada": "Piazza 24 Maggio, 12, 20136 Milano, Italia",
+    "latitude": "45.452204",
+    "longitude": "9.179415000000060",
+    "qualita": 2.1
+}, {
+    "fontana_id": 436,
+    "nome": "Martha Buckner",
+    "nomeStrada": "Parco Vittime Italiane nei Gulag, 20152 Milano, Italia",
+    "latitude": "45.45599159099230",
+    "longitude": "9.097065925598140",
+    "qualita": 4.3
+}, {
+    "fontana_id": 437,
+    "nome": "Wiley Sexton",
+    "nomeStrada": "Via Privata Cancano, 20152 Milano, Italia",
+    "latitude": "45.4630541270591",
+    "longitude": "9.102285504341120",
+    "qualita": 1.9
+}, {
+    "fontana_id": 438,
+    "nome": "Rosanne Day",
+    "nomeStrada": "Via Privata Taggia, 39, 20153 Milano, Italia",
+    "latitude": "45.474851893967300",
+    "longitude": "9.101472795009610",
+    "qualita": 2
+}, {
+    "fontana_id": 439,
+    "nome": "Mary Houston",
+    "nomeStrada": "Via Antonio Sant'Elia, 33, 20151 Milano, Italia",
+    "latitude": "45.489858875998900",
+    "longitude": "9.130475521087640",
+    "qualita": 3.6
+}, {
+    "fontana_id": 440,
+    "nome": "Rachael Calderon",
+    "nomeStrada": "Via Giovanni Battista Grassi - Via C. Andersen, 20157 Milano, Italia",
+    "latitude": "45.513871",
+    "longitude": "9.12554",
+    "qualita": 3.4
+}, {
+    "fontana_id": 441,
+    "nome": "Burgess Fisher",
+    "nomeStrada": "Via Antonio Cechov, 15, 20151 Milano, Italia",
+    "latitude": "45.489813",
+    "longitude": "9.119408000000020",
+    "qualita": 2.2
+}, {
+    "fontana_id": 442,
+    "nome": "Lucy Buck",
+    "nomeStrada": "Via dei Rospigliosi, 43, 20151 Milano, Italia",
+    "latitude": "45.476173",
+    "longitude": "9.12790199999995",
+    "qualita": 2.6
+}, {
+    "fontana_id": 443,
+    "nome": "Suzanne Roach",
+    "nomeStrada": "Piazza dei Volontari, 20145 Milano, Italia",
+    "latitude": "45.475702",
+    "longitude": "9.170026000000000",
+    "qualita": 2.5
+}, {
+    "fontana_id": 444,
+    "nome": "Jacqueline Boyle",
+    "nomeStrada": "Viale Giovanni Suzzani, 294, 20162 Milano, Italia",
+    "latitude": "45.528138",
+    "longitude": "9.210080000000060",
+    "qualita": 3.6
+}, {
+    "fontana_id": 445,
+    "nome": "Julianne Hatfield",
+    "nomeStrada": "Via Leo Longanesi, 12-26, 20139 Milano, Italia",
+    "latitude": "45.445959",
+    "longitude": "9.219401000000060",
+    "qualita": 3.9
+}, {
+    "fontana_id": 446,
+    "nome": "Rowe Poole",
+    "nomeStrada": "Via Carlo Linati, 8, 20128 Milano, Italia",
+    "latitude": "45.511374",
+    "longitude": "9.230530000000040",
+    "qualita": 1.8
+}, {
+    "fontana_id": 447,
+    "nome": "Harriet Salazar",
+    "nomeStrada": "Via Bonaventura Broggini, 18, 20152 Milano, Italia",
+    "latitude": "45.465043",
+    "longitude": "9.095227000000020",
+    "qualita": 2.3
+}, {
+    "fontana_id": 448,
+    "nome": "Shelby Horn",
+    "nomeStrada": "Via Giovanni Battista Sammartini, 2, 20125 Milano, Italia",
+    "latitude": "45.48663029204240",
+    "longitude": "9.20371805277864",
+    "qualita": 3.7
+}, {
+    "fontana_id": 449,
+    "nome": "Fran Santos",
+    "nomeStrada": "Piazza Luigi di Savoia, 22, 20124 Milano, Italia",
+    "latitude": "45.48576904782890",
+    "longitude": "9.205402480039990",
+    "qualita": 3.7
+}, {
+    "fontana_id": 450,
+    "nome": "Riddle Pennington",
+    "nomeStrada": "Via Nicola Antonio Porpora, 170, 20131 Milano, Italia",
+    "latitude": "45.4858094742484",
+    "longitude": "9.236861284235030",
+    "qualita": 4.1
+}, {
+    "fontana_id": 451,
+    "nome": "Flossie Beard",
+    "nomeStrada": "Via Nicola Antonio Porpora, 170, 20131 Milano, Italia",
+    "latitude": "45.485868661387600",
+    "longitude": "9.237005753056330",
+    "qualita": 2.3
+}, {
+    "fontana_id": 452,
+    "nome": "Blackwell Norman",
+    "nomeStrada": "Via Giuseppe Merzario, 3-9, 20131 Milano, Italia",
+    "latitude": "45.4856867613261",
+    "longitude": "9.236587391540520",
+    "qualita": 4.2
+}, {
+    "fontana_id": 453,
+    "nome": "Terry Dodson",
+    "nomeStrada": "Piazzale Crivellone, 5, 20149 Milano, Italia",
+    "latitude": "45.471908",
+    "longitude": "9.14663900000005",
+    "qualita": 2.6
+}, {
+    "fontana_id": 454,
+    "nome": "Woodard Porter",
+    "nomeStrada": "Via Mario Borsa, 69, 20151 Milano, Italia",
+    "latitude": "45.503081",
+    "longitude": "9.097118000000020",
+    "qualita": 4.9
+}, {
+    "fontana_id": 455,
+    "nome": "Horn Orr",
+    "nomeStrada": "Via Pietro Maroncelli, 28, 20154 Milano, Italia",
+    "latitude": "45.485053",
+    "longitude": "9.182248999999950",
+    "qualita": 4.5
+}, {
+    "fontana_id": 456,
+    "nome": "Lucille Davis",
+    "nomeStrada": "Via Silvio Spaventa, 19, 20141 Milano, Italia",
+    "latitude": "45.440624",
+    "longitude": "9.178359",
+    "qualita": 1.7
+}, {
+    "fontana_id": 457,
+    "nome": "Kenya James",
+    "nomeStrada": "Via Pietro Rondoni, 11, 20146 Milano, Italia",
+    "latitude": "45.455355",
+    "longitude": "9.14376500000003",
+    "qualita": 4.5
+}, {
+    "fontana_id": 458,
+    "nome": "Barrett Moon",
+    "nomeStrada": "Via Adelaide Coari, 5, 20141 Milano, Italia",
+    "latitude": "45.434609",
+    "longitude": "9.197905999999980",
+    "qualita": 3.9
+}, {
+    "fontana_id": 459,
+    "nome": "Mandy Duffy",
+    "nomeStrada": "Via Console Flaminio, 14-16, 20134 Milano, Italia",
+    "latitude": "45.481291",
+    "longitude": "9.241322999999960",
+    "qualita": 3.1
+}, {
+    "fontana_id": 460,
+    "nome": "Olive Mack",
+    "nomeStrada": "Via Racconigi, 20162 Milano, Italia",
+    "latitude": "45.512396",
+    "longitude": "9.197504999999970",
+    "qualita": 4.3
+}, {
+    "fontana_id": 461,
+    "nome": "Vonda Houston",
+    "nomeStrada": "Piazzale Francesco Durante, 34, 20131 Milano, Italia",
+    "latitude": "45.488974",
+    "longitude": "9.22353899999996",
+    "qualita": 2.1
+}, {
+    "fontana_id": 462,
+    "nome": "Calderon Hancock",
+    "nomeStrada": "Via Privata Bosisio, 16, 20162 Milano, Italia",
+    "latitude": "45.51884",
+    "longitude": "9.185390999999980",
+    "qualita": 2.4
+}, {
+    "fontana_id": 463,
+    "nome": "Reyes Rodgers",
+    "nomeStrada": "Via Maria Grazia Cutuli, 20134 Milano, Italia",
+    "latitude": "45.478889222418800",
+    "longitude": "9.248145820643680",
+    "qualita": 2.3
+}, {
+    "fontana_id": 464,
+    "nome": "Sheila Burks",
+    "nomeStrada": "Via Carlo Alberto Pisani Dossi, 20134 Milano, Italia",
+    "latitude": "45.489214",
+    "longitude": "9.242713999999970",
+    "qualita": 4.9
+}, {
+    "fontana_id": 465,
+    "nome": "Carol Salinas",
+    "nomeStrada": "Via Celeste Clericetti, 36, 20133 Milano, Italia",
+    "latitude": "45.479083",
+    "longitude": "9.235424999999960",
+    "qualita": 2.4
+}]

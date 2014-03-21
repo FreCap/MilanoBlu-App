@@ -51,10 +51,20 @@ public class NewsAdapter extends BaseAdapter {
 		}
 
 		holder.txtTitle.setText(newsArrayList.get(position).getTitle());
-		holder.intImage.setImageResource(R.drawable.newark_nj_1922); // todo
+		//holder.intImage.setImageResource(R.drawable.newark_nj_1922); // todo
 		holder.txtDescription.setText(newsArrayList.get(position)
 				.getTextPreview());
 		holder.txtDate.setText(newsArrayList.get(position).getDateString());
+		
+		
+		if (newsArrayList.get(position).imageDownloadStatus == 0) {
+			newsArrayList.get(position).download(
+					newsArrayList.get(position).getImageURL(),
+					holder.intImage);
+		} else if (newsArrayList.get(position).imageDownloadStatus == 2) {
+			holder.intImage
+					.setImageBitmap(newsArrayList.get(position).imagebit);
+		}
 
 		return convertView;
 	}

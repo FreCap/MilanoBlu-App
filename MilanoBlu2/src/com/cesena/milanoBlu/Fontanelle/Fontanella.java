@@ -27,7 +27,7 @@ public class Fontanella implements ClusterItem  {
 
 	public Fontanella(JSONObject jsonObject) {
 		try {
-			setFontanella_id(jsonObject.getInt("fontanella_id"));
+			setFontanella_id(jsonObject.getInt("fontana_id"));
 			nome = jsonObject.getString("nome");
 			coordinate = new LatLng(jsonObject.getDouble("latitude"),
 					jsonObject.getDouble("longitude"));
@@ -88,26 +88,42 @@ public class Fontanella implements ClusterItem  {
 	}
 	
 	public BitmapDescriptor getIcon(){
+		// Integer qualita = null;
+		// if (getQualita() > 3.5)
+		// qualita = QUALITA_ALTA;
+		// else if (getQualita() > 2.5)
+		// qualita = QUALITA_MEDIA;
+		// else
+		// qualita = QUALITA_BASSA;
+		//
+		// int resource = 0;
+		// switch (qualita) {
+		// case QUALITA_ALTA:
+		// resource = R.drawable.goccia_blu;
+		// break;
+		// case QUALITA_MEDIA:
+		// resource = R.drawable.goccia_gialla;
+		// break;
+		// case QUALITA_BASSA:
+		// resource = R.drawable.goccia_verde;
+		// break;
+		// }
+		//
+		// return BitmapDescriptorFactory.fromResource(resource);
+		
 		Integer qualita = null;
-		if (getQualita() > 3.5)
-			qualita = QUALITA_ALTA;
-		else if (getQualita() > 2.5)
-			qualita = QUALITA_MEDIA;
-		else
-			qualita = QUALITA_BASSA;
-
 		int resource = 0;
-		switch (qualita) {
-		case QUALITA_ALTA:
-			resource = R.drawable.goccia_blu;
-			break;
-		case QUALITA_MEDIA:
-			resource = R.drawable.goccia_gialla;
-			break;
-		case QUALITA_BASSA:
-			resource = R.drawable.goccia_verde;
-			break;
-		}
+
+		if (getQualita().compareTo((float) (4f-0.1))>0)
+			resource = R.drawable.qualita_5;
+		else if(getQualita().compareTo((float) (3f-0.1))>0)
+			resource = R.drawable.qualita_4;
+		else if(getQualita().compareTo((float) (2f-0.1))>0)
+			resource = R.drawable.qualita_3;
+		else if(getQualita().compareTo((float) (1f-0.1))>0)
+			resource = R.drawable.qualita_2;
+		else
+			resource = R.drawable.qualita_1;
 
 		return BitmapDescriptorFactory.fromResource(resource);
 	}

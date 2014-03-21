@@ -1,0 +1,98 @@
+[
+    {
+        "news_id": 0,
+        "imageURL": "http://www.smartforcity.it/media/k2/items/cache/4147ca3af8bf81f64b5d738c371bfecb_XL.jpg",
+        "title": "Crea l’App dell’acqua di Milano",
+        "textPreview": "Partecipa al contest\n",
+        "timestamp": 1394409600,
+        "link": "http://www.milanoblu.com/2014/03/10/crea-lapp-dellacqua-di-milano/"
+    },
+    {
+        "news_id": 1,
+        "imageURL": "http://www.milanoblu.com/wp-content/themes/milanoblu/images/logo.png",
+        "title": "Le case dell’acqua festeggiano un anno",
+        "textPreview": "Risparmiati 39.400 chilogrammi di CO2 e 34.316 di plastica\n",
+        "timestamp": 1394323200,
+        "link": "http://www.milanoblu.com/2014/03/09/le-case-dellacqua-festeggiano-un-anno/"
+    },
+    {
+        "news_id": 2,
+        "imageURL": "http://www.milanoblu.com/wp-content/themes/milanoblu/images/top-notizie-ed-eventi.png",
+        "title": "L’assemblea degli azionisti approva il Piano Industriale 2014 – 2018",
+        "textPreview": "Valotti: \"Piano ambizioso, ma realizzabile\"\n",
+        "timestamp": 1393545600,
+        "link": "http://www.milanoblu.com/2014/02/28/lassemblea-degli-azionisti-approva-il-piano-industriale-2014-2018/"
+    },
+    {
+        "news_id": 3,
+        "imageURL": "http://www.culturasolidarieta.it/images/Metropolitana-Milanese-Spa.png",
+        "title": "M’illumino di meno",
+        "textPreview": "Festa del risparmio energetico\n",
+        "timestamp": 1390867200,
+        "link": "http://www.milanoblu.com/2014/01/28/millumino-di-meno/"
+    },
+    {
+        "news_id": 4,
+        "imageURL": "http://www.milanoblu.com/wp-content/themes/milanoblu/images/logo.png",
+        "title": "Precisazioni da parte di Metropolitana Milanese Spa",
+        "textPreview": "Nessun problema alla rete fognaria in città\n",
+        "timestamp": 1390176000,
+        "link": "http://www.milanoblu.com/2014/01/20/precisazioni-da-parte-di-metropolitana-milanese-spa/"
+    },
+    {
+        "news_id": 5,
+        "imageURL": "http://www.milanoblu.com/wp-content/themes/milanoblu/images/top-notizie-ed-eventi.png",
+        "title": "Delibera dell’Autorità per l’Energia Elettrica e il Gas",
+        "textPreview": "Glossario e deposito cauzionale\n",
+        "timestamp": 1387756800,
+        "link": "http://www.milanoblu.com/2013/12/23/delibera-dellautorita-per-lenergia-elettrica-e-il-gas/"
+    },
+	{
+        "news_id": 6,
+        "imageURL": "http://www.culturasolidarieta.it/images/Metropolitana-Milanese-Spa.png",
+        "title": "MM per Aqua Publica Europea",
+        "textPreview": "13 dicembre 2013\n",
+        "timestamp": 1386806400,
+        "link": "http://www.milanoblu.com/2013/12/12/mm-per-aqua-publica-europea/"
+    },
+	{
+        "news_id": 7,
+        "imageURL": "http://www.milanoblu.com/wp-content/themes/milanoblu/images/logo.png",
+        "title": "Violetta in città",
+        "textPreview": "La \"Traviata\" a Milano\n",
+        "timestamp": 1385683200,
+        "link": "http://www.milanoblu.com/2013/11/29/violetta-in-citta/"
+    },
+	{
+        "news_id": 8,
+        "imageURL": "http://www.milanoblu.com/wp-content/themes/milanoblu/images/top-notizie-ed-eventi.png",
+        "title": "Ato della città di Milano e Metropolitana Milanese Spa: precisazioni in merito a notizie apparse sulla stampa",
+        "textPreview": "Alcuni dati resi noti durante la presentazione del rapporto di Meglio Milano, se non esaurientemente spiegati, possono dare […]\n",
+        "timestamp": 1384905600,
+        "link": "http://www.milanoblu.com/2013/11/20/ato-della-citta-di-milano-e-metropolitana-milanese-spa-precisazioni-in-merito-a-notizie-apparse-sulla-stampa/"
+    },
+	{
+        "news_id": 9,
+        "imageURL": "http://www.culturasolidarieta.it/images/Metropolitana-Milanese-Spa.png",
+        "title": "Scopri le Isole digitali",
+        "textPreview": "Totem interattivi a servzio della città\n",
+        "timestamp": 1384214400,
+        "link": "http://www.milanoblu.com/2013/11/12/scopri-le-isole-digitali/"
+    },
+	{
+        "news_id": 10,
+        "imageURL": "http://www.milanoblu.com/wp-content/themes/milanoblu/images/logo.png",
+        "title": "Premiato dal Miur il progetto di Metropolitana Milanese per la gestione intelligente delle risorse idriche",
+        "textPreview": "Primo posto nel bando Smart cities and communities\n",
+        "timestamp": 1383609600,
+        "link": "http://www.milanoblu.com/2013/11/05/premiato-dal-miur-il-progetto-di-metropolitana-milanese-per-la-gestione-intelligente-delle-risorse-idriche/"
+    },
+	{
+        "news_id": 11,
+        "imageURL": "http://www.milanoblu.com/wp-content/uploads/2013/10/BJ-300x187.jpg",
+        "title": "Anche Metropolitana Milanese a Bocconi&Jobs",
+        "textPreview": "5 novembre 2013\n",
+        "timestamp": 1383177600,
+        "link": "http://www.milanoblu.com/2013/10/31/anche-metropolitana-milanese-a-bocconijobs/"
+    }
+]

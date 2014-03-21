@@ -19,6 +19,7 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.cesena.milanoBlu.Fontanelle.Fontanella;
@@ -193,10 +194,36 @@ public class CompassFragment extends Fragment implements SensorEventListener,
 		destinationObj.setLatitude(fontanella.getCoordinate().latitude);
 		destinationObj.setLongitude(fontanella.getCoordinate().longitude);
 	}
+	private RatingBar getOverallVotesRatingBar() {
+		RatingBar overallVotesRatingBar = (RatingBar) view
+				.findViewById(R.id.overallVotesRatingBar);
+		return overallVotesRatingBar;
+	}
 
+	private TextView getOverallVotesTextView() {
+		TextView overallVotesTextView = (TextView) view
+				.findViewById(R.id.overallVotesTextView);
+		return overallVotesTextView;
+	}
+	private TextView getNomeStradaTextView() {
+		TextView nomeStradaTextView = (TextView) view
+				.findViewById(R.id.nomeStradaTextView);
+		return nomeStradaTextView;
+	}
+	
+	
+	
 	public void updateDestination() {
 		nearestFontanella = getNearestFontanella();
 		setDestination(nearestFontanella);
+		RatingBar ratingBar = getOverallVotesRatingBar();
+		ratingBar.setRating(nearestFontanella.getQualita());
+
+		TextView textView = getOverallVotesTextView();
+		textView.setText(nearestFontanella.getQualita() + "/5 stelle");
+
+		TextView nomeStradaTextView= getNomeStradaTextView();
+		nomeStradaTextView.setText(nearestFontanella.getNomeStrada());
 	}
 
 	public Fontanella getNearestFontanella() {

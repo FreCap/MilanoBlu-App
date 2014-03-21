@@ -41,7 +41,7 @@
         app:layout_row="0"
         android:gravity="right|bottom"
         android:textColor="@android:color/white"
-        android:textSize="10dp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/title"
@@ -53,6 +53,8 @@
         app:layout_gravity="left|top"
         app:layout_row="0"
         android:textColor="@android:color/white"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:maxLines="3"  />
 
 </android.support.v7.widget.GridLayout>

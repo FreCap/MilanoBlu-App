@@ -1,24 +1,18 @@
 package com.cesena.milanoBlu.Video;
 
-import java.io.InputStream;
 import java.lang.ref.WeakReference;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.client.methods.HttpGet;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.net.http.AndroidHttpClient;
 import android.os.AsyncTask;
-import android.util.Log;
 import android.widget.ImageView;
 import android.widget.ListView;
+
+import com.cesena.milanoBlu.Image.ImageDownloader;
 
 public class Video {
 	// Variabili private a cui è possibile accedere in lettura e scrittura
@@ -28,7 +22,7 @@ public class Video {
 	// dlel'immagine
 	private Integer video_id;
 	private String title;
-	private Integer timestamp;
+	private Long timestamp;
 	private String link;
 	private String imageURL;
 
@@ -48,57 +42,13 @@ public class Video {
 			setVideo_id(jsonObject.getInt("video_id"));
 			setImageURL(jsonObject.getString("imageURL"));
 			setTitle(jsonObject.getString("title"));
-			setTimestamp(jsonObject.getInt("timestamp"));
+			setTimestamp(jsonObject.getLong("timestamp"));
 			setLink(jsonObject.getString("link"));
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-	}
-
-	// Funzione che si occupa del download dell'imagine tramite l'url passato
-	// come parametro
-	static Bitmap downloadBitmap(String url) {
-		final AndroidHttpClient client = AndroidHttpClient
-				.newInstance("Android");
-		final HttpGet getRequest = new HttpGet(url);
-
-		try {
-			HttpResponse response = client.execute(getRequest);
-			final int statusCode = response.getStatusLine().getStatusCode();
-			if (statusCode != HttpStatus.SC_OK) {
-				Log.w("ImageDownloader", "Error " + statusCode
-						+ " while retrieving bitmap from " + url);
-				return null;
-			}
-
-			final HttpEntity entity = response.getEntity();
-			if (entity != null) {
-				InputStream inputStream = null;
-				try {
-					inputStream = entity.getContent();
-					final Bitmap bitmap = BitmapFactory
-							.decodeStream(inputStream);
-					return bitmap;
-				} finally {
-					if (inputStream != null) {
-						inputStream.close();
-					}
-					entity.consumeContent();
-				}
-			}
-		} catch (Exception e) {
-			getRequest.abort();
-			Log.w("ImageDownloader",
-					"Errore durante il download dell'immagine dall'url " + url
-							+ e.toString());
-		} finally {
-			if (client != null) {
-				client.close();
-			}
-		}
-		return null;
 	}
 
 	// Funzione richiamata dal MyCustomBaseAdapter per iniziare il download
@@ -121,7 +71,7 @@ public class Video {
 
 		@Override
 		protected Bitmap doInBackground(String... params) {
-			return downloadBitmap(params[0]);
+			return ImageDownloader.downloadBitmap(params[0]);
 		}
 
 		@Override
@@ -152,11 +102,10 @@ public class Video {
 	}
 	
 	public String getDateString() {
-		Date date = new Date(timestamp);
+		Date date = new Date(getTimestamp()*1000);
 		// S is the millisecond
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat(
-				"MM/dd/yyyy' 'HH:MM:ss:S");
-		
+				"MM/dd/yyyy");
 		return simpleDateFormat.getDateInstance().format(date);
 
 	}
@@ -177,11 +126,11 @@ public class Video {
 		this.title = title;
 	}
 
-	public Integer getTimestamp() {
+	public Long getTimestamp() {
 		return timestamp;
 	}
 
-	public void setTimestamp(Integer timestamp) {
+	public void setTimestamp(Long timestamp) {
 		this.timestamp = timestamp;
 	}
 
