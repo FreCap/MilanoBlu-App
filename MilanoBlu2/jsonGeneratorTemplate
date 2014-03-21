@@ -46,10 +46,10 @@ http://www.json-generator.com/
 {results:[
     '{{repeat(5, 7)}}',
     {
-        news_id: '{{index}}',
+        video_id: '{{index}}',
         imageURL: 'http://www.milanoblu.com/wp-content/themes/milanoblu/images/top-notizie-ed-eventi.png',
         title: '{{lorem(6,words)}}',
         timestamp: '{{numeric(1394755200,1363219200)}}',
-        link: 'http://www.milanoblu.com/2014/03/10/crea-lapp-dellacqua-di-milano/'
+        link: 'http://www.youtube.com/watch?v=UrsvtLf2AaY&list=UU__BsutjyiC6Q-izZ8NpG8Q'
     }
 ]}

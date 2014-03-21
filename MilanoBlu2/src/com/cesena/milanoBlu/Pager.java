@@ -11,6 +11,7 @@ import com.cesena.milanoBlu.Faq.FaqFragment;
 import com.cesena.milanoBlu.Main.TextFragment;
 import com.cesena.milanoBlu.Map.MapFragment;
 import com.cesena.milanoBlu.News.NewsFragment;
+import com.cesena.milanoBlu.Video.VideoFragment;
 
 public class Pager extends FragmentPagerAdapter {
 	public Pager(FragmentManager fm) {
@@ -34,7 +35,7 @@ public class Pager extends FragmentPagerAdapter {
 		case 3:
 			return new FaqFragment();
 		case 4:
-			return new TextFragment();
+			return new VideoFragment();
 		default:
 			return null;
 		}

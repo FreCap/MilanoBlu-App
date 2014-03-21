@@ -1,5 +1,6 @@
 package com.cesena.milanoBlu;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -21,12 +22,17 @@ public class Main extends ActionBarActivity implements TabListener {
 	private Pager mAdapter;
 	private ViewPager mPager;
 
+	public static Context context;
+	
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_activity);
 
+		context = getBaseContext();
+
+		
 		final ActionBar actionBar = getSupportActionBar();
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 

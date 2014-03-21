@@ -40,7 +40,7 @@ public class CompassFragment extends Fragment implements SensorEventListener,
 	private SensorManager mSensorManager;
 
 	private Location LocationObj;
-	private Location destinationObj;
+	private static Location destinationObj;
 
 	private Fontanella nearestFontanella;
 	private View view;
@@ -72,6 +72,7 @@ public class CompassFragment extends Fragment implements SensorEventListener,
 			Log.i("sd", "Location Request :" + location.getLatitude() + ","
 					+ location.getLongitude());
 			LocationObj = location;
+			updateDestination();
 		}
 	}
 
@@ -110,7 +111,7 @@ public class CompassFragment extends Fragment implements SensorEventListener,
 		// get the angle around the z-axis rotated
 		float degree = Math.round(rotation);
 
-		Log.i("Compass", "Heading: " + Float.toString(degree) + " degrees");
+//		Log.i("Compass", "Heading: " + Float.toString(degree) + " degrees");
 
 		// create a rotation animation (reverse turn degree degrees)
 		RotateAnimation ra = new RotateAnimation(currentDegree, -degree,
@@ -146,18 +147,18 @@ public class CompassFragment extends Fragment implements SensorEventListener,
 		azimuth -= geoField.getDeclination(); // converts magnetic north into
 												// true north
 
-		Log.i("Compass", "Local: Lat:" + LocationObj.getLatitude() + " Lng:"
-				+ LocationObj.getLongitude());
-
-		Log.i("Compass", "Local: Lat:" + destinationObj.getLatitude() + " Lng:"
-				+ destinationObj.getLongitude());
+//		Log.i("Compass", "Local: Lat:" + LocationObj.getLatitude() + " Lng:"
+//				+ LocationObj.getLongitude());
+//
+//		Log.i("Compass", "Local: Lat:" + destinationObj.getLatitude() + " Lng:"
+//				+ destinationObj.getLongitude());
 
 		TextView locationDistance = (TextView) view
 				.findViewById(R.id.locationDistance);
 
 		Float distanza = distFrom(getMyPosition(), nearestFontanella);
 
-		Log.i("Compass", "Dist: " + distanza);
+//		Log.i("Compass", "Dist: " + distanza);
 
 		locationDistance.setText("~" + distanza.intValue() / 10 * 10);
 
@@ -210,7 +211,10 @@ public class CompassFragment extends Fragment implements SensorEventListener,
 
 		for (Fontanella fontanella : fontanelle) {
 			distTemp = distFrom(myPosition, fontanella);
-			if (distMin > distTemp) {
+			Log.i("FontanellaAltra", "dist:"+distMin+" fontanella:"+fontanella.getNome());
+
+			if (distMin.compareTo(distTemp)>0) {
+				Log.i("Fontanella Minima", "dist:"+distMin+" fontanella:"+fontanella.getNome());
 				distMin = distTemp;
 				fontanellaDistMin = fontanella;
 			}
